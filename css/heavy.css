@@ -1,0 +1,21 @@
+@import url("./common/fonts.css");
+
+@import url("./heavy/navbar.css");
+@import url("./heavy/introduction.css");
+@import url("./heavy/editors.css");
+
+@import url("./heavy/visual-studio/editor.css");
+@import url("./heavy/visual-studio/features.css");
+
+* {
+  scroll-behavior: smooth;
+  text-decoration: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  z-index: -2;
+}

@@ -1,0 +1,158 @@
+/*---------------------------------------------------------*/
+/*-------------------- FEATURES STYLES --------------------*/
+/*---------------------------------------------------------*/
+
+.visual-features {
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  gap: 2rem;
+}
+
+.visual-features-main-title {
+  font-family: "Aquatico", sans-serif;
+  margin: 2rem 0 -1rem 0;
+  letter-spacing: 5px;
+  grid-column: span 3;
+  text-align: center;
+  font-weight: 500;
+  font-size: 4rem;
+  cursor: default;
+  color: #fff;
+}
+
+.visual-features-carousel {
+  grid-template-columns: repeat(3, auto);
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 1272px;
+  display: grid;
+}
+
+.visual-features-container-row {
+  grid-template-columns: repeat(3, auto);
+  transition: translate 900ms;
+  justify-content: flex-start;
+  padding: 2.25rem 2rem;
+  align-items: stretch;
+  width: 1272px;
+  display: grid;
+  gap: 2.5rem;
+}
+
+.visual-features-container {
+  border: 2px solid #ffffff25;
+  grid-template-columns: auto;
+  transition: scale 500ms;
+  justify-content: center;
+  box-shadow: 0 0 10px;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 1rem;
+  display: grid;
+  gap: 0.65rem;
+  width: 340px;
+}
+
+.visual-features-image {
+  margin: 0 auto;
+  width: 150px;
+}
+
+.visual-features-container-divider {
+  border-bottom: 2px solid #ffffff25;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+
+/*-----------------------------------------------*/
+/*----------------- TEXT STYLES -----------------*/
+/*-----------------------------------------------*/
+
+.visual-features-text-container {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
+.visual-features-title {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: left;
+  color: #fff;
+}
+
+.visual-features-text {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  font-weight: 200;
+  color: #d8d8d8;
+  font-size: 1rem;
+}
+
+/*---------------------------------------------*/
+/*---------------- CONTROLLERS ----------------*/
+/*---------------------------------------------*/
+
+.visual-carousel-controller {
+  transition: opacity 450ms, scale 125ms;
+  cursor: pointer;
+  opacity: 0.35;
+  width: 50px;
+}
+
+.visual-carousel-indicator {
+  grid-template-columns: repeat(3, auto);
+  margin: -1rem auto 0 auto;
+  justify-content: center;
+  grid-column: span 3;
+  align-items: center;
+  width: fit-content;
+  display: grid;
+  gap: 0;
+}
+
+.visual-carousel-indicator-image {
+  transition: scale 450ms, opacity 450ms;
+  width: 30px;
+}
+
+.visual-carousel-indicator-image:nth-last-of-type(3) {
+  opacity: 1;
+  scale: 1.2;
+}
+
+.visual-carousel-indicator-image:nth-of-type(2) {
+  margin: 0 -0.25rem;
+  opacity: 0.35;
+  scale: 0.85;
+}
+
+.visual-carousel-indicator-image:nth-of-type(3) {
+  opacity: 0.35;
+  scale: 0.85;
+}
+
+/*-----------------------------------------*/
+/*-------------- TRANSITIONS --------------*/
+/*-----------------------------------------*/
+
+.visual-features-container:hover {
+  scale: 1.125;
+}
+
+.visual-carousel-controller:hover {
+  opacity: 1;
+}
+
+/*----------------------------------------------------------*/
+/*----------------------- END OF CSS -----------------------*/
+/*----------------------------------------------------------*/

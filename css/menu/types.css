@@ -1,0 +1,37 @@
+#types-section {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 3rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.type-container {
+  transition: height 800ms;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  width: 1200px;
+  height: 100px;
+}
+
+.type-background {
+  transition: scale 800ms, object-position 800ms;
+  position: absolute;
+  object-fit: cover;
+  margin: 0 auto;
+  width: 1200px;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.type-container:hover {
+  height: 500px;
+}
+
+.type-container:hover .type-background {
+  object-position: 4rem;
+  scale: 1.2;
+}

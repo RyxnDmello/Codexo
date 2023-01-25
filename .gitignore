@@ -1,0 +1,9 @@
+# Vs Code
+.vscode
+
+# Folders & Files
+node_modules
+*package-lock.json
+
+#Environment
+*.env

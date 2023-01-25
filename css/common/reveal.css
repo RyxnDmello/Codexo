@@ -1,0 +1,43 @@
+/*------------------------------------------------------------------*/
+/*----------------------- VIEWPORT ANIMATION -----------------------*/
+/*------------------------------------------------------------------*/
+
+.reveal *:not(.no-reveal) {
+  opacity: 0;
+}
+
+.active {
+  animation: Reveal 600ms ease-in forwards;
+}
+
+.inactive {
+  animation: Disappear 600ms ease-in forwards;
+}
+
+@keyframes Reveal {
+  0% {
+    opacity: 0;
+    translate: 0 10px;
+  }
+
+  100% {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+@keyframes Disappear {
+  0% {
+    opacity: 1;
+    translate: 0 0;
+  }
+
+  100% {
+    opacity: 0;
+    translate: 0 10px;
+  }
+}
+
+/*----------------------------------------------------*/
+/*----------------- END OF ANIMATION -----------------*/
+/*----------------------------------------------------*/

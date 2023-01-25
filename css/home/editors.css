@@ -1,0 +1,119 @@
+/*------------------------------------------------------------------*/
+/*------------------------- EDITORS STYLES -------------------------*/
+/*------------------------------------------------------------------*/
+
+#editors-section {
+  background: linear-gradient(-45deg, #000000, #040033, #000000);
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  box-shadow: 0 5px 20px;
+  padding: 2.5rem 8rem;
+  align-items: center;
+  cursor: default;
+  display: grid;
+  gap: 3rem;
+}
+
+.editors-image {
+  width: 400px;
+}
+
+.editors-text-container {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
+.editors-title {
+  font-family: "Aquatico", sans-serif;
+  margin: 0 0 0.5rem 0;
+  text-align: right;
+  font-weight: 500;
+  font-size: 5rem;
+  color: white;
+}
+
+.editors-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  text-align: right;
+  font-weight: 200;
+  color: white;
+  margin: 0;
+}
+
+/*---------------------------------------------*/
+/*------------------ BUTTONS ------------------*/
+/*---------------------------------------------*/
+
+.editors-button-container {
+  grid-template-columns: repeat(2, auto);
+  justify-content: right;
+  align-items: center;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.editors-heavy-link,
+.editors-light-link {
+  transform: skew(-10deg);
+  text-decoration: none;
+  position: relative;
+  margin: 1rem 0 0 0;
+  z-index: 1;
+}
+
+.editors-heavy-link h1,
+.editors-light-link h1 {
+  font-family: "Poppins", sans-serif;
+  transition: color 450ms;
+  padding: 0.25rem 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.editors-heavy-link h1 {
+  border: 2px solid #d7004f;
+  color: #d7004f;
+}
+
+.editors-light-link h1 {
+  border: 2px solid #173eff;
+  color: #173eff;
+}
+
+.editors-heavy-link h1::before,
+.editors-light-link h1::before {
+  transition: width 350ms;
+  position: absolute;
+  height: 105%;
+  content: "";
+  z-index: -1;
+  left: -1px;
+  top: -1px;
+  width: 0%;
+}
+
+.editors-heavy-link h1::before {
+  background-color: #d7004f;
+}
+
+.editors-light-link h1::before {
+  background-color: #173eff;
+}
+
+.editors-heavy-link h1:hover::before,
+.editors-light-link h1:hover::before {
+  width: 101%;
+}
+
+.editors-heavy-link:hover h1,
+.editors-light-link:hover h1 {
+  color: white;
+}
+
+/*----------------------------------------------------*/
+/*-------------------- END OF CSS --------------------*/
+/*----------------------------------------------------*/

@@ -1,0 +1,24 @@
+@import url("./common/reveal.css");
+@import url("./common/fonts.css");
+
+@import url("./register/navbar.css");
+@import url("./register/require.css");
+@import url("./register/form.css");
+
+* {
+  scroll-behavior: smooth;
+  text-decoration: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  outline: none;
+}
+
+body {
+  background: linear-gradient(to left, #1f4d5d, #4a1974);
+  position: relative;
+  z-index: -2;
+}

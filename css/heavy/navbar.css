@@ -1,0 +1,138 @@
+/*-----------------------------------------------------------*/
+/*---------------------- NAVBAR STYLES ----------------------*/
+/*-----------------------------------------------------------*/
+
+nav {
+  background: linear-gradient(45deg, #000000, #040033, #000000);
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+  box-shadow: 0 5px 20px;
+  padding: 2.25rem 4rem;
+  align-items: center;
+  position: relative;
+  display: grid;
+}
+
+/*------------------------------------------*/
+/*------------- LEFT CONTAINER -------------*/
+/*------------------------------------------*/
+
+.nav-left-container {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
+.nav-title {
+  font-family: "Moon Regular", sans-serif;
+  letter-spacing: 2px;
+  font-size: 2.25rem;
+  font-weight: 400;
+  cursor: pointer;
+  color: white;
+  margin: 0;
+}
+
+/*-------------------------------------------*/
+/*------------- RIGHT CONTAINER -------------*/
+/*-------------------------------------------*/
+
+.nav-right-container {
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  gap: 2.5rem;
+}
+
+.nav-right-link {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1.25px;
+  position: relative;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.nav-right-link::before {
+  transition: width 450ms, opacity 600ms;
+  background-color: #fff;
+  position: absolute;
+  margin: 0 auto;
+  height: 1.5px;
+  bottom: -1px;
+  content: "";
+  opacity: 0;
+  width: 0%;
+  right: 0;
+  left: 0;
+}
+
+.nav-menu-button {
+  grid-template-columns: repeat(2, auto);
+  transition: background-color 450ms;
+  padding: 0.5rem 2rem 0.4rem 2rem;
+  border: 2px solid #fff;
+  justify-content: center;
+  border-radius: 40px;
+  align-items: center;
+  cursor: pointer;
+  display: grid;
+}
+
+.nav-menu-text {
+  font-family: "Poppins", sans-serif;
+  transition: color 450ms;
+  letter-spacing: 1.25px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.nav-menu-image {
+  transition: filter 450ms, rotate 450ms;
+  width: 30px;
+}
+
+/*-----------------------------------------------*/
+/*----------------- NAVBAR MENU -----------------*/
+/*-----------------------------------------------*/
+
+.nav-menu {
+  position: absolute;
+  border-radius: 5px;
+  margin: 0 auto;
+  bottom: -220px;
+  display: none;
+  height: 200px;
+  width: 95%;
+  right: 0;
+  left: 0;
+}
+
+/*------------------------------------------*/
+/*--------------- TRANSITION ---------------*/
+/*------------------------------------------*/
+
+.nav-right-link:hover::before {
+  width: 100%;
+  opacity: 1;
+}
+
+.nav-menu-button:hover {
+  background-color: #fff;
+}
+
+.nav-menu-button:hover .nav-menu-text {
+  color: #000;
+}
+
+.nav-menu-button:hover .nav-menu-image {
+  filter: invert(100%);
+  rotate: 90deg;
+}
+
+/*--------------------------------------------------*/
+/*------------------- END OF CSS -------------------*/
+/*--------------------------------------------------*/

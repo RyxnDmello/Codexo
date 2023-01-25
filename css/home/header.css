@@ -1,0 +1,116 @@
+/*---------------------------------------------------------------*/
+/*------------------------ HEADER STYLES ------------------------*/
+/*---------------------------------------------------------------*/
+
+header {
+  background: linear-gradient(45deg, #000000, #040033, #000000);
+  box-shadow: 0 5px 20px;
+}
+
+.header-info-container {
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 9rem;
+  display: grid;
+}
+
+.header-info-block {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+  display: grid;
+}
+
+.header-info-title {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.05;
+  font-weight: 400;
+  font-size: 5rem;
+  color: #fff;
+  margin: 0;
+}
+
+.header-info-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 200;
+  color: #cecece;
+  margin: 0;
+}
+
+.header-info-image {
+  transition: rotate 450ms;
+  width: 400px;
+}
+
+/*-------------------------------------------------*/
+/*--------------- BUTTONS CONTAINER ---------------*/
+/*-------------------------------------------------*/
+
+.header-buttons-container {
+  grid-template-columns: repeat(2, auto);
+  justify-content: left;
+  align-items: center;
+  display: grid;
+  gap: 1rem;
+}
+
+.header-explore-link,
+.header-register-link {
+  grid-template-columns: repeat(2, auto);
+  transition: background-color 450ms;
+  justify-content: center;
+  text-decoration: none;
+  margin: 0.5rem 0 0 0;
+  align-items: center;
+  border-radius: 5px;
+  width: fit-content;
+  display: grid;
+}
+
+.header-explore-link {
+  padding: 0.4rem 0.8rem 0.4rem 1rem;
+  background-color: #0000ff;
+  gap: 2px;
+}
+
+.header-register-link {
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  background-color: #d7004f;
+  gap: 10px;
+}
+
+.header-explore-link h1,
+.header-register-link h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: white;
+  margin: 0;
+}
+
+.header-explore-link img {
+  width: 36px;
+}
+
+.header-register-link img {
+  width: 28px;
+}
+
+/*-------------------------------------------*/
+/*--------------- TRANSITIONS ---------------*/
+/*-------------------------------------------*/
+
+.header-explore-link:hover {
+  background-color: #0000a5;
+}
+
+.header-register-link:hover {
+  background-color: #9e003a;
+}
+
+/*----------------------------------------------------*/
+/*-------------------- END OF CSS --------------------*/
+/*----------------------------------------------------*/

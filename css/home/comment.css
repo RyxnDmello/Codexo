@@ -1,0 +1,222 @@
+/*------------------------------------------------------------*/
+/*--------------------- COMMENTS SECTION ---------------------*/
+/*------------------------------------------------------------*/
+
+#comments-section {
+  background: linear-gradient(45deg, #000000, #040033, #000000);
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  padding: 5rem 0 2rem 0;
+  box-shadow: 0 5px 20px;
+  align-items: center;
+  gap: 4rem 3rem;
+  display: grid;
+}
+
+.comments-section-title {
+  font-family: "Aquatico", sans-serif;
+  letter-spacing: 1px;
+  grid-column: span 3;
+  text-align: center;
+  font-weight: 100;
+  cursor: default;
+  font-size: 4rem;
+  color: #fff;
+}
+
+.comments-right-button img,
+.comments-left-button img {
+  transition: opacity 450ms;
+  cursor: pointer;
+  opacity: 0.5;
+  width: 50px;
+}
+
+.comments-carousel {
+  grid-template-columns: repeat(3, auto);
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  display: grid;
+  width: 1200px;
+}
+
+.comments-slide {
+  grid-template-columns: repeat(2, auto);
+  transition: transform 500ms ease-in-out;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  display: grid;
+  gap: 4rem;
+}
+
+/*-----------------------------------------*/
+/*--------------- CONTAINER ---------------*/
+/*-----------------------------------------*/
+
+.comments-container {
+  border: 2px solid #ffffff20;
+  grid-template-columns: auto;
+  justify-self: center;
+  border-radius: 10px;
+  align-items: center;
+  cursor: default;
+  display: grid;
+  padding: 1rem;
+  width: 500px;
+  gap: 1rem;
+}
+
+/*---------------------------------------------*/
+/*------------------ PROFILE ------------------*/
+/*---------------------------------------------*/
+
+.comments-profile-container {
+  grid-template-columns: repeat(2, auto);
+  justify-content: flex-start;
+  align-items: center;
+  display: grid;
+  gap: 0.8rem;
+}
+
+.comments-profile-container img {
+  width: 150px;
+}
+
+.comments-profile-container .profile-details {
+  grid-template-columns: auto;
+  justify-content: flex-start;
+  align-items: center;
+  display: grid;
+}
+
+.comments-profile-container .profile-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.comments-profile-container .profile-email {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 200;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.comments-divider {
+  border-bottom: 2px solid #ffffff20;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+
+/*-------------------------------------------*/
+/*--------------- INFORMATION ---------------*/
+/*-------------------------------------------*/
+
+.comments-info-container {
+  grid-template-columns: repeat(2, auto);
+  justify-content: flex-start;
+  align-items: center;
+  display: grid;
+  gap: 1rem;
+}
+
+.comments-info-container .info-description {
+  font-family: "Poppins", sans-serif;
+  justify-content: flex-start;
+  align-items: center;
+  grid-column: span 2;
+  font-size: 1.25rem;
+  font-weight: 200;
+  color: #fff;
+}
+
+.comments-info-container .info-button-mail,
+.comments-info-container .info-button-work {
+  grid-template-columns: repeat(2, auto);
+  transition: background-color 450ms;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  padding: 0.25rem 2rem;
+  text-decoration: none;
+  align-items: center;
+  border-radius: 20px;
+  display: grid;
+  color: #fff;
+  gap: 10px;
+}
+
+.comments-info-container .info-button-work {
+  background-color: #d7004f;
+}
+
+.comments-info-container .info-button-mail {
+  background-color: #0000ff;
+}
+
+.comments-info-container .info-button-work h1,
+.comments-info-container .info-button-mail h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.comments-info-container .info-button-work img,
+.comments-info-container .info-button-mail img {
+  width: 20px;
+}
+
+/*-----------------------------------*/
+/*------------- COUNTER -------------*/
+/*-----------------------------------*/
+
+.comments-slides-counter {
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  align-items: center;
+  grid-column: span 3;
+  display: grid;
+  gap: 1rem;
+}
+
+.comments-slides-counter img {
+  transition: opacity 450ms, scale 450ms;
+  width: 35px;
+}
+
+.comments-slides-counter img:nth-of-type(1) {
+  scale: 1.2;
+}
+
+.comments-slides-counter img:nth-of-type(n + 2) {
+  opacity: 0.5;
+}
+
+/*------------------------------------*/
+/*------------ TRANSITION ------------*/
+/*------------------------------------*/
+
+.comments-right-button img:hover {
+  opacity: 1;
+}
+
+.comments-left-button img:hover {
+  opacity: 1;
+}
+
+.comments-info-container .info-button-work:hover {
+  background-color: #9e003a;
+}
+
+.comments-info-container .info-button-mail:hover {
+  background-color: #0000a5;
+}
+
+/*--------------------------------------------*/
+/*---------------- END OF CSS ----------------*/
+/*--------------------------------------------*/

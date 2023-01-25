@@ -1,0 +1,125 @@
+/*---------------------------------------------------------------*/
+/*------------------------ NAVBAR STYLES ------------------------*/
+/*---------------------------------------------------------------*/
+
+nav {
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+  cursor: default;
+  display: grid;
+}
+
+/*------------------------------------------*/
+/*------------- LEFT CONTAINER -------------*/
+/*------------------------------------------*/
+
+.nav-left-container {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
+.nav-title {
+  font-family: "Moon Regular", sans-serif;
+  letter-spacing: 2px;
+  font-size: 2.25rem;
+  font-weight: 400;
+  cursor: pointer;
+  color: white;
+  margin: 0;
+}
+
+/*-------------------------------------------*/
+/*------------- RIGHT CONTAINER -------------*/
+/*-------------------------------------------*/
+
+.nav-right-container {
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  gap: 6rem;
+}
+
+.nav-social-container {
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+  display: grid;
+  gap: 2rem;
+}
+
+.nav-social-link {
+  transition: translate 450ms;
+}
+
+.nav-social-image {
+  width: 30px;
+}
+
+.nav-links-container {
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  gap: 3rem;
+}
+
+.nav-right-link {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1.25px;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1rem;
+  color: white;
+}
+
+.nav-right-link:not(.register) {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
+.nav-right-link:not(.register)::after {
+  transition: width 450ms, border-color 400ms;
+  border: 0.1px solid transparent;
+  margin: 0 auto;
+  content: "";
+  width: 0;
+}
+
+.nav-right-link.register {
+  transition: scale 450ms, color 450ms, background-color 450ms;
+  border: 2px solid white;
+  padding: 0.5rem 2.5rem;
+  border-radius: 40px;
+  font-weight: 500;
+}
+
+/*---------------------------------*/
+/*---------- TRANSITIONS ----------*/
+/*---------------------------------*/
+
+.nav-social-link:hover {
+  translate: 0 -5px;
+}
+
+.nav-right-link.register:hover {
+  background-color: white;
+  color: black;
+  scale: 1.125;
+}
+
+.nav-right-link:not(.register):hover::after {
+  border-color: white;
+  width: 100%;
+}
+
+/*------------------------------------------------------*/
+/*--------------------- END OF CSS ---------------------*/
+/*------------------------------------------------------*/

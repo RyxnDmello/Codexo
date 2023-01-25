@@ -1,0 +1,99 @@
+#languages-section {
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 8rem;
+  cursor: default;
+  display: grid;
+  gap: 2rem;
+}
+
+.languages-text-container {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  gap: 0.25rem;
+}
+
+.languages-title {
+  font-family: "Aquatico", sans-serif;
+  font-size: 4.5rem;
+}
+
+.languages-description {
+  font-family: "Poppins", sans-serif;
+  width: fit-content;
+  font-size: 1.25rem;
+  margin: 0 0 0 auto;
+  font-weight: 400;
+  color: #5a5a5a;
+}
+
+.languages-image {
+  width: 400px;
+}
+
+/*-----------------------------------------*/
+/*---------------- BUTTONS ----------------*/
+/*-----------------------------------------*/
+
+.languages-links-container {
+  grid-template-columns: repeat(2, auto);
+  justify-content: flex-start;
+  align-items: center;
+  display: grid;
+  gap: 0.8rem;
+}
+
+.languages-explore-link,
+.languages-editors-link {
+  grid-template-columns: repeat(2, auto);
+  transition: background-color 450ms;
+  justify-content: center;
+  margin: 0.5rem 0 0 auto;
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  align-items: center;
+  border-radius: 5px;
+  width: fit-content;
+  display: grid;
+  gap: 6.5px;
+}
+
+.languages-explore-link {
+  background-color: #d7004f;
+}
+
+.languages-editors-link {
+  background-color: #173eff;
+}
+
+.languages-explore-link h1,
+.languages-editors-link h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.languages-explore-link img,
+.languages-editors-link img {
+  width: 25px;
+}
+
+/*----------------------------------*/
+/*----------- TRANSITION -----------*/
+/*----------------------------------*/
+
+.languages-explore-link:hover {
+  background-color: #ae0040;
+}
+
+.languages-editors-link:hover {
+  background-color: #001eb6;
+}
+
+/*----------------------------------------------------*/
+/*-------------------- END OF CSS --------------------*/
+/*----------------------------------------------------*/

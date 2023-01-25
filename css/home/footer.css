@@ -1,0 +1,198 @@
+/*---------------------------------------------------------*/
+/*--------------------- FOOTER STYLES ---------------------*/
+/*---------------------------------------------------------*/
+
+footer {
+  background: linear-gradient(45deg, #000000, #040033, #000000);
+  grid-template-columns: auto;
+  box-shadow: 0 5px 20px;
+  position: relative;
+  display: grid;
+}
+
+.footer-divider {
+  border-bottom: 2px solid #ffffff20;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+
+.footer-scroll-up img {
+  transition: opacity 450ms;
+  position: absolute;
+  right: 1.5rem;
+  opacity: 0.6;
+  bottom: 1rem;
+  width: 40px;
+}
+
+.footer-creator-name {
+  font-family: "Moon Light", sans-serif;
+  letter-spacing: 1.5px;
+  width: fit-content;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 1rem 0;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.footer-creator-name span {
+  margin-right: 0.25rem;
+  font-size: 1.25rem;
+  color: #ff0066;
+}
+
+/*-------------------------------------------------*/
+/*------------- INFORMATION CONTAINER -------------*/
+/*-------------------------------------------------*/
+
+.footer-info-container {
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+  display: grid;
+}
+
+.footer-logo {
+  font-family: "Moon Regular", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+.footer-register-container {
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  gap: 0.8rem;
+}
+
+.footer-register-link {
+  grid-template-columns: repeat(2, auto);
+  transition: background-color 450ms;
+  justify-content: center;
+  padding: 0.4rem 2.5rem;
+  border-radius: 40px;
+  align-items: center;
+  display: grid;
+}
+
+.footer-register-link:nth-of-type(1) {
+  background-color: #d7004f;
+  gap: 0.6rem;
+}
+
+.footer-register-link:nth-of-type(2) {
+  background-color: #0000ff;
+  gap: 0.25rem;
+}
+
+.footer-register-link img {
+  width: 25px;
+}
+
+.footer-register-link h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+/*-----------------------------------------------*/
+/*--------------- LINKS CONTAINER ---------------*/
+/*-----------------------------------------------*/
+
+.footer-links-container {
+  grid-template-columns: repeat(4, auto);
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 2rem 0;
+  display: grid;
+}
+
+.footer-container {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.footer-container:nth-of-type(1) {
+  gap: 1rem;
+}
+
+.footer-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  cursor: default;
+  color: #fff;
+}
+
+.footer-link {
+  grid-template-columns: repeat(2, auto);
+  justify-content: left;
+  text-decoration: none;
+  align-items: center;
+  width: fit-content;
+  display: grid;
+  gap: 6px;
+}
+
+.footer-link h1 {
+  font-family: "Poppins", sans-serif;
+  transition: color 500ms;
+  color: #ffffff9d;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.footer-link .socials {
+  transition: opacity 500ms;
+  opacity: 0.6;
+  width: 30px;
+}
+
+.footer-link img {
+  transition: opacity 600ms;
+  width: 15px;
+  opacity: 0;
+}
+
+/*-------------------------------------*/
+/*------------ TRANSITIONS ------------*/
+/*-------------------------------------*/
+
+.footer-register-link:nth-of-type(1):hover {
+  background-color: #b00040;
+}
+
+.footer-register-link:nth-of-type(2):hover {
+  background-color: #0000c7;
+}
+
+.footer-link:hover .socials {
+  opacity: 1;
+}
+
+.footer-link:hover h1 {
+  color: #ff00a2;
+}
+
+.footer-link:hover img {
+  opacity: 1;
+}
+
+.footer-scroll-up img:hover {
+  opacity: 1;
+}
+
+/*------------------------------------------*/
+/*--------------- END OF CSS ---------------*/
+/*------------------------------------------*/

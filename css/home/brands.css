@@ -1,0 +1,72 @@
+/*----------------------------------------------------------------*/
+/*------------------------ BRANDS SECTION ------------------------*/
+/*----------------------------------------------------------------*/
+
+#brands-section {
+  grid-template-columns: repeat(6, auto);
+  justify-content: center;
+  align-items: center;
+  gap: 1rem 1.5rem;
+  padding: 6rem 0;
+  display: grid;
+}
+
+.brands-section-title {
+  font-family: "Aquatico", sans-serif;
+  margin-bottom: 0.5rem;
+  grid-column: span 6;
+  font-size: 4rem;
+  cursor: default;
+}
+
+.brands-link {
+  transition: box-shadow 450ms, border-color 450ms, scale 450ms;
+  border: 3px solid #919191;
+  text-decoration: none;
+  box-shadow: 0 0 10px;
+  padding: 0.5rem 1rem;
+  border-radius: 40px;
+  text-align: center;
+  position: relative;
+  color: #919191;
+}
+
+.brands-link h1 {
+  font-family: "Poppins", sans-serif;
+  transition: color 450ms;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.brands-link img {
+  transition: opacity 450ms;
+  position: absolute;
+  margin: 0 auto;
+  bottom: -3rem;
+  width: 30px;
+  opacity: 0;
+  right: 0;
+  left: 0;
+}
+
+/*--------------------------------------*/
+/*------------- TRANSITION -------------*/
+/*--------------------------------------*/
+
+.brands-link:hover {
+  border-color: #000075;
+  box-shadow: 0 0 15px;
+  scale: 1.1;
+}
+
+.brands-link:hover h1 {
+  color: #000075;
+}
+
+.brands-link:hover img {
+  opacity: 1;
+}
+
+/*--------------------------------------------*/
+/*---------------- END OF CSS ----------------*/
+/*--------------------------------------------*/

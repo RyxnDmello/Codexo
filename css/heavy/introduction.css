@@ -1,0 +1,121 @@
+/*---------------------------------------------------------------*/
+/*--------------------- INTRODUCTION STYLES ---------------------*/
+/*---------------------------------------------------------------*/
+
+#introduction-section {
+  padding: 5rem 6rem 3rem 6rem;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
+/*-----------------------------------------------*/
+/*------------------ CONTAINER ------------------*/
+/*-----------------------------------------------*/
+
+.intro-container {
+  background: linear-gradient(45deg, #000000, #040033, #000000);
+  transition: translate 450ms, box-shadow 450ms;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  box-shadow: 0 0 10px;
+  border-radius: 10px;
+  align-items: center;
+  padding: 2.5rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.intro-image {
+  width: 350px;
+}
+
+.intro-text-container {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.intro-title {
+  font-family: "Aquatico", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 5rem;
+  color: #fff;
+}
+
+.intro-description {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+  font-weight: 200;
+  color: #dcdcdc;
+}
+
+/*-----------------------------------------------*/
+/*----------------- LINK STYLES -----------------*/
+/*-----------------------------------------------*/
+
+.intro-links-container {
+  grid-template-columns: repeat(2, auto);
+  justify-content: left;
+  align-items: center;
+  margin-top: 0.25rem;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.intro-link {
+  grid-template-columns: repeat(2, auto);
+  transition: background-color 450ms;
+  justify-content: center;
+  padding: 0.35rem 2rem;
+  align-items: center;
+  border-radius: 5px;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.intro-link:nth-of-type(1) {
+  background-color: #d7004f;
+}
+
+.intro-link:nth-of-type(2) {
+  background-color: #0000ff;
+}
+
+.intro-link-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.intro-link-image {
+  width: 25px;
+}
+
+/*------------------------------------------*/
+/*--------------- TRANSITION ---------------*/
+/*------------------------------------------*/
+
+.intro-container:hover {
+  box-shadow: 0 5px 15px;
+  translate: 0 -10px;
+}
+
+.intro-link:nth-of-type(1):hover {
+  background-color: #a6003d;
+}
+
+.intro-link:nth-of-type(2):hover {
+  background-color: #0000b4;
+}
+
+/*----------------------------------------------------------*/
+/*----------------------- END OF CSS -----------------------*/
+/*----------------------------------------------------------*/

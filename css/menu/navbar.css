@@ -1,0 +1,67 @@
+nav {
+  background: linear-gradient(45deg, #000000, #040033, #000000);
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+  box-shadow: 0 5px 20px;
+  padding: 2.25rem 4rem;
+  align-items: center;
+  position: relative;
+  display: grid;
+}
+
+.nav-title {
+  font-family: "Moon Regular", sans-serif;
+  letter-spacing: 2px;
+  font-size: 2.25rem;
+  font-weight: 400;
+  cursor: pointer;
+  color: white;
+  margin: 0;
+}
+
+.nav-home-link {
+  transition: background-color 450ms, scale 450ms;
+  grid-template-columns: repeat(2, auto);
+  border: 2px solid #fff;
+  justify-content: center;
+  padding: 0.25rem 2rem;
+  align-items: center;
+  border-radius: 40px;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.nav-home-link-image {
+  transition: filter 450ms;
+  width: 25px;
+}
+
+.nav-home-link-text {
+  font-family: "Poppins", sans-serif;
+  transition: color 450ms;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+/*---------------------------------------*/
+/*------------- TRANSITIONS -------------*/
+/*---------------------------------------*/
+
+.nav-home-link:hover {
+  background-color: #fff;
+  scale: 1.15;
+}
+
+.nav-home-link:hover .nav-home-link-image {
+  filter: invert(1);
+}
+
+.nav-home-link:hover .nav-home-link-text {
+  color: #000;
+}
+
+/*------------------------------------------------*/
+/*------------------ END OF CSS ------------------*/
+/*------------------------------------------------*/

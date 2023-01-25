@@ -1,0 +1,227 @@
+/*-------------------------------------------------------------*/
+/*------------------------ FORM STYLES ------------------------*/
+/*-------------------------------------------------------------*/
+
+#register-section {
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  align-items: stretch;
+  display: grid;
+  gap: 2rem;
+}
+
+.register-forms-container {
+  grid-template-columns: repeat(2, auto);
+  justify-content: flex-start;
+  align-items: stretch;
+  border-radius: 10px;
+  width: fit-content;
+  overflow: hidden;
+  display: grid;
+  width: 450px;
+}
+
+#sign-up-form,
+#log-in-form {
+  background: linear-gradient(-45deg, #000000, #040033, #000000);
+  grid-template-columns: auto;
+  justify-content: center;
+  border-radius: 10px;
+  align-items: center;
+  padding: 3rem 0;
+  display: grid;
+  width: 450px;
+  gap: 1.5rem;
+}
+
+#log-in-form {
+  opacity: 0;
+}
+
+.form-divider {
+  border-bottom: 2px solid #ffffff22;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+
+/*---------------------------------------------------*/
+/*----------------- INPUT CONTAINER -----------------*/
+/*---------------------------------------------------*/
+
+.input-container {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  gap: 0.25rem;
+}
+
+.input-label {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  cursor: default;
+  color: #fff;
+}
+
+.input-element {
+  transition: border-color 450ms;
+  font-family: "Poppins", sans-serif;
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 0.25rem 1rem;
+  border-radius: 40px;
+  font-size: 1.25rem;
+  font-weight: 200;
+  color: #fff;
+  width: 20rem;
+}
+
+.input-element:invalid {
+  border-color: red;
+}
+
+/*------------------------------------------------*/
+/*--------------- BUTTON CONTAINER ---------------*/
+/*------------------------------------------------*/
+
+.button-container {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  gap: 1rem;
+}
+
+.sign-up-button,
+.log-in-button,
+.sign-up-instead-button,
+.log-in-instead-button {
+  grid-template-columns: repeat(2, auto);
+  transition: background-color 450ms;
+  justify-content: center;
+  padding: 0.35rem 2rem;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  display: grid;
+  width: 22rem;
+}
+
+.sign-up-button,
+.log-in-button {
+  background-color: #0000ff;
+  gap: 0.5rem;
+}
+
+.sign-up-instead-button,
+.log-in-instead-button {
+  background-color: #d7004f;
+  gap: 0.25rem;
+}
+
+.button-image {
+  width: 22.5px;
+}
+
+.button-text {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+/*------------------------------------------*/
+/*--------------- ANIMATIONS ---------------*/
+/*------------------------------------------*/
+
+.sign-up-fade-out {
+  animation: SignUpFadeOut 500ms ease-in forwards;
+}
+
+.log-in-fade-in {
+  animation: LogInFadeIn 500ms ease-in forwards;
+}
+
+.log-in-fade-out {
+  animation: LogInFadeOut 500ms ease-in forwards;
+}
+
+.sign-up-fade-in {
+  animation: SignUpFadeIn 500ms ease-in forwards;
+}
+
+@keyframes SignUpFadeOut {
+  0% {
+    pointer-events: none;
+    translate: 0 0;
+    opacity: 1;
+  }
+
+  100% {
+    translate: 0 -200px;
+    opacity: 0;
+  }
+}
+
+@keyframes LogInFadeIn {
+  0% {
+    pointer-events: none;
+    translate: 0 200px;
+    opacity: 0;
+  }
+
+  100% {
+    pointer-events: all;
+    translate: 0 0;
+    opacity: 1;
+  }
+}
+
+@keyframes LogInFadeOut {
+  0% {
+    pointer-events: none;
+    translate: 0 0;
+    opacity: 1;
+  }
+
+  100% {
+    pointer-events: none;
+    translate: 0 -200px;
+    opacity: 0;
+  }
+}
+
+@keyframes SignUpFadeIn {
+  0% {
+    pointer-events: none;
+    translate: 0 200px;
+    opacity: 0;
+  }
+
+  100% {
+    pointer-events: all;
+    translate: 0 0;
+    opacity: 1;
+  }
+}
+
+/*------------------------------------------*/
+/*--------------- TRANSITION ---------------*/
+/*------------------------------------------*/
+
+.sign-up-button:hover,
+.log-in-button:hover {
+  background-color: #000090;
+}
+
+.sign-up-instead-button:hover,
+.log-in-instead-button:hover {
+  background-color: #900035;
+}
+
+/*--------------------------------------------*/
+/*---------------- END OF CSS ----------------*/
+/*--------------------------------------------*/

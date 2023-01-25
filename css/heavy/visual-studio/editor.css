@@ -1,0 +1,144 @@
+/*-----------------------------------------------------------------*/
+/*------------------------- EDITOR STYLES -------------------------*/
+/*-----------------------------------------------------------------*/
+
+#visual-studio-section {
+  background: linear-gradient(
+    45deg,
+    #000000,
+    #040033,
+    #000000,
+    #040033,
+    #000000
+  );
+  grid-template-columns: auto;
+  justify-content: center;
+  box-shadow: 0 0 20px;
+  align-items: center;
+  padding: 4rem 0;
+  display: grid;
+  gap: 4rem;
+}
+
+.visual-container-divider {
+  border-bottom: 20px dotted #ff00f730;
+  margin: 0 auto -2rem auto;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  width: 1272px;
+}
+
+.visual-information {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10rem;
+  display: grid;
+}
+
+/*----------------------------------------------------*/
+/*------------------ LOGO CONTAINER ------------------*/
+/*----------------------------------------------------*/
+
+.visual-logo-container {
+  grid-template-columns: repeat(2, auto);
+  justify-content: left;
+  align-items: center;
+  display: grid;
+  gap: 1rem;
+}
+
+.visual-image {
+  width: 150px;
+}
+
+.visual-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 5rem;
+  cursor: default;
+  color: #fff;
+}
+
+/*------------------------------------------------*/
+/*---------------- TEXT CONTAINER ----------------*/
+/*------------------------------------------------*/
+
+.visual-text-container {
+  grid-template-columns: auto;
+  justify-content: left;
+  align-items: center;
+  display: grid;
+}
+
+.visual-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+  cursor: default;
+  color: #d8d8d8;
+}
+
+/*-------------------------------------------------*/
+/*---------------- LINKS CONTAINER ----------------*/
+/*-------------------------------------------------*/
+
+.visual-links-container {
+  grid-template-columns: repeat(2, auto);
+  justify-content: left;
+  align-items: center;
+  margin-top: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.visual-link {
+  grid-template-columns: repeat(2, auto);
+  transition: background-color 450ms;
+  justify-content: center;
+  padding: 0.5rem 4rem;
+  border-radius: 40px;
+  align-items: center;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.visual-link:nth-of-type(1) {
+  background-color: #0000ff;
+}
+
+.visual-link:nth-of-type(2) {
+  background-color: #d7004f;
+}
+
+.visual-link-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.visual-link:nth-of-type(1) .visual-link-image {
+  width: 22px;
+}
+
+.visual-link:nth-of-type(2) .visual-link-image {
+  width: 25px;
+}
+
+/*-------------------------------------------*/
+/*--------------- TRANSITIONS ---------------*/
+/*-------------------------------------------*/
+
+.visual-link:nth-of-type(1):hover {
+  background-color: #0000ab;
+}
+
+.visual-link:nth-of-type(2):hover {
+  background-color: #8c0033;
+}
+
+/*----------------------------------------------------------*/
+/*----------------------- END OF CSS -----------------------*/
+/*----------------------------------------------------------*/

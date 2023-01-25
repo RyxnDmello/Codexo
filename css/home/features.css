@@ -1,0 +1,197 @@
+/*---------------------------------------------------------------*/
+/*----------------------- FEATURES STYLES -----------------------*/
+/*---------------------------------------------------------------*/
+
+#features-section {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+  display: grid;
+  gap: 3rem;
+}
+
+.features-section-title {
+  font-family: "Aquatico", sans-serif;
+  font-weight: 500;
+  cursor: default;
+  font-size: 5rem;
+}
+
+/*----------------------------------------*/
+/*--------------- CAROUSEL ---------------*/
+/*----------------------------------------*/
+
+.features-carousel-wrapper {
+  background: linear-gradient(45deg, #000000, #040033, #000000);
+  transition: box-shadow 450ms, translate 450ms;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  box-shadow: 0 0px 10px;
+  border-radius: 10px;
+  align-items: center;
+  padding: 2rem 2rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.features-carousel {
+  grid-template-columns: repeat(3, auto);
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  display: grid;
+  width: 1182px;
+}
+
+.features-container {
+  transition: transform 500ms ease-in-out;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+  display: grid;
+  width: 1182px;
+  gap: 2rem;
+}
+
+.features-image {
+  width: 350px;
+}
+
+.features-info-container {
+  grid-template-columns: auto;
+  justify-content: baseline;
+  align-items: flex-end;
+  cursor: default;
+  display: grid;
+  width: 800px;
+  gap: 0.65rem;
+}
+
+/*----------------------------------------------*/
+/*--------------- TEXT CONTAINER ---------------*/
+/*----------------------------------------------*/
+
+.features-text-container {
+  grid-template-columns: auto;
+  justify-content: stretch;
+  align-items: flex-end;
+  display: grid;
+  gap: 0.25rem;
+}
+
+.features-title {
+  font-family: "Aquatico", sans-serif;
+  font-size: 4.5rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.features-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 200;
+  color: #dcdcdc;
+}
+
+/*-------------------------------------*/
+/*--------------- LINKS ---------------*/
+/*-------------------------------------*/
+
+.features-links-container {
+  grid-template-columns: repeat(2, auto);
+  justify-content: left;
+  align-items: center;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.features-link {
+  grid-template-columns: repeat(2, auto);
+  transition: background-color 450ms;
+  background-color: #d7004f;
+  justify-content: center;
+  padding: 0.5rem 2rem;
+  align-items: center;
+  border-radius: 5px;
+  display: grid;
+  gap: 8px;
+}
+
+.features-link:nth-of-type(1) {
+  background-color: #d7004f;
+}
+
+.features-link:nth-of-type(2) {
+  background-color: #0000ff;
+}
+
+.features-link h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.features-link img {
+  width: 25px;
+}
+
+/*------------------------------------------*/
+/*--------------- CONTROLLER ---------------*/
+/*------------------------------------------*/
+
+.features-right-arrow img,
+.features-left-arrow img {
+  transition: opacity 450ms, scale 450ms;
+  cursor: pointer;
+  opacity: 0.5;
+  width: 50px;
+}
+
+.features-slides-counter {
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  gap: 1rem;
+}
+
+.features-slides-counter img {
+  transition: opacity 450ms, translate 450ms;
+  opacity: 0.5;
+  width: 45px;
+}
+
+.features-slides-counter img:nth-of-type(1) {
+  translate: 0 -10px;
+  opacity: 1;
+}
+
+/*----------------------------------------*/
+/*-------------- TRANSITION --------------*/
+/*----------------------------------------*/
+
+.features-carousel-wrapper:hover {
+  box-shadow: 0 5px 20px;
+  translate: 0 -10px;
+}
+
+.features-link:nth-of-type(1):hover {
+  background-color: #b20041;
+}
+
+.features-link:nth-of-type(2):hover {
+  background-color: #0000aa;
+}
+
+.features-right-arrow img:hover,
+.features-left-arrow img:hover {
+  scale: 1.1;
+  opacity: 1;
+}
+
+/*------------------------------------------------------*/
+/*--------------------- END OF CSS ---------------------*/
+/*------------------------------------------------------*/

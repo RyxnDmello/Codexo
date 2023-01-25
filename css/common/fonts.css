@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Moon Regular";
+  src: url("/fonts/Moon/Regular.otf");
+}
+
+@font-face {
+  font-family: "Moon Bold";
+  src: url("/fonts/Moon/Bold.otf");
+}
+
+@font-face {
+  font-family: "Moon Light";
+  src: url("/fonts/Moon/Light.otf");
+}
+
+@font-face {
+  font-family: "Aquatico";
+  src: url("/fonts/Aquatico.otf");
+}
+
+@font-face {
+  font-family: "Porto";
+  src: url("/fonts/Porto.ttf");
+}
