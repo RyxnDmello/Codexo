@@ -1,3 +1,7 @@
+/*-------------------------------------------------------------*/
+/*----------------------- TYPES SECTION -----------------------*/
+/*-------------------------------------------------------------*/
+
 #types-section {
   grid-template-columns: auto;
   justify-content: center;
@@ -8,30 +12,149 @@
 }
 
 .type-container {
-  transition: height 800ms;
+  transition: height 800ms, padding 800ms;
+  grid-template-columns: auto;
+  background-color: #000;
+  justify-content: center;
+  box-shadow: 0 0 20px;
+  align-items: center;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
   width: 1200px;
   height: 100px;
+  display: grid;
+  z-index: 0;
 }
 
 .type-background {
-  transition: scale 800ms, object-position 800ms;
+  transition: scale 800ms, object-position 800ms, opacity 800ms;
   position: absolute;
   object-fit: cover;
   margin: 0 auto;
   width: 1200px;
+  opacity: 0.5;
+  z-index: -1;
   right: 0;
   left: 0;
   top: 0;
 }
 
+/*--------------------------------------------------*/
+/*----------------- INFO CONTAINER -----------------*/
+/*--------------------------------------------------*/
+
+.type-information-container {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  gap: 1rem;
+}
+
+/*------------------------------------------------------*/
+/*------------------- TEXT CONTAINER -------------------*/
+/*------------------------------------------------------*/
+
+.type-text-container {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5rem;
+  display: grid;
+}
+
+.type-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
+  cursor: default;
+  color: #fff;
+}
+
+.type-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  cursor: default;
+  color: #fff;
+}
+
+/*-----------------------------------------------------*/
+/*------------------ LINKS CONTAINER ------------------*/
+/*-----------------------------------------------------*/
+
+.type-links-container {
+  grid-template-columns: repeat(2, auto);
+  justify-content: left;
+  align-items: center;
+  margin: 0 5rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.type-link {
+  grid-template-columns: repeat(2, auto);
+  transition: background-color 450ms;
+  justify-content: center;
+  padding: 0.4rem 2rem;
+  align-items: center;
+  border-radius: 5px;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.type-link:nth-of-type(1) {
+  background-color: #d7004f;
+}
+
+.type-link:nth-of-type(2) {
+  background-color: #0000ff;
+}
+
+.type-link-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.type-link-image {
+  width: 25px;
+}
+
+/*---------------------------------------------*/
+/*---------------- TRANSITIONS ----------------*/
+/*---------------------------------------------*/
+
 .type-container:hover {
-  height: 500px;
+  padding: 1rem 0 2rem 0;
+  height: 100%;
+}
+
+.on-hover-visible {
+  transition: opacity 800ms;
+  opacity: 0;
+}
+
+.type-container:hover .on-hover-visible {
+  opacity: 1;
 }
 
 .type-container:hover .type-background {
   object-position: 4rem;
+  opacity: 0.3;
   scale: 1.2;
 }
+
+.type-link:nth-of-type(1):hover {
+  background-color: #af0040;
+}
+
+.type-link:nth-of-type(2):hover {
+  background-color: #0000c2;
+}
+
+/*------------------------------------------------*/
+/*------------------ END OF CSS ------------------*/
+/*------------------------------------------------*/
