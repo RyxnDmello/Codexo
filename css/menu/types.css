@@ -5,10 +5,16 @@
 #types-section {
   grid-template-columns: auto;
   justify-content: center;
-  align-items: flex-start;
-  padding: 3rem;
+  align-items: center;
+  padding: 4rem 0;
   display: grid;
-  gap: 2rem;
+  gap: 2.5rem;
+}
+
+.types-section-title {
+  font-family: "Aquatico", sans-serif;
+  letter-spacing: 1px;
+  font-size: 4rem;
 }
 
 .type-container {
@@ -16,14 +22,14 @@
   grid-template-columns: auto;
   background-color: #000;
   justify-content: center;
-  box-shadow: 0 0 20px;
+  box-shadow: 0 0 10px;
   align-items: center;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
   width: 1200px;
-  height: 100px;
   display: grid;
+  height: 95px;
   z-index: 0;
 }
 
@@ -66,7 +72,7 @@
 
 .type-title {
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 4rem;
   cursor: default;
   color: #fff;
@@ -129,7 +135,7 @@
 
 .type-container:hover {
   padding: 1rem 0 2rem 0;
-  height: 100%;
+  height: 300px;
 }
 
 .on-hover-visible {
