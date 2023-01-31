@@ -129,13 +129,39 @@
   width: 25px;
 }
 
+/*--------------------------------------------*/
+/*------------- SPECIFIC CHANGES -------------*/
+/*--------------------------------------------*/
+
+.type-container:nth-of-type(1):hover .type-background {
+  object-position: 4rem;
+  opacity: 0.4;
+  scale: 1.2;
+}
+
+.type-container:nth-of-type(2):hover .type-background {
+  object-position: -4rem;
+  opacity: 0.5;
+  scale: 1.2;
+}
+
+.type-container:nth-of-type(3):hover .type-background {
+  object-position: 0 -3.5rem;
+  opacity: 0.5;
+}
+
+.type-container:nth-of-type(4):hover .type-background {
+  object-position: -8rem -18rem;
+  opacity: 0.5;
+}
+
 /*---------------------------------------------*/
 /*---------------- TRANSITIONS ----------------*/
 /*---------------------------------------------*/
 
 .type-container:hover {
   padding: 1rem 0 2rem 0;
-  height: 300px;
+  height: 400px;
 }
 
 .on-hover-visible {
@@ -145,12 +171,6 @@
 
 .type-container:hover .on-hover-visible {
   opacity: 1;
-}
-
-.type-container:hover .type-background {
-  object-position: 4rem;
-  opacity: 0.3;
-  scale: 1.2;
 }
 
 .type-link:nth-of-type(1):hover {
