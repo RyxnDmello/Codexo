@@ -14,14 +14,15 @@
 .types-section-title {
   font-family: "Aquatico", sans-serif;
   letter-spacing: 1px;
+  cursor: default;
   font-size: 4rem;
 }
 
 .type-container {
   transition: height 800ms, padding 800ms;
   grid-template-columns: auto;
+  justify-content: flex-start;
   background-color: #000;
-  justify-content: center;
   box-shadow: 0 0 10px;
   align-items: center;
   border-radius: 10px;
