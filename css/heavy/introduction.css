@@ -3,10 +3,10 @@
 /*---------------------------------------------------------------*/
 
 #introduction-section {
-  padding: 5rem 6rem 3rem 6rem;
   grid-template-columns: auto;
   justify-content: center;
   align-items: center;
+  padding: 5rem 6rem;
   display: grid;
 }
 

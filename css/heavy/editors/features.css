@@ -3,9 +3,19 @@
 /*---------------------------------------------------------*/
 
 .visual-features {
+  background: linear-gradient(
+    45deg,
+    #000000,
+    #040033,
+    #000000,
+    #040033,
+    #000000
+  );
   grid-template-columns: repeat(3, auto);
   justify-content: center;
+  box-shadow: 0 0 20px;
   align-items: center;
+  padding: 2rem 0;
   display: grid;
   gap: 2rem;
 }
