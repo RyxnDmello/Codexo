@@ -1,0 +1,31 @@
+{
+  "name": "webapp-personal-02",
+  "version": "1.0.0",
+  "description": "Informative Web Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "cls & npm --version & npm list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyxnDmello/WebApp-Personal-02.git"
+  },
+  "keywords": [
+    "Informative",
+    "IDE",
+    "Frameworks",
+    "Languages"
+  ],
+  "author": "Ryan Nolasco D Mello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyxnDmello/WebApp-Personal-02/issues"
+  },
+  "homepage": "https://github.com/RyxnDmello/WebApp-Personal-02#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}

@@ -27,13 +27,13 @@ Codexo is an **Informative Web Application** dedicated to provide an insight on 
 
 I am a student developer and your feedback would mean the world to me. Your feedback will be highly appreciated and will help me in becoming better in my craft. Feel free to email me.
 
-[![github](https://img.shields.io/badge/your_feedback_is_appreciated-1f0799?style=for-the-badge&logo=gmail&logoColor=f02114)](mailto:ryanndmello10@gmail.com)
+[![gmail](https://img.shields.io/badge/your_feedback_is_appreciated-1f0799?style=for-the-badge&logo=gmail&logoColor=f02114)](mailto:ryanndmello10@gmail.com)
 
 <h1 style="font-size: 35px;"><strong>🔗 SOCIALS</strong></h1>
 
 [![github](https://img.shields.io/badge/my_github-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RyanNolascoDmello)
 [![portfolio](https://img.shields.io/badge/my_portfolio-03005C?style=for-the-badge&logo=ko-fi&logoColor=white)]()
 [![instagram](https://img.shields.io/badge/my_instagram-f02114?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ryxndmello10/)
-[![linkedin](https://img.shields.io/badge/my_linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ryanndmello10)
+[![linkedin](https://img.shields.io/badge/my_linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ryanndmello)
 
 <h1 style="font-size: 30px; text-align: centre;"><strong>✌️ THANK YOU, VISIT AGAIN</strong></h1>

@@ -4,7 +4,7 @@
 
 .editor-container {
   grid-template-columns: auto;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding: 4rem 0;
   display: grid;
