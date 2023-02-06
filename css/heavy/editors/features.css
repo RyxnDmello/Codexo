@@ -2,7 +2,7 @@
 /*-------------------- FEATURES STYLES --------------------*/
 /*---------------------------------------------------------*/
 
-.visual-features {
+#features-section {
   background: linear-gradient(
     45deg,
     #000000,
@@ -20,7 +20,7 @@
   gap: 2rem;
 }
 
-.visual-features-main-title {
+.editors-features-main-title {
   font-family: "Aquatico", sans-serif;
   margin: 2rem 0 -1rem 0;
   letter-spacing: 5px;
@@ -32,7 +32,7 @@
   color: #fff;
 }
 
-.visual-features-carousel {
+.editors-features-carousel {
   grid-template-columns: repeat(3, auto);
   justify-content: flex-start;
   align-items: center;
@@ -42,7 +42,7 @@
   display: grid;
 }
 
-.visual-features-container-row {
+.editors-features-container-row {
   grid-template-columns: repeat(3, auto);
   transition: translate 900ms;
   justify-content: flex-start;
@@ -53,7 +53,7 @@
   gap: 2.5rem;
 }
 
-.visual-features-container {
+.editors-features-container {
   border: 2px solid #ffffff25;
   grid-template-columns: auto;
   transition: scale 500ms;
@@ -68,12 +68,12 @@
   width: 340px;
 }
 
-.visual-features-image {
+.editors-features-image {
   margin: 0 auto;
   width: 150px;
 }
 
-.visual-features-container-divider {
+.editors-features-container-divider {
   border-bottom: 2px solid #ffffff25;
   border-right: none;
   border-left: none;
@@ -84,14 +84,14 @@
 /*----------------- TEXT STYLES -----------------*/
 /*-----------------------------------------------*/
 
-.visual-features-text-container {
+.editors-features-text-container {
   grid-template-columns: auto;
   justify-content: center;
   align-items: center;
   display: grid;
 }
 
-.visual-features-title {
+.editors-features-title {
   font-family: "Poppins", sans-serif;
   letter-spacing: 1px;
   font-size: 1.5rem;
@@ -100,7 +100,7 @@
   color: #fff;
 }
 
-.visual-features-text {
+.editors-features-text {
   font-family: "Poppins", sans-serif;
   text-align: left;
   font-weight: 200;
@@ -112,14 +112,14 @@
 /*---------------- CONTROLLERS ----------------*/
 /*---------------------------------------------*/
 
-.visual-carousel-controller {
+.editors-carousel-controller {
   transition: opacity 450ms, scale 125ms;
   cursor: pointer;
   opacity: 0.35;
   width: 50px;
 }
 
-.visual-carousel-indicator {
+.editors-carousel-indicator {
   grid-template-columns: repeat(3, auto);
   margin: -1rem auto 0 auto;
   justify-content: center;
@@ -130,23 +130,23 @@
   gap: 0;
 }
 
-.visual-carousel-indicator-image {
+.editors-carousel-indicator-image {
   transition: scale 450ms, opacity 450ms;
   width: 30px;
 }
 
-.visual-carousel-indicator-image:nth-last-of-type(3) {
+.editors-carousel-indicator-image:nth-last-of-type(3) {
   opacity: 1;
   scale: 1.2;
 }
 
-.visual-carousel-indicator-image:nth-of-type(2) {
+.editors-carousel-indicator-image:nth-of-type(2) {
   margin: 0 -0.25rem;
   opacity: 0.35;
   scale: 0.85;
 }
 
-.visual-carousel-indicator-image:nth-of-type(3) {
+.editors-carousel-indicator-image:nth-of-type(3) {
   opacity: 0.35;
   scale: 0.85;
 }
@@ -155,11 +155,11 @@
 /*-------------- TRANSITIONS --------------*/
 /*-----------------------------------------*/
 
-.visual-features-container:hover {
+.editors-features-container:hover {
   scale: 1.125;
 }
 
-.visual-carousel-controller:hover {
+.editors-carousel-controller:hover {
   opacity: 1;
 }
 

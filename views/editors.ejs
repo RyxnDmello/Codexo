@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- #region Google Fonts Server -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- #endregion -->
+    <!-- #region Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- #endregion -->
+    <link rel="stylesheet" href="/heavy.css" />
+    <title>Codexo | Heavy</title>
+  </head>
+
+  <body>
+    <header id="header">
+      <nav>
+        <h1 class="nav-title">CODEXO</h1>
+
+        <div class="nav-links-container">
+          <a class="nav-link" href="./menu.ejs">OTHERS</a>
+          <a class="nav-link" href="#features-section">FEATURES</a>
+
+          <div class="nav-menu-button">
+            <h1 class="nav-menu-text">EXPLORE</h1>
+            <img class="nav-menu-image" src="/heavy/arrow.png" />
+          </div>
+        </div>
+      </nav>
+
+      <div class="nav-menu"></div>
+    </header>
+
+    <main>
+      <section id="introduction-section">
+        <div class="intro-container">
+          <img class="intro-image" src="/heavy/intro.png" />
+
+          <div class="intro-text-container">
+            <h1 class="intro-title">WHAT IS AN IDE?</h1>
+
+            <h1 class="intro-description">
+              Integrated Development Environment is a professional platform for
+              developers to write code. An IDE is made up of multiple state of
+              the art components which are fully integrated in the software.
+              These components help the developer to write code efficiently,
+              provide deep performance analysis, help in debugging your code to
+              find errors and solutions, and do much more.
+            </h1>
+
+            <div class="intro-links-container">
+              <a class="intro-link" href="">
+                <h1 class="intro-link-text">Know More</h1>
+                <img class="intro-link-image" src="/heavy/right.png" />
+              </a>
+
+              <a class="intro-link" href="">
+                <h1 class="intro-link-text">Explore Others</h1>
+                <img class="intro-link-image" src="/heavy/right.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="editors-section">
+        <h1 class="editors-section-title">ENTERPRISE LEVEL EDITORS</h1>
+
+        <% editors.forEach((editor) => { %> <%- include("./partials/editor",
+        {name: editor.name, description: editor.description, image:
+        editor.image, primaryLink: editor.primaryLink, secondaryLink:
+        editor.secondaryLink, secondaryLinkText: editor.secondaryLinkText}) %>
+        <% }) %>
+      </section>
+
+      <div id="features-section">
+        <h1 class="editors-features-main-title">WHAT MAKES AN IDE SPECIAL</h1>
+
+        <img
+          class="editors-carousel-controller left"
+          src="/heavy/slide-left.png"
+        />
+
+        <div class="editors-features-carousel">
+          <div class="editors-features-container-row">
+            <div class="editors-features-container">
+              <img
+                class="editors-features-image"
+                src="/heavy/features/project.png"
+              />
+
+              <hr class="editors-features-container-divider" />
+
+              <div class="editors-features-text-container">
+                <h1 class="editors-features-title">PROJECT MANAGEMENT</h1>
+
+                <h1 class="editors-features-text">
+                  The in-built template system helps in starting up your project
+                  faster. It also has an exclusive solution rebuilding system,
+                  to help refactor project dependencies.
+                </h1>
+              </div>
+            </div>
+
+            <div class="editors-features-container middle">
+              <img
+                class="editors-features-image"
+                src="/heavy/features/frame.png"
+              />
+
+              <hr class="editors-features-container-divider" />
+
+              <div class="editors-features-text-container">
+                <h1 class="editors-features-title">FRAMEWORKS & LIBRARIES</h1>
+
+                <h1 class="editors-features-text">
+                  The .Net Framework and .Net Core is fully integrated into
+                  editors Studio. You can install all the required libraries and
+                  tools to start working on your project.
+                </h1>
+              </div>
+            </div>
+
+            <div class="editors-features-container">
+              <img
+                class="editors-features-image"
+                src="/heavy/features/error.png"
+              />
+
+              <hr class="editors-features-container-divider" />
+
+              <div class="editors-features-text-container">
+                <h1 class="editors-features-title">DEBUGGER ENGINE</h1>
+
+                <h1 class="editors-features-text">
+                  The in-built debugger is used to analyze every frame of your
+                  code and find errors faster and efficiently, and the
+                  breakpoint system provides control over every frame.
+                </h1>
+              </div>
+            </div>
+          </div>
+
+          <div class="editors-features-container-row">
+            <div class="editors-features-container">
+              <img
+                class="editors-features-image"
+                src="/heavy/features/intel.png"
+              />
+
+              <hr class="editors-features-container-divider" />
+
+              <div class="editors-features-text-container">
+                <h1 class="editors-features-title">CODE INTELLISENSE</h1>
+
+                <h1 class="editors-features-text">
+                  The in-built intellisense helps in writing code much faster.
+                  With the help of snippets, you can paste standard or your own
+                  personal code.
+                </h1>
+              </div>
+            </div>
+
+            <div class="editors-features-container middle">
+              <img
+                class="editors-features-image"
+                src="/heavy/features/speed.png"
+              />
+
+              <hr class="editors-features-container-divider" />
+
+              <div class="editors-features-text-container">
+                <h1 class="editors-features-title">PERFORMANCE ANALYSER</h1>
+
+                <h1 class="editors-features-text">
+                  The performance analyser tracks the memory usage in every
+                  frame and in every modular part of your codebase. Helps in
+                  producing efficient and performant code.
+                </h1>
+              </div>
+            </div>
+
+            <div class="editors-features-container">
+              <img
+                class="editors-features-image"
+                src="/heavy/features/deploy.png"
+              />
+
+              <hr class="editors-features-container-divider" />
+
+              <div class="editors-features-text-container">
+                <h1 class="editors-features-title">PROJECT DEPLOYMENT</h1>
+
+                <h1 class="editors-features-text">
+                  editors Studio has exclusive tools to build your .Net projects
+                  and deploy them either natively or cross-platform. Having
+                  support for Windows, MacOS, Linux, Android and IOS.
+                </h1>
+              </div>
+            </div>
+          </div>
+
+          <div class="editors-features-container-row">
+            <div class="editors-features-container">
+              <img
+                class="editors-features-image"
+                src="/heavy/features/version.png"
+              />
+
+              <hr class="editors-features-container-divider" />
+
+              <div class="editors-features-text-container">
+                <h1 class="editors-features-title">VERSION CONTROL</h1>
+
+                <h1 class="editors-features-text">
+                  editors Studio fully integrates the GitHub CLI. You can easily
+                  create versions and push them into GitHub with ease. Other
+                  version control systems are also available.
+                </h1>
+              </div>
+            </div>
+
+            <div class="editors-features-container middle">
+              <img
+                class="editors-features-image"
+                src="/heavy/features/data.png"
+              />
+
+              <hr class="editors-features-container-divider" />
+
+              <div class="editors-features-text-container">
+                <h1 class="editors-features-title">DATABASE MANAGEMENT</h1>
+
+                <h1 class="editors-features-text">
+                  The Database Manager helps in editorsizing data in a Graphical
+                  GUI Environment. The in-built functions help in easy data
+                  organization and manipulation.
+                </h1>
+              </div>
+            </div>
+
+            <div class="editors-features-container">
+              <img
+                class="editors-features-image"
+                src="/heavy/features/graph.png"
+              />
+
+              <hr class="editors-features-container-divider" />
+
+              <div class="editors-features-text-container">
+                <h1 class="editors-features-title">GRAPH editorsIZER</h1>
+
+                <h1 class="editors-features-text">
+                  The in-built editorsizer helps in displaying graphs in a neat
+                  format, along with multiple in-built features to easily
+                  organize or manipulate the data.
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <img
+          class="editors-carousel-controller right"
+          src="/heavy/slide-right.png"
+        />
+
+        <div class="editors-carousel-indicator">
+          <img
+            class="editors-carousel-indicator-image"
+            src="/heavy/bullet.png"
+          />
+          <img
+            class="editors-carousel-indicator-image"
+            src="/heavy/bullet.png"
+          />
+          <img
+            class="editors-carousel-indicator-image"
+            src="/heavy/bullet.png"
+          />
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="/Heavy.js"></script>
+  </body>
+</html>

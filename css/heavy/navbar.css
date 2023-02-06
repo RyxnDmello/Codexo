@@ -17,13 +17,6 @@ nav {
 /*------------- LEFT CONTAINER -------------*/
 /*------------------------------------------*/
 
-.nav-left-container {
-  grid-template-columns: auto;
-  justify-content: center;
-  align-items: center;
-  display: grid;
-}
-
 .nav-title {
   font-family: "Moon Regular", sans-serif;
   letter-spacing: 2px;
@@ -38,15 +31,15 @@ nav {
 /*------------- RIGHT CONTAINER -------------*/
 /*-------------------------------------------*/
 
-.nav-right-container {
-  grid-template-columns: repeat(4, auto);
+.nav-links-container {
+  grid-template-columns: repeat(3, auto);
   justify-content: center;
   align-items: center;
   display: grid;
   gap: 2.5rem;
 }
 
-.nav-right-link {
+.nav-link {
   font-family: "Poppins", sans-serif;
   letter-spacing: 1.25px;
   position: relative;
@@ -55,7 +48,7 @@ nav {
   color: #fff;
 }
 
-.nav-right-link::before {
+.nav-link::before {
   transition: width 450ms, opacity 600ms;
   background-color: #fff;
   position: absolute;
@@ -115,7 +108,7 @@ nav {
 /*--------------- TRANSITION ---------------*/
 /*------------------------------------------*/
 
-.nav-right-link:hover::before {
+.nav-link:hover::before {
   width: 100%;
   opacity: 1;
 }

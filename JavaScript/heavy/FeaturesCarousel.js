@@ -1,17 +1,17 @@
 const featuresContainerRows = document.querySelectorAll(
-  ".visual-features-container-row"
+  ".editors-features-container-row"
 );
 const featuresLeftController = document.querySelector(
-  ".visual-carousel-controller.left"
+  ".editors-carousel-controller.left"
 );
 const featuresRightController = document.querySelector(
-  ".visual-carousel-controller.right"
+  ".editors-carousel-controller.right"
 );
 const featuresContainers = document.querySelectorAll(
-  ".visual-features-container.middle"
+  ".editors-features-container.middle"
 );
 const indicators = document.querySelectorAll(
-  ".visual-carousel-indicator-image"
+  ".editors-carousel-indicator-image"
 );
 
 let slidesCount = 0;
