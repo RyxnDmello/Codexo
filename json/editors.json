@@ -1,36 +1,42 @@
 {
-  "heavy": [
-    {
-      "name": "Visual Studio",
-      "image": "/heavy/editors/visual.png",
-      "description": "Visual Studio is an IDE created by Microsoft. It is fully integrated with the .Net Core and is used to build various cross-platform applications. It has exclusive support for .Net languages like C#, F#, Q#, R, TypeScript and Visual Basic. The .Net Framework and .Net Core are two frameworks created by Microsoft to build various native and cross-platform applications. Visual Studio integrates these standard languages as well as all libraries related to the .Net Ecosystem.",
-      "primaryLink": "",
-      "secondaryLink": "",
-      "secondaryLinkText": ".Net Core"
-    },
-    {
-      "name": "Apple XCode",
-      "image": "/heavy/editors/xcode.png",
-      "description": "Visual Studio is an IDE created by Microsoft. It is fully integrated with the .Net Core and is used to build various cross-platform applications. It has exclusive support for .Net languages like C#, F#, Q#, R, TypeScript and Visual Basic. The .Net Framework and .Net Core are two frameworks created by Microsoft to build various native and cross-platform applications. Visual Studio integrates these standard languages as well as all libraries related to the .Net Ecosystem.",
-      "primaryLink": "",
-      "secondaryLink": "",
-      "secondaryLinkText": "Languages"
-    },
-    {
-      "name": "JetBrains",
-      "image": "/heavy/editors/jetbrains.png",
-      "description": "JetBrains is a software company that provides tools and editors for software developers. The company is best known for its IDEs such as IntelliJ IDEA, Rider, PhpStorm, PyCharm, RubyMine, WebStorm, AppCode, DataSpell and many more. Each IDE is designed for the development of a specific application. Enriched with JetBrains' exclusive features and standard components, these IDEs provide an alternate path to create some of the best products in the industry.",
-      "primaryLink": "",
-      "secondaryLink": "",
-      "secondaryLinkText": "Languages"
-    },
-    {
-      "name": "Android Studio",
-      "image": "/heavy/editors/android.png",
-      "description": "Android Studio is the official IDE for Android App Development, developed by Google. It provides a comprehensive set of tools for building, testing, and debugging Android applications. It includes emulators, drag and drop components, debugging engine, code analyzer and support for various programming languages, including Java and Kotlin. It is also used for other frameworks and libraries, like Flutter for Android and iOS development.",
-      "primaryLink": "",
-      "secondaryLink": "",
-      "secondaryLinkText": "Languages"
-    }
-  ]
+  "heavy": {
+    "title": "WHAT IS AN IDE?",
+    "image": "/heavy/intro.png",
+    "description": "Integrated Development Environment is a professional platform for developers to write code. An IDE is made up of multiple state of the art components which are fully integrated in the software. These components help the developer to write code efficiently, provide deep performance analysis, help in debugging your code to find errors and solutions, and do much more.",
+    "collectionTitle": "ENTERPRISE LEVEL EDITORS",
+    "collection": [
+      {
+        "name": "Visual Studio",
+        "image": "/heavy/editors/visual.png",
+        "description": "Visual Studio is an IDE created by Microsoft. It is fully integrated with the .Net Core and is used to build various cross-platform applications. It has exclusive support for .Net languages like C#, F#, Q#, R, TypeScript and Visual Basic. The .Net Framework and .Net Core are two frameworks created by Microsoft to build various native and cross-platform applications. Visual Studio integrates these standard languages as well as all libraries related to the .Net Ecosystem.",
+        "primaryLink": "",
+        "secondaryLink": "",
+        "secondaryLinkText": ".Net Core"
+      },
+      {
+        "name": "Apple XCode",
+        "image": "/heavy/editors/xcode.png",
+        "description": "Visual Studio is an IDE created by Microsoft. It is fully integrated with the .Net Core and is used to build various cross-platform applications. It has exclusive support for .Net languages like C#, F#, Q#, R, TypeScript and Visual Basic. The .Net Framework and .Net Core are two frameworks created by Microsoft to build various native and cross-platform applications. Visual Studio integrates these standard languages as well as all libraries related to the .Net Ecosystem.",
+        "primaryLink": "",
+        "secondaryLink": "",
+        "secondaryLinkText": "Languages"
+      },
+      {
+        "name": "JetBrains",
+        "image": "/heavy/editors/jetbrains.png",
+        "description": "JetBrains is a software company that provides tools and editors for software developers. The company is best known for its IDEs such as IntelliJ IDEA, Rider, PhpStorm, PyCharm, RubyMine, WebStorm, AppCode, DataSpell and many more. Each IDE is designed for the development of a specific application. Enriched with JetBrains' exclusive features and standard components, these IDEs provide an alternate path to create some of the best products in the industry.",
+        "primaryLink": "",
+        "secondaryLink": "",
+        "secondaryLinkText": "Languages"
+      },
+      {
+        "name": "Android Studio",
+        "image": "/heavy/editors/android.png",
+        "description": "Android Studio is the official IDE for Android App Development, developed by Google. It provides a comprehensive set of tools for building, testing, and debugging Android applications. It includes emulators, drag and drop components, debugging engine, code analyzer and support for various programming languages, including Java and Kotlin. It is also used for other frameworks and libraries, like Flutter for Android and iOS development.",
+        "primaryLink": "",
+        "secondaryLink": "",
+        "secondaryLinkText": "Languages"
+      }
+    ]
+  }
 }

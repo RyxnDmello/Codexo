@@ -78,9 +78,9 @@
 }
 
 .editor-link {
-  transition: background-color 450ms, box-shadow 450ms, translate 450ms;
   grid-template-columns: repeat(2, auto);
-  box-shadow: 0 0 5px #000;
+  box-shadow: 2px 3px 6px #00000065;
+  transition: background-color 450ms;
   justify-content: center;
   padding: 0.5rem 4rem;
   border-radius: 40px;
@@ -149,17 +149,12 @@
 /*--------------- TRANSITIONS ---------------*/
 /*-------------------------------------------*/
 
-.editor-link:hover {
-  box-shadow: 2px 2px 5px #000;
-  translate: 0 -2.5px;
-}
-
 .editor-link:nth-of-type(1):hover {
-  background-color: #0000ab;
+  background-color: #0000c1;
 }
 
 .editor-link:nth-of-type(2):hover {
-  background-color: #8c0033;
+  background-color: #a8003e;
 }
 
 /*----------------------------------------------------------*/

@@ -14,8 +14,8 @@ Codexo is an **Informative Web Application** dedicated to provide an insight on 
 
 <h3 style="font-size: 25px;"><strong>💻 BACK-END TECHNOLOGY</strong></h3>
 
-- ❌ Node Js (Framework)
-- ❌ Express Js (Server-Side Library)
+- ✅ Node Js (Framework)
+- ✅ Express Js (Server-Side Library)
 - ❌ Mongoose (Express Js Library)
 
 <h3 style="font-size: 25px;"><strong>💻 DATABASE & TOOLS</strong></h3>

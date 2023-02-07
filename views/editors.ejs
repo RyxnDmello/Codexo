@@ -41,19 +41,11 @@
     <main>
       <section id="introduction-section">
         <div class="intro-container">
-          <img class="intro-image" src="/heavy/intro.png" />
+          <img class="intro-image" src="<%= image %>" />
 
           <div class="intro-text-container">
-            <h1 class="intro-title">WHAT IS AN IDE?</h1>
-
-            <h1 class="intro-description">
-              Integrated Development Environment is a professional platform for
-              developers to write code. An IDE is made up of multiple state of
-              the art components which are fully integrated in the software.
-              These components help the developer to write code efficiently,
-              provide deep performance analysis, help in debugging your code to
-              find errors and solutions, and do much more.
-            </h1>
+            <h1 class="intro-title"><%= title %></h1>
+            <h1 class="intro-description"><%= description %></h1>
 
             <div class="intro-links-container">
               <a class="intro-link" href="">
@@ -71,9 +63,9 @@
       </section>
 
       <section id="editors-section">
-        <h1 class="editors-section-title">ENTERPRISE LEVEL EDITORS</h1>
+        <h1 class="editors-section-title"><%= collectionTitle %></h1>
 
-        <% editors.forEach((editor) => { %> <%- include("./partials/editor",
+        <% collection.forEach((editor) => { %> <%- include("./partials/editor",
         {name: editor.name, description: editor.description, image:
         editor.image, primaryLink: editor.primaryLink, secondaryLink:
         editor.secondaryLink, secondaryLinkText: editor.secondaryLinkText}) %>
@@ -239,7 +231,7 @@
                 <h1 class="editors-features-title">DATABASE MANAGEMENT</h1>
 
                 <h1 class="editors-features-text">
-                  The Database Manager helps in editorsizing data in a Graphical
+                  The Database Manager helps in visualizing data in a Graphical
                   GUI Environment. The in-built functions help in easy data
                   organization and manipulation.
                 </h1>
@@ -255,10 +247,10 @@
               <hr class="editors-features-container-divider" />
 
               <div class="editors-features-text-container">
-                <h1 class="editors-features-title">GRAPH editorsIZER</h1>
+                <h1 class="editors-features-title">GRAPH VISUALIZER</h1>
 
                 <h1 class="editors-features-text">
-                  The in-built editorsizer helps in displaying graphs in a neat
+                  The in-built editor helps in displaying graphs in a neat
                   format, along with multiple in-built features to easily
                   organize or manipulate the data.
                 </h1>

@@ -17,7 +17,14 @@ const PORT = 1000;
 app.get("/", (req, res) => {});
 
 app.get("/learn/editors/heavy", (req, res) => {
-  res.render("editors", { editors: editors.heavy });
+  res.render("editors", {
+    title: editors.heavy.title,
+    image: editors.heavy.image,
+    description: editors.heavy.description,
+    description: editors.heavy.description,
+    collectionTitle: editors.heavy.collectionTitle,
+    collection: editors.heavy.collection,
+  });
 });
 
 app.get("/learn/editors/light", (req, res) => {
