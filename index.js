@@ -18,6 +18,7 @@ app.get("/", (req, res) => {});
 
 app.get("/learn/editors/heavy", (req, res) => {
   res.render("editors", {
+    type: editors.heavy.type,
     title: editors.heavy.title,
     image: editors.heavy.image,
     description: editors.heavy.description,
