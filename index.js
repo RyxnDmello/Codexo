@@ -1,4 +1,5 @@
 const editors = require("./json/editors.json");
+const features = require("./json/features.json");
 
 const express = require("express");
 const bodyParser = require("body-parser");
@@ -25,6 +26,9 @@ app.get("/learn/editors/heavy", (req, res) => {
     description: editors.heavy.description,
     collectionTitle: editors.heavy.collectionTitle,
     collection: editors.heavy.collection,
+
+    featuresTitle: features.heavy.featuresTitle,
+    features: features.heavy,
   });
 });
 

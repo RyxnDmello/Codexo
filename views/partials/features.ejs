@@ -1,0 +1,45 @@
+<img
+  class="editors-carousel-controller left"
+  src="/editors/carousel/carousel-left.png"
+/>
+
+<div class="editors-features-carousel">
+  <% for(let i = 0; i < rows.length; i++) { %>
+  <div class="editors-features-container-row">
+    <% for(let j = 0; j < rows[i].containers.length; j++) { %>
+    <div class="editors-features-container">
+      <img
+        class="editors-features-image"
+        src="<%= rows[i].containers[j].image %>"
+      />
+
+      <hr class="editors-features-container-divider" />
+
+      <div class="editors-features-text-container">
+        <h1 class="editors-features-title">
+          <%= rows[i].containers[j].title %>
+        </h1>
+
+        <h1 class="editors-features-text">
+          <%= rows[i].containers[j].description %>
+        </h1>
+      </div>
+    </div>
+    <% } %>
+  </div>
+  <% } %>
+</div>
+
+<img
+  class="editors-carousel-controller right"
+  src="/editors/carousel/carousel-right.png"
+/>
+
+<div class="editors-carousel-indicator">
+  <% for(let i = 0; i < rows.length; i++) { %>
+  <img
+    class="editors-carousel-indicator-image"
+    src="/editors/carousel/carousel-point.png"
+  />
+  <% } %>
+</div>

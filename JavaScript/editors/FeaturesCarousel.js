@@ -1,15 +1,15 @@
 const featuresContainerRows = document.querySelectorAll(
   ".editors-features-container-row"
 );
+
 const featuresLeftController = document.querySelector(
   ".editors-carousel-controller.left"
 );
+
 const featuresRightController = document.querySelector(
   ".editors-carousel-controller.right"
 );
-const featuresContainers = document.querySelectorAll(
-  ".editors-features-container.middle"
-);
+
 const indicators = document.querySelectorAll(
   ".editors-carousel-indicator-image"
 );
@@ -18,7 +18,7 @@ let slidesCount = 0;
 
 function MoveRight() {
   featuresRightController.addEventListener("click", () => {
-    if (slidesCount == 2) return;
+    if (slidesCount == featuresContainerRows.length - 1) return;
 
     ++slidesCount;
 

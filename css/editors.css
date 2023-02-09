@@ -5,7 +5,7 @@
 @import url("./editors/editors.css");
 
 @import url("./editors/partials/editor.css");
-@import url("./editors/partials/heavy-features.css");
+@import url("./editors/partials/features.css");
 
 * {
   scroll-behavior: smooth;

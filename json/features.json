@@ -1,0 +1,26 @@
+{
+  "heavy": {
+    "featuresTitle": "WHAT MAKES AN IDE SPECIAL?",
+    "rows": [
+      {
+        "containers": [
+          {
+            "image": "/editors/features/project.png",
+            "title": "PROJECT MANAGEMENT",
+            "description": ""
+          },
+          {
+            "image": "/editors/features/project.png",
+            "title": "PROJECT MANAGEMENT",
+            "description": ""
+          },
+          {
+            "image": "/editors/features/project.png",
+            "title": "PROJECT MANAGEMENT",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  }
+}
