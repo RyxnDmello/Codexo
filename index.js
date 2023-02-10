@@ -42,6 +42,10 @@ app.get("/learn/editors/light", (req, res) => {
   });
 });
 
+app.get("/account/profile", (req, res) => {
+  res.render("register");
+});
+
 app.listen(PORT, () => {
   console.log(`ACTIVE | PORT: ${PORT}`);
 });

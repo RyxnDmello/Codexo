@@ -88,10 +88,10 @@
   },
   "light": {
     "type": "Light",
-    "title": "WHAT IS AN IDE?",
+    "title": "LIGHT & EFFICIENT",
     "image": "/editors/intro/heavy.png",
-    "description": "Integrated Development Environment is a professional platform for developers to write code. An IDE is made up of multiple state of the art components which are fully integrated in the software. These components help the developer to write code efficiently, provide deep performance analysis, help in debugging your code to find errors and solutions, and do much more.",
-    "collectionTitle": "ENTERPRISE LEVEL EDITORS",
+    "description": "A light-weight code editor is an open source platform for developers to write, debug and run code easily. They are faster, more efficient and highly optimized as compared to a professional IDE. These editors are based on the loading and unloading of tools called plugins or extensions. They are equipped with fully customizable code analyzers, intellisense, debuggers and much more.",
+    "collectionTitle": "FAST, EFFICIENT & POWERFUL",
     "featuresTitle": "WHAT MAKES AN IDE SPECIAL?",
     "collection": [
       {
