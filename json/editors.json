@@ -38,6 +38,30 @@
         "primaryLink": "",
         "secondaryLink": "",
         "secondaryLinkText": "Languages"
+      },
+      {
+        "name": "Eclipse",
+        "image": "/editors/heavy/eclipse.png",
+        "description": "Android Studio is the official IDE for Android App Development, developed by Google. It provides a comprehensive set of tools for building, testing, and debugging Android applications. It includes emulators, drag and drop components, debugging engine, code analyzer and support for various programming languages, including Java and Kotlin. It is also used for other frameworks and libraries, like Flutter for Android and iOS development.",
+        "primaryLink": "",
+        "secondaryLink": "",
+        "secondaryLinkText": "Languages"
+      },
+      {
+        "name": "Zend Studio",
+        "image": "/editors/heavy/zend.png",
+        "description": "Android Studio is the official IDE for Android App Development, developed by Google. It provides a comprehensive set of tools for building, testing, and debugging Android applications. It includes emulators, drag and drop components, debugging engine, code analyzer and support for various programming languages, including Java and Kotlin. It is also used for other frameworks and libraries, like Flutter for Android and iOS development.",
+        "primaryLink": "",
+        "secondaryLink": "",
+        "secondaryLinkText": "Languages"
+      },
+      {
+        "name": "Apache NetBeans",
+        "image": "/editors/heavy/netbeans.png",
+        "description": "Android Studio is the official IDE for Android App Development, developed by Google. It provides a comprehensive set of tools for building, testing, and debugging Android applications. It includes emulators, drag and drop components, debugging engine, code analyzer and support for various programming languages, including Java and Kotlin. It is also used for other frameworks and libraries, like Flutter for Android and iOS development.",
+        "primaryLink": "",
+        "secondaryLink": "",
+        "secondaryLinkText": "Languages"
       }
     ],
     "featuresRows": [
@@ -74,6 +98,14 @@
         "name": "Visual Studio Code",
         "image": "/editors/light/vscode.png",
         "description": "Visual Studio Code is a light-weight code editor developed by Microsoft. It is fast, efficient and highly optimized. It is equipped with a code analyzer, intellisense, debugger and a tester, but all of these can be customized to fit the working of any framework, library or language. It does not provide native support for any major framework but can be used to develop all kinds of professional applications. Plugins, best called extensions, provide the major functionality of the overall code editor.",
+        "primaryLink": "",
+        "secondaryLink": "",
+        "secondaryLinkText": "Languages"
+      },
+      {
+        "name": "Atom Electron",
+        "image": "/editors/light/atom.png",
+        "description": "Brackets is an open source code editor developed with JavaScript. It is a famous light-weight platform dedicated for front-end technologies like HTML, CSS, JavaScript and TypeScript. It has many plugins like Git, Emmet, Beautify and much more, to provide a great coding experience. It also provides support for popular back-end technologies like Node Js. It is fast, efficient and enriched with many open-source plugins. A great option for professional web development projects.",
         "primaryLink": "",
         "secondaryLink": "",
         "secondaryLinkText": "Languages"
