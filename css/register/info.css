@@ -1,0 +1,143 @@
+/*-------------------------------------------------------------*/
+/*------------------------ FORM STYLES ------------------------*/
+/*-------------------------------------------------------------*/
+
+#register-section {
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  box-shadow: 0 0 20px;
+  align-items: stretch;
+  border-radius: 20px;
+  width: fit-content;
+  overflow: hidden;
+  margin: 0 auto;
+  height: 500px;
+  display: grid;
+}
+
+/*------------------------------------------*/
+/*------------- INFO CONTAINER -------------*/
+/*------------------------------------------*/
+
+.info-container {
+  grid-template-columns: auto;
+  background-color: #000;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  width: 600px;
+  z-index: 1;
+  gap: 0;
+}
+
+.info-image {
+  transition: scale 500ms, object-position 500ms;
+  object-position: 0 -25rem;
+  pointer-events: none;
+  position: absolute;
+  object-fit: cover;
+  margin: 0 auto;
+  opacity: 0.4;
+  width: 600px;
+  z-index: -2;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+/*------------------------------------------------*/
+/*---------------- TEXT CONTAINER ----------------*/
+/*------------------------------------------------*/
+
+.info-text-container {
+  grid-template-columns: auto;
+  padding: 2rem 2rem 0 2rem;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.info-title {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 5rem;
+  cursor: default;
+  line-height: 1;
+  color: #fff;
+}
+
+.info-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  cursor: default;
+  color: #fff;
+}
+
+/*-----------------------------------------------*/
+/*--------------- LINKS CONTAINER ---------------*/
+/*-----------------------------------------------*/
+
+.info-links-container {
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  display: grid;
+  gap: 1.25rem;
+}
+
+.info-link.button {
+  grid-template-columns: repeat(2, auto);
+  box-shadow: 2px 2px 10px #00000060;
+  transition: background-color 450ms;
+  background-color: #ff0040;
+  justify-content: center;
+  padding: 0.4rem 5rem;
+  align-items: center;
+  border-radius: 40px;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.info-link-button-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.info-link-button-image {
+  width: 26px;
+}
+
+.info-link-image {
+  transition: scale 450ms, translate 450ms;
+  width: 40px;
+}
+
+/*------------------------------------------*/
+/*--------------- TRANSITION ---------------*/
+/*------------------------------------------*/
+
+.info-link.button:hover {
+  background-color: #af002c;
+}
+
+.info-link-image:hover {
+  translate: 0 -5px;
+  scale: 1.1;
+}
+
+.info-container:hover .info-image {
+  object-position: 1.5rem -23rem;
+  scale: 1.1;
+}
+
+/*--------------------------------------------*/
+/*---------------- END OF CSS ----------------*/
+/*--------------------------------------------*/

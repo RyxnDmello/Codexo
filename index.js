@@ -5,6 +5,8 @@ const bodyParser = require("body-parser");
 
 const app = express();
 
+app.use(bodyParser.urlencoded({ extended: "true" }));
+
 app.use(express.static("./JavaScript"));
 app.use(express.static("./images"));
 app.use(express.static("./fonts"));
@@ -42,8 +44,22 @@ app.get("/learn/editors/light", (req, res) => {
   });
 });
 
-app.get("/account/profile", (req, res) => {
-  res.render("register");
+app.get("/account/profile/:type", (req, res) => {
+  res.render("register", {
+    profileTitle: "Create Your Profile"
+  });
+});
+
+app.post("/account/profile/:type", (req, res) => {
+  const username = req.body.username;
+  const email = req.body.email;
+  const password = req.body.password;
+  const retypePassword = req.body.retypePassword;
+
+  console.log(`Username: ${username}`);
+  console.log(`Email ID: ${email}`);
+  console.log(`Password: ${password}`);
+  console.log(`ReType Password: ${retypePassword}`);
 });
 
 app.listen(PORT, () => {

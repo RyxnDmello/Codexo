@@ -1,6 +1,7 @@
 @import url("./common/reveal.css");
 @import url("./common/fonts.css");
 
+@import url("./register/info.css");
 @import url("./register/form.css");
 
 * {
@@ -16,8 +17,10 @@ input {
 }
 
 body {
-  background: linear-gradient(to right, #070060, #06004b, #070060);
-  padding: 8rem 0 0 0;
+  background-image: url("/register/body-background.jpg");
+  background-color: #000;
+  background-size: cover;
+  padding: 6rem 0 0 0;
   position: relative;
   z-index: -2;
 }

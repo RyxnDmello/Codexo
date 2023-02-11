@@ -21,54 +21,113 @@
 
   <body>
     <main>
-      <section id="register-section" action="">
+      <section id="register-section" action="/account/profile" method="get">
         <div class="info-container">
           <div class="info-text-container">
-            <h1 class="info-title">HELLO <br />DEVELOPERS.</h1>
+            <h1 class="info-title">Hello <br />Developers.</h1>
 
             <h1 class="info-description">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde ea
-              nisi neque saepe praesentium placeat error eos architecto
-              perspiciatis consequuntur!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur, velit! Quos cumque dolores mollitia iusto laboriosam,
+              temporibus eaque sit illo dolorum optio sunt aspernatur
+              repellendus ex natus qui eos aut.
             </h1>
-          </div>
 
-          <div class="info-links-container">
-            <a class="info-link button" href="">
-              <h1 class="info-link-text">Login</h1>
-            </a>
+            <div class="info-links-container">
+              <a class="info-link button" href="">
+                <h1 class="info-link-button-text">Login</h1>
+                <img class="info-link-button-image" src="/register/arrow.png" />
+              </a>
 
-            <a class="info-link" href=""></a>
-            <a class="info-link" href=""></a>
-            <a class="info-link" href=""></a>
+              <a class="info-link" href="">
+                <img class="info-link-image" src="/register/instagram.png" />
+              </a>
+
+              <a class="info-link" href="">
+                <img class="info-link-image" src="/register/twitter.png" />
+              </a>
+
+              <a class="info-link" href="">
+                <img class="info-link-image" src="/register/facebook.png" />
+              </a>
+            </div>
           </div>
 
           <img class="info-image" src="/register/background.png" />
         </div>
 
         <div class="form-container">
-          <h1 class="form-container-header">Register</h1>
+          <h1 class="form-container-header"><%= profileTitle %></h1>
 
-          <form id="register-form" action="">
+          <form
+            id="register-form"
+            action="/account/profile/signup"
+            method="post"
+          >
             <div class="input-container">
-              <h1>Name</h1>
-              <input type="text" />
+              <div class="input-block">
+                <img class="input-image" src="/register/user.png" />
+
+                <input
+                  placeholder="Username"
+                  class="input text"
+                  name="username"
+                  type="text"
+                />
+              </div>
+
+              <hr class="input-bar" />
             </div>
-            
+
             <div class="input-container">
-              <h1>Name</h1>
-              <input type="text" />
+              <div class="input-block">
+                <img class="input-image" src="/register/user.png" />
+
+                <input
+                  placeholder="Email ID"
+                  class="input text"
+                  name="email"
+                  type="email"
+                />
+              </div>
+
+              <hr class="input-bar" />
             </div>
-            
+
             <div class="input-container">
-              <h1>Name</h1>
-              <input type="text" />
+              <div class="input-block">
+                <img class="input-image" src="/register/user.png" />
+
+                <input
+                  placeholder="Password"
+                  class="input password"
+                  name="password"
+                  type="password"
+                />
+              </div>
+
+              <hr class="input-bar" />
             </div>
-            
+
             <div class="input-container">
-              <h1>Name</h1>
-              <input type="text" />
+              <div class="input-block">
+                <img class="input-image" src="/register/user.png" />
+
+                <input
+                  placeholder="Re Type Password"
+                  class="input password"
+                  type="password"
+                  name="retypePassword"
+                />
+              </div>
+
+              <hr class="input-bar" />
             </div>
+
+            <button class="register-button" type="submit">
+              <img class="register-button-image" src="/register/profile.png" />
+              <h1 class="register-button-text">Create</h1>
+            </button>
           </form>
         </div>
       </section>
