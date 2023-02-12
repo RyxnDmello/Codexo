@@ -16,12 +16,12 @@ Codexo is an **Informative Web Application** dedicated to provide an insight on 
 
 - ✅ Node Js (Framework)
 - ✅ Express Js (Server-Side Library)
-- ❌ Mongoose (Express Js Library)
+- ✅ Mongoose (Express Js Library)
 
 <h3 style="font-size: 25px;"><strong>💻 DATABASE & TOOLS</strong></h3>
 
-- ❌ MongoDB (Cloud Database)
-- ❌ Mongoose (Express Js Library)
+- ✅ MongoDB (Cloud Database)
+- ✅ Mongoose (Express Js Library)
 
 <h1 style="font-size: 35px;"><strong>💎 FEEDBACK</strong></h1>
 

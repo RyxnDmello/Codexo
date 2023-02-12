@@ -21,10 +21,10 @@
 
   <body>
     <main>
-      <section id="register-section" action="/account/profile" method="get">
+      <section id="register-section">
         <div class="info-container">
           <div class="info-text-container">
-            <h1 class="info-title">Hello <br />Developers.</h1>
+            <h1 class="info-title">Hello <br />Developer.</h1>
 
             <h1 class="info-description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -34,8 +34,8 @@
             </h1>
 
             <div class="info-links-container">
-              <a class="info-link button" href="">
-                <h1 class="info-link-button-text">Login</h1>
+              <a class="info-link button" href="<%= insteadAddress %>">
+                <h1 class="info-link-button-text"><%= insteadButton %></h1>
                 <img class="info-link-button-image" src="/register/arrow.png" />
               </a>
 
@@ -57,13 +57,12 @@
         </div>
 
         <div class="form-container">
-          <h1 class="form-container-header"><%= profileTitle %></h1>
+          <div class="form-container-header">
+            <h1 class="form-container-header-title"><%= formTitle %></h1>
+          </div>
 
-          <form
-            id="register-form"
-            action="/account/profile/signup"
-            method="post"
-          >
+          <form id="register-form" action="<%= submitAddress %>" method="post">
+            <% if(formType === 'signup') { %>
             <div class="input-container">
               <div class="input-block">
                 <img class="input-image" src="/register/user.png" />
@@ -78,6 +77,7 @@
 
               <hr class="input-bar" />
             </div>
+            <% } %>
 
             <div class="input-container">
               <div class="input-block">
@@ -124,13 +124,29 @@
               <hr class="input-bar" />
             </div>
 
-            <button class="register-button" type="submit">
-              <img class="register-button-image" src="/register/profile.png" />
-              <h1 class="register-button-text">Create</h1>
-            </button>
+            <div class="form-buttons-container">
+              <button class="form-button submit" type="submit">
+                <img class="form-button-image" src="/register/profile.png" />
+                <h1 class="form-button-text"><%= submitButton %></h1>
+              </button>
+
+              <button class="form-button clear" type="submit">
+                <img class="form-button-image" src="/register/profile.png" />
+                <h1 class="form-button-text">Clear Form</h1>
+              </button>
+            </div>
           </form>
         </div>
       </section>
     </main>
   </body>
+
+  <script>
+    const button = document.querySelector(".info-link.button");
+    const form = document.querySelector(".form-container");
+
+    button.addEventListener("mouseover", () => {
+      form.style.width = "500px"; 
+    });
+  </script>
 </html>

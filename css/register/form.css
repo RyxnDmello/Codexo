@@ -6,19 +6,23 @@
   grid-template-columns: auto;
   background-color: #fff;
   justify-content: stretch;
+  transition: width 1000ms;
   align-items: flex-start;
   display: grid;
-  width: 500px;
+  width: 0px;
 }
 
 .form-container-header {
-  font-family: "Poppins", sans-serif;
   box-shadow: 0 0 15px #00000070;
   background-color: #2179ff;
   padding: 1rem 0 1rem 2rem;
+  cursor: default;
+}
+
+.form-container-header-title {
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 2rem;
-  cursor: default;
   color: #fff;
 }
 
@@ -78,11 +82,18 @@
 /*------------ REGISTER BUTTON ------------*/
 /*-----------------------------------------*/
 
-.register-button {
+.form-buttons-container {
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  gap: 1rem;
+}
+
+.form-button {
   grid-template-columns: repeat(2, auto);
   box-shadow: 2px 2px 10px #00000060;
   transition: background-color 450ms;
-  background-color: #0000c7;
   justify-content: center;
   align-items: center;
   border-radius: 40px;
@@ -93,12 +104,22 @@
   gap: 0.65rem;
 }
 
-.register-button-image {
-  width: 25px;
+.form-button.submit {
+  background-color: #0000c7;
 }
 
-.register-button-text {
+.form-button.clear {
+  background-color: #ff0040;
+}
+
+.form-button-image {
+  margin-left: 1.25rem;
+  width: 20px;
+}
+
+.form-button-text {
   font-family: "Poppins", sans-serif;
+  margin-right: 1.25rem;
   font-size: 1.25rem;
   font-weight: 400;
   color: #fff;

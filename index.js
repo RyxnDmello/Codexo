@@ -1,4 +1,4 @@
-const database = require(__dirname + "/database/CreateProfile.js");
+const database = require(__dirname + "/database/ProfileManager.js");
 
 const express = require("express");
 const bodyParser = require("body-parser");
@@ -18,9 +18,7 @@ app.set("view engine", "ejs");
 
 const PORT = 1000;
 
-app.get("/", (req, res) => {
-  database.DatabaseCreateProfile();
-});
+app.get("/", (req, res) => {});
 
 app.get("/learn/editors/heavy", (req, res) => {
   res.render("editors", {
@@ -49,8 +47,25 @@ app.get("/learn/editors/light", (req, res) => {
 });
 
 app.get("/account/profile/:type", (req, res) => {
+  if (req.params.type === "signup") {
+    res.render("register", {
+      formType: "signup",
+      formTitle: "Create Your Profile",
+      submitAddress: "/account/profile/signup",
+      submitButton: "Create Profile",
+      insteadAddress: "/account/profile/login",
+      insteadButton: "Login",
+    });
+    return;
+  }
+
   res.render("register", {
-    profileTitle: "Create Your Profile",
+    formType: "login",
+    formTitle: "Login Your Profile",
+    insteadAddress: "/account/profile/signup",
+    insteadButton: "Signup",
+    submitAddress: "/account/profile/login",
+    submitButton: "Login Profile",
   });
 });
 
@@ -60,10 +75,12 @@ app.post("/account/profile/:type", (req, res) => {
   const password = req.body.password;
   const retypePassword = req.body.retypePassword;
 
-  console.log(`Username: ${username}`);
-  console.log(`Email ID: ${email}`);
-  console.log(`Password: ${password}`);
-  console.log(`ReType Password: ${retypePassword}`);
+  if (req.params.type === "signup") {
+    database.CreateProfile(username, email, password, retypePassword);
+    return;
+  }
+
+  database.LoginProfile(email, password, retypePassword);
 });
 
 app.listen(PORT, () => {
