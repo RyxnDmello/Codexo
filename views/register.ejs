@@ -24,7 +24,7 @@
       <section id="register-section">
         <div class="info-container">
           <div class="info-text-container">
-            <h1 class="info-title">Hello <br />Developer.</h1>
+            <h1 class="info-title">Hello Developer.</h1>
 
             <h1 class="info-description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -34,21 +34,9 @@
             </h1>
 
             <div class="info-links-container">
-              <a class="info-link button" href="<%= insteadAddress %>">
-                <h1 class="info-link-button-text"><%= insteadButton %></h1>
+              <a class="info-link button switch-forms">
+                <h1 class="info-link-button-text">Switch</h1>
                 <img class="info-link-button-image" src="/register/arrow.png" />
-              </a>
-
-              <a class="info-link" href="">
-                <img class="info-link-image" src="/register/instagram.png" />
-              </a>
-
-              <a class="info-link" href="">
-                <img class="info-link-image" src="/register/twitter.png" />
-              </a>
-
-              <a class="info-link" href="">
-                <img class="info-link-image" src="/register/facebook.png" />
               </a>
             </div>
           </div>
@@ -58,95 +46,147 @@
 
         <div class="form-container">
           <div class="form-container-header">
-            <h1 class="form-container-header-title"><%= formTitle %></h1>
+            <h1 class="form-container-header-title">Codexo Profile</h1>
           </div>
 
-          <form id="register-form" action="<%= submitAddress %>" method="post">
-            <% if(formType === 'signup') { %>
-            <div class="input-container">
-              <div class="input-block">
-                <img class="input-image" src="/register/user.png" />
+          <article class="forms-carousel">
+            <form id="details-form" action="<%= createAddress %>" method="post">
+              <div class="input-container">
+                <div class="input-block">
+                  <img class="input-image" src="/register/user.png" />
 
-                <input
-                  placeholder="Username"
-                  class="input text"
-                  name="username"
-                  type="text"
-                />
+                  <input
+                    placeholder="Username"
+                    class="input text"
+                    name="username"
+                    type="text"
+                  />
+                </div>
+
+                <hr class="input-bar" />
               </div>
 
-              <hr class="input-bar" />
-            </div>
-            <% } %>
+              <div class="input-container">
+                <div class="input-block">
+                  <img class="input-image" src="/register/user.png" />
 
-            <div class="input-container">
-              <div class="input-block">
-                <img class="input-image" src="/register/user.png" />
+                  <input
+                    placeholder="Email ID"
+                    class="input text"
+                    name="email"
+                    type="email"
+                  />
+                </div>
 
-                <input
-                  placeholder="Email ID"
-                  class="input text"
-                  name="email"
-                  type="email"
-                />
+                <hr class="input-bar" />
               </div>
 
-              <hr class="input-bar" />
-            </div>
+              <div class="input-container">
+                <div class="input-block">
+                  <img class="input-image" src="/register/user.png" />
 
-            <div class="input-container">
-              <div class="input-block">
-                <img class="input-image" src="/register/user.png" />
+                  <input
+                    placeholder="Password"
+                    class="input password"
+                    name="password"
+                    type="password"
+                  />
+                </div>
 
-                <input
-                  placeholder="Password"
-                  class="input password"
-                  name="password"
-                  type="password"
-                />
+                <hr class="input-bar" />
               </div>
 
-              <hr class="input-bar" />
-            </div>
+              <div class="input-container">
+                <div class="input-block">
+                  <img class="input-image" src="/register/user.png" />
 
-            <div class="input-container">
-              <div class="input-block">
-                <img class="input-image" src="/register/user.png" />
+                  <input
+                    placeholder="Re Type Password"
+                    class="input password"
+                    type="password"
+                    name="retypePassword"
+                  />
+                </div>
 
-                <input
-                  placeholder="Re Type Password"
-                  class="input password"
-                  type="password"
-                  name="retypePassword"
-                />
+                <hr class="input-bar" />
               </div>
 
-              <hr class="input-bar" />
-            </div>
+              <div class="form-buttons-container">
+                <button class="form-button submit" type="submit">
+                  <img class="form-button-image" src="/register/profile.png" />
+                  <h1 class="form-button-text">Create Profile</h1>
+                </button>
 
-            <div class="form-buttons-container">
-              <button class="form-button submit" type="submit">
-                <img class="form-button-image" src="/register/profile.png" />
-                <h1 class="form-button-text"><%= submitButton %></h1>
-              </button>
+                <button class="form-button clear" type="submit">
+                  <img class="form-button-image" src="/register/profile.png" />
+                  <h1 class="form-button-text">Clear Form</h1>
+                </button>
+              </div>
+            </form>
 
-              <button class="form-button clear" type="submit">
-                <img class="form-button-image" src="/register/profile.png" />
-                <h1 class="form-button-text">Clear Form</h1>
-              </button>
-            </div>
-          </form>
+            <form id="details-form" action="<%= loginAddress %>" method="post">
+              <div class="input-container">
+                <div class="input-block">
+                  <img class="input-image" src="/register/user.png" />
+
+                  <input
+                    placeholder="Email ID"
+                    class="input text"
+                    name="email"
+                    type="email"
+                  />
+                </div>
+
+                <hr class="input-bar" />
+              </div>
+
+              <div class="input-container">
+                <div class="input-block">
+                  <img class="input-image" src="/register/user.png" />
+
+                  <input
+                    placeholder="Password"
+                    class="input password"
+                    name="password"
+                    type="password"
+                  />
+                </div>
+
+                <hr class="input-bar" />
+              </div>
+
+              <div class="input-container">
+                <div class="input-block">
+                  <img class="input-image" src="/register/user.png" />
+
+                  <input
+                    placeholder="Re Type Password"
+                    class="input password"
+                    type="password"
+                    name="retypePassword"
+                  />
+                </div>
+
+                <hr class="input-bar" />
+              </div>
+
+              <div class="form-buttons-container">
+                <button class="form-button submit" type="submit">
+                  <img class="form-button-image" src="/register/profile.png" />
+                  <h1 class="form-button-text">Login Profile</h1>
+                </button>
+
+                <button class="form-button clear" type="submit">
+                  <img class="form-button-image" src="/register/profile.png" />
+                  <h1 class="form-button-text">Clear Form</h1>
+                </button>
+              </div>
+            </form>
+          </article>
         </div>
       </section>
     </main>
+
+    <script type="module" src="/Register.js"></script>
   </body>
-
-  <script>
-    const button = document.querySelector(".info-link.button");
-    const form = document.querySelector(".form-container");
-
-    button.addEventListener("mouseover", () => {
-      form.style.width = "500px"; 
-    });
-  </script>
 </html>

@@ -46,41 +46,11 @@ app.get("/learn/editors/light", (req, res) => {
   });
 });
 
-app.get("/account/profile/:type", (req, res) => {
-  if (req.params.type === "signup") {
-    res.render("register", {
-      formType: "signup",
-      formTitle: "Create Your Profile",
-      submitAddress: "/account/profile/signup",
-      submitButton: "Create Profile",
-      insteadAddress: "/account/profile/login",
-      insteadButton: "Login",
-    });
-    return;
-  }
-
+app.get("/account/profile", (req, res) => {
   res.render("register", {
-    formType: "login",
-    formTitle: "Login Your Profile",
-    insteadAddress: "/account/profile/signup",
-    insteadButton: "Signup",
-    submitAddress: "/account/profile/login",
-    submitButton: "Login Profile",
+    createAddress: "/account/profile",
+    loginAddress: "/account/profile",
   });
-});
-
-app.post("/account/profile/:type", (req, res) => {
-  const username = req.body.username;
-  const email = req.body.email;
-  const password = req.body.password;
-  const retypePassword = req.body.retypePassword;
-
-  if (req.params.type === "signup") {
-    database.CreateProfile(username, email, password, retypePassword);
-    return;
-  }
-
-  database.LoginProfile(email, password, retypePassword);
 });
 
 app.listen(PORT, () => {

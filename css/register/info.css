@@ -20,10 +20,11 @@
 /*------------------------------------------*/
 
 .info-container {
+  box-shadow: 2px 0 10px #00000080;
   grid-template-columns: auto;
+  justify-content: stretch;
   background-color: #000;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
   position: relative;
   overflow: hidden;
   display: grid;
@@ -53,9 +54,9 @@
 
 .info-text-container {
   grid-template-columns: auto;
-  padding: 2rem 2rem 0 2rem;
   justify-content: center;
   align-items: center;
+  padding: 0 2rem;
   display: grid;
   gap: 1.5rem;
 }
@@ -83,7 +84,7 @@
 /*-----------------------------------------------*/
 
 .info-links-container {
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(2, auto);
   justify-content: center;
   align-items: center;
   padding: 0 2rem;
@@ -96,7 +97,7 @@
   transition: background-color 450ms;
   border: 2px solid #f00034;
   justify-content: center;
-  padding: 0.4rem 5rem;
+  padding: 0.4rem 3rem;
   align-items: center;
   position: relative;
   border-radius: 5px;
@@ -123,6 +124,10 @@
   color: #fff;
 }
 
+.info-link:not(.button) {
+  display: none;
+}
+
 .info-link-button-image {
   width: 26px;
 }
@@ -145,10 +150,10 @@
   scale: 1.1;
 }
 
-.info-container:hover .info-image {
+/* .info-container:hover .info-image {
   object-position: 1.5rem -23rem;
   scale: 1.1;
-}
+} */
 
 /*--------------------------------------------*/
 /*---------------- END OF CSS ----------------*/
