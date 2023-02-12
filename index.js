@@ -1,7 +1,9 @@
-const editors = require("./json/editors.json");
+const database = require(__dirname + "/database/CreateProfile.js");
 
 const express = require("express");
 const bodyParser = require("body-parser");
+
+const editors = require("./json/editors.json");
 
 const app = express();
 
@@ -16,7 +18,9 @@ app.set("view engine", "ejs");
 
 const PORT = 1000;
 
-app.get("/", (req, res) => {});
+app.get("/", (req, res) => {
+  database.DatabaseCreateProfile();
+});
 
 app.get("/learn/editors/heavy", (req, res) => {
   res.render("editors", {
@@ -46,7 +50,7 @@ app.get("/learn/editors/light", (req, res) => {
 
 app.get("/account/profile/:type", (req, res) => {
   res.render("register", {
-    profileTitle: "Create Your Profile"
+    profileTitle: "Create Your Profile",
   });
 });
 
