@@ -13,17 +13,26 @@
 }
 
 .form-container-header {
-  background: linear-gradient(-45deg, #0000c3, #ff0004);
+  background: linear-gradient(to right, #2b32b2, #1488cc);
   box-shadow: 0 0 15px #00000070;
+  grid-template-columns: repeat(2, auto);
   padding: 1rem 0 1rem 2rem;
+  justify-content: left;
+  align-items: center;
   cursor: default;
+  display: grid;
+  gap: 1rem;
 }
 
 .form-container-header-title {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #fff;
+}
+
+.form-container-header-image {
+  width: 60px;
 }
 
 /*--------------------------------------------*/

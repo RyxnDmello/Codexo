@@ -4,8 +4,8 @@
 
 #register-section {
   grid-template-columns: repeat(2, auto);
+  box-shadow: 5px 5px 20px;
   justify-content: center;
-  box-shadow: 0 0 20px;
   align-items: stretch;
   border-radius: 20px;
   width: fit-content;
@@ -130,6 +130,10 @@
   font-size: 1.25rem;
   font-weight: 400;
   color: #fff;
+}
+
+.info-link-button-text.switch {
+  transition: opacity 500ms;
 }
 
 .info-link-button-image {
