@@ -20,37 +20,53 @@ const PORT = 1000;
 
 app.get("/", (req, res) => {});
 
-app.get("/learn/editors/heavy", (req, res) => {
-  res.render("editors", {
-    type: editors.heavy.type,
-    title: editors.heavy.title,
-    image: editors.heavy.image,
-    description: editors.heavy.description,
-    collectionTitle: editors.heavy.collectionTitle,
-    collection: editors.heavy.collection,
-    featuresTitle: editors.heavy.featuresTitle,
-    featuresRows: editors.heavy.featuresRows,
-  });
+app.get("/learn/editors/:type", (req, res) => {
+  if (req.params.type === "heavy") {
+    res.render("editors", {
+      type: editors.heavy.type,
+      title: editors.heavy.title,
+      image: editors.heavy.image,
+      description: editors.heavy.description,
+      collectionTitle: editors.heavy.collectionTitle,
+      collection: editors.heavy.collection,
+      featuresTitle: editors.heavy.featuresTitle,
+      featuresRows: editors.heavy.featuresRows,
+    });
+  } else if (req.params.type === "light") {
+    res.render("editors", {
+      type: editors.light.type,
+      title: editors.light.title,
+      image: editors.light.image,
+      description: editors.light.description,
+      collectionTitle: editors.light.collectionTitle,
+      collection: editors.light.collection,
+      featuresTitle: editors.light.featuresTitle,
+      featuresRows: editors.light.featuresRows,
+    });
+  }
 });
 
-app.get("/learn/editors/light", (req, res) => {
-  res.render("editors", {
-    type: editors.light.type,
-    title: editors.light.title,
-    image: editors.light.image,
-    description: editors.light.description,
-    collectionTitle: editors.light.collectionTitle,
-    collection: editors.light.collection,
-    featuresTitle: editors.light.featuresTitle,
-    featuresRows: editors.light.featuresRows,
-  });
+app.get("/account/profile/:type", (req, res) => {
+  res.render("register");
 });
 
-app.get("/account/profile", (req, res) => {
-  res.render("register", {
-    createAddress: "/account/profile",
-    loginAddress: "/account/profile",
-  });
+app.post("/account/profile/:type", (req, res) => {
+  const submitType = req.body.submitButton;
+
+  if (submitType === "create") {
+    const username = req.body.username;
+    const email = req.body.email;
+    const password = req.body.password;
+    const retypePassword = req.body.retypePassword;
+
+    database.CreateProfile(username, email, password, retypePassword);
+  } else if (submitType === "login") {
+    const email = req.body.email;
+    const password = req.body.password;
+    const retypePassword = req.body.retypePassword;
+
+    database.LoginProfile(email, password, retypePassword);
+  }
 });
 
 app.listen(PORT, () => {

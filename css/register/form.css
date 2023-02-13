@@ -1,6 +1,6 @@
-/*-----------------------------------------------------*/
-/*-------------------- FORM STYLES --------------------*/
-/*-----------------------------------------------------*/
+/*-------------------------------------------------------------*/
+/*------------------------ FORM STYLES ------------------------*/
+/*-------------------------------------------------------------*/
 
 .form-container {
   grid-template-columns: auto;
@@ -13,8 +13,8 @@
 }
 
 .form-container-header {
+  background: linear-gradient(-45deg, #0000c3, #ff0004);
   box-shadow: 0 0 15px #00000070;
-  background-color: #2179ff;
   padding: 1rem 0 1rem 2rem;
   cursor: default;
 }
@@ -37,7 +37,7 @@
   display: grid;
 }
 
-#details-form {
+.form {
   grid-template-columns: auto;
   justify-content: center;
   align-items: center;
@@ -106,10 +106,10 @@
   box-shadow: 2px 2px 10px #00000060;
   transition: background-color 450ms;
   justify-content: center;
+  padding: 0.5rem 2.5rem;
   align-items: center;
   border-radius: 40px;
   margin-top: 0.5rem;
-  padding: 0.5rem 0;
   cursor: pointer;
   display: grid;
   gap: 0.65rem;
@@ -124,13 +124,11 @@
 }
 
 .form-button-image {
-  margin-left: 1.25rem;
   width: 20px;
 }
 
 .form-button-text {
   font-family: "Poppins", sans-serif;
-  margin-right: 1.25rem;
   font-size: 1.25rem;
   font-weight: 400;
   color: #fff;

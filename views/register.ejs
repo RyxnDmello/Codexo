@@ -45,12 +45,16 @@
         </div>
 
         <div class="form-container">
-          <div class="form-container-header">
+          <article class="form-container-header">
             <h1 class="form-container-header-title">Codexo Profile</h1>
-          </div>
+          </article>
 
           <article class="forms-carousel">
-            <form id="details-form" action="<%= createAddress %>" method="post">
+            <form
+              action="/account/profile/signup"
+              class="form create"
+              method="post"
+            >
               <div class="input-container">
                 <div class="input-block">
                   <img class="input-image" src="/register/user.png" />
@@ -112,19 +116,28 @@
               </div>
 
               <div class="form-buttons-container">
-                <button class="form-button submit" type="submit">
+                <button
+                  class="form-button submit"
+                  name="submitButton"
+                  value="create"
+                  type="submit"
+                >
                   <img class="form-button-image" src="/register/profile.png" />
                   <h1 class="form-button-text">Create Profile</h1>
                 </button>
 
-                <button class="form-button clear" type="submit">
+                <button class="form-button clear" type="reset">
                   <img class="form-button-image" src="/register/profile.png" />
                   <h1 class="form-button-text">Clear Form</h1>
                 </button>
               </div>
             </form>
 
-            <form id="details-form" action="<%= loginAddress %>" method="post">
+            <form
+              action="/account/profile/login"
+              class="form login"
+              method="post"
+            >
               <div class="input-container">
                 <div class="input-block">
                   <img class="input-image" src="/register/user.png" />
@@ -171,12 +184,17 @@
               </div>
 
               <div class="form-buttons-container">
-                <button class="form-button submit" type="submit">
+                <button
+                  class="form-button submit"
+                  name="submitButton"
+                  value="login"
+                  type="submit"
+                >
                   <img class="form-button-image" src="/register/profile.png" />
                   <h1 class="form-button-text">Login Profile</h1>
                 </button>
 
-                <button class="form-button clear" type="submit">
+                <button class="form-button clear" type="reset">
                   <img class="form-button-image" src="/register/profile.png" />
                   <h1 class="form-button-text">Clear Form</h1>
                 </button>
