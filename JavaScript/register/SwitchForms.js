@@ -1,7 +1,7 @@
-const formsCarousel = document.querySelector(".forms-carousel");
+const forms = document.querySelectorAll(".form.create, .form.login");
+const switchButton = document.querySelector(".info-link-button.switch");
 const formsContainer = document.querySelector(".form-container");
-const switchButton = document.querySelector(".info-link.switch-forms");
-const forms = document.querySelector("#form");
+const formsCarousel = document.querySelector(".forms-carousel");
 
 let welcome = 0;
 let slides = 0;
