@@ -46,6 +46,10 @@ app.get("/learn/editors/:type", (req, res) => {
   }
 });
 
+app.get("/learn/coding/languages", (req, res) => {
+  res.render("languages");
+});
+
 app.get("/account/profile/:type", (req, res) => {
   res.render("register");
 });

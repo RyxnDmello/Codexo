@@ -13,7 +13,7 @@
 }
 
 .form-container-header {
-  background: linear-gradient(to right, #2b32b2, #1488cc);
+  background: linear-gradient(90deg, #00066e, #00a2ff);
   box-shadow: 0 0 15px #00000070;
   grid-template-columns: repeat(2, auto);
   padding: 1rem 0 1rem 2rem;

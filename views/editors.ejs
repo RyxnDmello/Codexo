@@ -20,26 +20,7 @@
   </head>
 
   <body>
-    <header id="header">
-      <nav>
-        <h1 class="nav-title">CODEXO</h1>
-
-        <div class="nav-links-container">
-          <a class="nav-link" href="./menu.ejs">OTHERS</a>
-          <a class="nav-link" href="#features-section">FEATURES</a>
-
-          <div class="nav-menu-button">
-            <h1 class="nav-menu-text">EXPLORE</h1>
-            <img
-              class="nav-menu-image"
-              src="/editors/buttons/short-arrow.png"
-            />
-          </div>
-        </div>
-      </nav>
-
-      <div class="nav-menu"></div>
-    </header>
+    <header id="header"><%- include("./partials/navbar.ejs") %></header>
 
     <main>
       <section id="introduction-section">
