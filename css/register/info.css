@@ -122,6 +122,7 @@
 }
 
 .info-link-button.skip {
+  transition: background-color 450ms;
   background-color: #ff0040;
 }
 
@@ -155,6 +156,14 @@
 
 .info-link-button.switch:active {
   background-color: #0000c7;
+}
+
+.info-link-button.skip:hover {
+  background-color: #c20030;
+}
+
+.info-link-button.skip:active {
+  background-color: #990026;
 }
 
 /*--------------------------------------------*/
