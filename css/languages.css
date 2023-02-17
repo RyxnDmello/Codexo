@@ -1,6 +1,8 @@
 @import url("./common/navbar.css");
 @import url("./common/fonts.css");
 
+@import url("./languages/language.css");
+
 * {
   scroll-behavior: smooth;
   text-decoration: none;

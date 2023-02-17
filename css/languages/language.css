@@ -1,0 +1,124 @@
+#languages-section {
+  grid-template-columns: auto;
+  justify-content: baseline;
+  align-items: center;
+  padding: 3rem;
+  display: grid;
+}
+
+.lang-container {
+  grid-template-columns: auto;
+  justify-content: stretch;
+  align-items: center;
+  position: relative;
+  display: grid;
+}
+
+.lang-info-block {
+  background: linear-gradient(45deg, #000000, #040033, #000000);
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  border-radius: 10px;
+  align-items: center;
+  padding: 1rem 2rem;
+  gap: 2rem 1rem;
+  display: grid;
+}
+
+.lang-text-container {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
+.lang-image {
+  width: 225px;
+}
+
+.lang-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 5rem;
+  cursor: default;
+  color: #fff;
+}
+
+.lang-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+  cursor: default;
+  color: #fff;
+}
+
+.lang-links-container {
+  grid-template-columns: repeat(3, auto);
+  justify-content: left;
+  align-items: center;
+  grid-column: span 2;
+  display: grid;
+  gap: 1rem;
+}
+
+.lang-link {
+  padding: 0.3rem 2rem;
+  border-radius: 5px;
+}
+
+.lang-link:nth-of-type(1) {
+  background-color: #cb002f;
+}
+
+.lang-link:nth-of-type(2) {
+  background-color: blue;
+}
+
+.lang-link:nth-of-type(3) {
+  border: 2px solid blue;
+}
+
+.lang-link-text {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.lang-features-block {
+  background: linear-gradient(45deg, #000000, #040033, #000000);
+  transition: height 500ms, padding 500ms;
+  grid-template-columns: repeat(4, auto);
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 auto;
+  display: grid;
+  height: 0%;
+  gap: 1rem;
+}
+
+.lang-features-container {
+  grid-template-columns: repeat(2, auto);
+  border: 2px solid #ff005d;
+  justify-content: center;
+  padding: 0.25rem 1rem;
+  align-items: center;
+  border-radius: 40px;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.lang-features-image {
+  width: 40px;
+}
+
+.lang-features-name {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  cursor: pointer;
+  color: #fff;
+}
