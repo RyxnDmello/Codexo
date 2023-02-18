@@ -1,9 +1,31 @@
-const featuresButton = document.querySelector(".lang-link.features");
-const featuresBlock = document.querySelector(".lang-features-block");
+const featuresButtons = document.querySelectorAll(".lang-link.features");
+const featuresBlocks = document.querySelectorAll(".lang-features-block");
+let blocksOpen = [];
 
 export default function ViewFeatures() {
-  featuresButton.addEventListener("mouseover", () => {
-    featuresBlock.style.padding = "1rem 3rem";
-    featuresBlock.style.height = "100%";
+  SetBlocksOpen();
+  OpenFeaturesBlock();
+}
+
+function OpenFeaturesBlock() {
+  featuresButtons.forEach((button, index) => {
+    button.addEventListener("click", () => {
+      if (blocksOpen[index] === false) {
+        featuresBlocks[index].style.padding = "3rem 0";
+        featuresBlocks[index].style.height = "350px";
+        blocksOpen[index] = true;
+        return;
+      }
+
+      featuresBlocks[index].style.padding = "0";
+      featuresBlocks[index].style.height = "0";
+      blocksOpen[index] = false;
+    });
+  });
+}
+
+function SetBlocksOpen() {
+  featuresButtons.forEach(() => {
+    blocksOpen.push(false);
   });
 }
