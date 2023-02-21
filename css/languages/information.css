@@ -1,3 +1,7 @@
+/*-----------------------------------------------------------------*/
+/*--------------------- LANGUAGE BLOCK STYLES ---------------------*/
+/*-----------------------------------------------------------------*/
+
 #languages-section {
   grid-template-columns: auto;
   justify-content: center;
@@ -18,9 +22,13 @@
   gap: 1rem;
 }
 
+/*-----------------------------------------------*/
+/*-------------- INFORMATION BLOCK --------------*/
+/*-----------------------------------------------*/
+
 .lang-info-block {
   grid-template-columns: repeat(2, auto);
-  justify-content: stretch;
+  justify-content: left;
   border-radius: 10px;
   align-items: center;
   padding: 1rem 2rem;
@@ -54,6 +62,10 @@
   cursor: default;
   color: #fff;
 }
+
+/*---------------------------------------------*/
+/*-------------- LINKS CONTAINER --------------*/
+/*---------------------------------------------*/
 
 .lang-links-container {
   grid-template-columns: repeat(3, auto);
@@ -89,3 +101,7 @@
   font-weight: 300;
   color: #fff;
 }
+
+/*----------------------------------------------*/
+/*----------------- END OF CSS -----------------*/
+/*----------------------------------------------*/

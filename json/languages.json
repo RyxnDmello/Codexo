@@ -1,0 +1,70 @@
+{
+  "languages": [
+    {
+      "image": "/languages/csharp.png",
+      "name": "Microsoft C#",
+      "description": "A powerful language created by Microsoft.",
+      "buttonURL": "",
+      "buttonText": ".Net Core",
+      "features": [
+        {
+          "image": "/languages/features/games.png",
+          "name": "Game Development"
+        },
+        {
+          "image": "/languages/features/games.png",
+          "name": "Game Development"
+        },
+        {
+          "image": "/languages/features/games.png",
+          "name": "Game Development"
+        },
+        {
+          "image": "/languages/features/games.png",
+          "name": "Game Development"
+        },
+        {
+          "image": "/languages/features/games.png",
+          "name": "Game Development"
+        },
+        {
+          "image": "/languages/features/games.png",
+          "name": "Game Development"
+        }
+      ]
+    },
+    {
+      "image": "/languages/csharp.png",
+      "name": "Microsoft C#",
+      "description": "A powerful language created by Microsoft.",
+      "buttonURL": "",
+      "buttonText": ".Net Core",
+      "features": [
+        {
+          "image": "/languages/features/games.png",
+          "name": "Game Development"
+        },
+        {
+          "image": "/languages/features/games.png",
+          "name": "Game Development"
+        },
+        {
+          "image": "/languages/features/games.png",
+          "name": "Game Development"
+        },
+        {
+          "image": "/languages/features/games.png",
+          "name": "Game Development"
+        },
+        {
+          "image": "/languages/features/games.png",
+          "name": "Game Development"
+        },
+        {
+          "image": "/languages/features/games.png",
+          "name": "Game Development"
+        }
+      ]
+    }
+  ]
+}

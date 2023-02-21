@@ -24,9 +24,11 @@
 
     <main>
       <section id="languages-section">
-        <%- include("./partials/language.ejs") %>
-        <%- include("./partials/language.ejs") %>
-        <%- include("./partials/language.ejs") %>
+        <% languages.forEach((language) => { %> <%-
+        include("./partials/language.ejs", { image: language.image, name:
+        language.name, description: language.description, buttonURL:
+        language.buttonURL, buttonText: language.buttonText, features:
+        language.features, }) %> <% }) %>
       </section>
     </main>
 

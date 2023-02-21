@@ -4,6 +4,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 
 const editors = require("./json/editors.json");
+const languages = require("./json/languages.json");
 
 const app = express();
 
@@ -47,7 +48,7 @@ app.get("/learn/editors/:type", (req, res) => {
 });
 
 app.get("/learn/coding/languages", (req, res) => {
-  res.render("languages");
+  res.render("languages", { languages: languages.languages });
 });
 
 app.get("/account/profile/:type", (req, res) => {
