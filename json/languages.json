@@ -3,66 +3,49 @@
     {
       "image": "/languages/csharp.png",
       "name": "Microsoft C#",
-      "description": "A powerful language created by Microsoft.",
+      "description": "A powerful language created by Microsoft. A powerful language created by Microsoft. A powerful language created by Microsoft.A powerful language created by Microsoft.",
       "buttonURL": "",
       "buttonText": ".Net Core",
       "features": [
         {
           "image": "/languages/features/games.png",
-          "name": "Game Development"
+          "name": "Web Applications",
+          "description": "ASP.Net Core & Blazor"
         },
         {
           "image": "/languages/features/games.png",
-          "name": "Game Development"
+          "name": "Desktop Applications",
+          "description": "Xamarin & WPF Apps"
         },
         {
           "image": "/languages/features/games.png",
-          "name": "Game Development"
+          "name": "Mobile Applications",
+          "description": "Xamarin Cross & Native"
         },
         {
           "image": "/languages/features/games.png",
-          "name": "Game Development"
+          "name": "Game Development",
+          "description": "Engines & Frameworks"
         },
         {
           "image": "/languages/features/games.png",
-          "name": "Game Development"
+          "name": "Machine Learning",
+          "description": "AI Tools & Integrations"
         },
         {
           "image": "/languages/features/games.png",
-          "name": "Game Development"
-        }
-      ]
-    },
-    {
-      "image": "/languages/csharp.png",
-      "name": "Microsoft C#",
-      "description": "A powerful language created by Microsoft.",
-      "buttonURL": "",
-      "buttonText": ".Net Core",
-      "features": [
-        {
-          "image": "/languages/features/games.png",
-          "name": "Game Development"
+          "name": "Cloud Services",
+          "description": "Applications & Tools"
         },
         {
           "image": "/languages/features/games.png",
-          "name": "Game Development"
+          "name": "Microservices",
+          "description": "Docker Containers"
         },
         {
           "image": "/languages/features/games.png",
-          "name": "Game Development"
-        },
-        {
-          "image": "/languages/features/games.png",
-          "name": "Game Development"
-        },
-        {
-          "image": "/languages/features/games.png",
-          "name": "Game Development"
-        },
-        {
-          "image": "/languages/features/games.png",
-          "name": "Game Development"
+          "name": "Internet of Things",
+          "description": "Apps and Raspberry Pi"
         }
       ]
     }

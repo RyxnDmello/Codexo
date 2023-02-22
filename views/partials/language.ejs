@@ -20,12 +20,16 @@
   </div>
 
   <div class="lang-features-block">
-    <h1 class="lang-features-block-title">FEATURES</h1>
+    <h1 class="lang-features-block-title">FEATURES & USES</h1>
 
     <% features.forEach((feature) => { %>
     <div class="lang-features-container">
       <img class="lang-features-image" src="<%= feature.image %>" />
-      <h1 class="lang-features-name"><%= feature.name %></h1>
+
+      <div class="lang-features-text-container">
+        <h1 class="lang-features-name"><%= feature.name %></h1>
+        <h1 class="lang-features-description"><%= feature.description %></h1>
+      </div>
     </div>
     <% }) %>
   </div>

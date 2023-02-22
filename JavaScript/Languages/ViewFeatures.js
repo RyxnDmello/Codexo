@@ -11,13 +11,13 @@ function OpenFeaturesBlock() {
   featuresButtons.forEach((button, index) => {
     button.addEventListener("click", () => {
       if (blocksOpen[index] === false) {
-        featuresBlocks[index].style.padding = "3rem 0";
-        featuresBlocks[index].style.height = "350px";
+        featuresBlocks[index].style.padding = "2rem 3rem 3rem 3rem";
+        featuresBlocks[index].style.height = "400px";
         blocksOpen[index] = true;
         return;
       }
 
-      featuresBlocks[index].style.padding = "0";
+      featuresBlocks[index].style.padding = "0 3rem";
       featuresBlocks[index].style.height = "0";
       blocksOpen[index] = false;
     });

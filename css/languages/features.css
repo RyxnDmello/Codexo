@@ -4,35 +4,38 @@
 
 .lang-features-block {
   transition: height 500ms, padding 500ms;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(4, auto);
   justify-content: center;
   align-items: center;
   overflow: hidden;
   gap: 1rem 1.5rem;
+  padding: 0 3rem;
   display: grid;
   height: 0px;
 }
 
 .lang-features-block-title {
   font-family: "Aquatico", sans-serif;
-  grid-column: span 3;
+  letter-spacing: 2px;
+  grid-column: span 4;
   font-weight: 400;
-  font-size: 4rem;
+  font-size: 3rem;
   cursor: default;
   color: #fff;
 }
 
-/*-------------------------------------*/
-/*-------------- FEATURE --------------*/
-/*-------------------------------------*/
+/*--------------------------------------*/
+/*-------------- FEATURES --------------*/
+/*--------------------------------------*/
 
 .lang-features-container {
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: auto;
   border: 2px solid #ff005d;
-  justify-content: center;
+  justify-content: left;
   padding: 0.5rem 1rem;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 5px;
+  cursor: pointer;  
   display: grid;
   gap: 0.5rem;
 }
@@ -41,10 +44,29 @@
   width: 60px;
 }
 
+/*-------------------------------------*/
+/*---------- TITLE CONTAINER ----------*/
+/*-------------------------------------*/
+
+.lang-features-text-container {
+  grid-template-columns: auto;
+  justify-content: left;
+  align-items: center;
+  display: grid;
+}
+
 .lang-features-name {
   font-family: "Poppins", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 400;
+  cursor: pointer;
+  color: #fff;
+}
+
+.lang-features-description {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
   cursor: pointer;
   color: #fff;
 }

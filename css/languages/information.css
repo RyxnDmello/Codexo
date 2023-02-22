@@ -77,6 +77,7 @@
 }
 
 .lang-link {
+  box-shadow: 0 0 5px #000;
   padding: 0.3rem 2rem;
   border-radius: 5px;
   cursor: pointer;
