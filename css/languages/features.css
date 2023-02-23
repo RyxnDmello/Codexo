@@ -29,10 +29,13 @@
 /*--------------------------------------*/
 
 .lang-features-container {
+  transition: translate 450ms, scale 450ms;
   grid-template-columns: auto;
   border: 2px solid #ff005d;
+  box-shadow: 0 0 20px #000;
   justify-content: left;
-  padding: 0.5rem 1rem;
+  box-shadow: 0 0 20px;
+  padding: 1rem 1.5rem;
   align-items: center;
   border-radius: 5px;
   cursor: pointer;  
@@ -69,6 +72,15 @@
   font-size: 1rem;
   cursor: pointer;
   color: #fff;
+}
+
+/*-------------------------------------------*/
+/*--------------- TRANSITIONS ---------------*/
+/*-------------------------------------------*/
+
+.lang-features-container:hover {
+  translate: 0 -5px;
+  scale: 1.05;
 }
 
 /*----------------------------------------------*/
