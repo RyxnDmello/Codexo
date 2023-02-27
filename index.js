@@ -4,7 +4,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 
 const editors = require("./json/editors.json");
-const languages = require("./json/languages.json");
+const coding = require("./json/coding.json");
 
 const app = express();
 
@@ -48,7 +48,12 @@ app.get("/learn/editors/:type", (req, res) => {
 });
 
 app.get("/learn/coding/languages", (req, res) => {
-  res.render("languages", { languages: languages.languages });
+  res.render("languages", {
+    image: coding.languages.image,
+    title: coding.languages.title,
+    description: coding.languages.description,
+    collection: coding.languages.collection,
+  });
 });
 
 app.get("/account/profile/:type", (req, res) => {

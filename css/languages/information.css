@@ -8,13 +8,15 @@
   align-items: center;
   padding: 3rem;
   display: grid;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .lang-container {
   background: linear-gradient(45deg, #000000, #040033, #000000);
+  transition: translate 450ms;
   grid-template-columns: auto;
   justify-content: stretch;
+  box-shadow: 0 5px 20px;
   border-radius: 10px;
   align-items: center;
   position: relative;
@@ -112,6 +114,10 @@
 /*------------------------------------------*/
 /*--------------- TRANSITION ---------------*/
 /*------------------------------------------*/
+
+.lang-container:hover {
+  translate: 0 -10px;
+}
 
 .lang-link:nth-of-type(1):hover {
   background-color: #9d0025;

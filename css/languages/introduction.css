@@ -1,0 +1,47 @@
+/*-------------------------------------------------------*/
+/*----------------- INTRODUCTION STYLES -----------------*/
+/*-------------------------------------------------------*/
+
+#introduction-section {
+  grid-template-columns: repeat(2, auto);
+  padding: 4rem 6rem 2rem 6rem;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  gap: 1rem;
+}
+
+.intro-image {
+  filter: drop-shadow(0 0 5px);
+  width: 350px;
+}
+
+/*----------------------------------------*/
+/*------------ TEXT CONTAINER ------------*/
+/*----------------------------------------*/
+
+.intro-text-container {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+  display: grid;
+  gap: 1rem;
+}
+
+.intro-title {
+  text-shadow: 2px 2px 5px #00000085;
+  font-family: "Aquatico", sans-serif;
+  letter-spacing: 2.5px;
+  font-size: 4.5rem;
+}
+
+.intro-description {
+  text-shadow: 2px 2px 5px #00000050;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+}
+
+/*----------------------------------------------*/
+/*----------------- END OF CSS -----------------*/
+/*----------------------------------------------*/

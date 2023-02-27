@@ -1,0 +1,352 @@
+{
+  "languages": {
+    "image": "/languages/languages.png",
+    "title": "CODING LANGUAGE",
+    "description": "Coding languages, also known as programming languages, are a set of rules, symbols, and syntax used to create instructions for computers to execute. These instructions, called code, are written in a particular programming language and are used to develop software applications, websites, games, and more.",
+    "collection": [
+      {
+        "image": "/languages/c.png",
+        "name": "C",
+        "description": "C is a low-level, general-purpose, compiled, programming language. It is used to develop operating systems, softwares, kernels and also compilers for languages and frameworks.",
+        "buttonURL": "",
+        "buttonText": "Open Source",
+        "features": [
+          {
+            "image": "/languages/features/web.png",
+            "name": "Web Applications",
+            "description": "ASP.Net Core & Blazor"
+          },
+          {
+            "image": "/languages/features/desktop.png",
+            "name": "Desktop Applications",
+            "description": "Xamarin & WPF Apps"
+          },
+          {
+            "image": "/languages/features/mobile.png",
+            "name": "Mobile Applications",
+            "description": "Xamarin Cross & Native"
+          },
+          {
+            "image": "/languages/features/games.png",
+            "name": "Game Development",
+            "description": "Engines & Frameworks"
+          },
+          {
+            "image": "/languages/features/machine.png",
+            "name": "Machine Learning",
+            "description": "AI Tools & Integrations"
+          },
+          {
+            "image": "/languages/features/cloud.png",
+            "name": "Cloud Services",
+            "description": "Applications & Tools"
+          },
+          {
+            "image": "/languages/features/micro.png",
+            "name": "Microservices",
+            "description": "Docker Containers"
+          },
+          {
+            "image": "/languages/features/iot.png",
+            "name": "Internet of Things",
+            "description": "Apps and Raspberry Pi"
+          }
+        ]
+      },
+      {
+        "image": "/languages/cpp.png",
+        "name": "C++",
+        "description": "C++ is a middle-level, object-oriented, programming language created as an extension of C. It is much more versatile and efficient as compared to its predecessor and is used for the same.",
+        "buttonURL": "",
+        "buttonText": "Open Source",
+        "features": [
+          {
+            "image": "/languages/features/web.png",
+            "name": "Web Applications",
+            "description": "ASP.Net Core & Blazor"
+          },
+          {
+            "image": "/languages/features/desktop.png",
+            "name": "Desktop Applications",
+            "description": "Xamarin & WPF Apps"
+          },
+          {
+            "image": "/languages/features/mobile.png",
+            "name": "Mobile Applications",
+            "description": "Xamarin Cross & Native"
+          },
+          {
+            "image": "/languages/features/games.png",
+            "name": "Game Development",
+            "description": "Engines & Frameworks"
+          },
+          {
+            "image": "/languages/features/machine.png",
+            "name": "Machine Learning",
+            "description": "AI Tools & Integrations"
+          },
+          {
+            "image": "/languages/features/cloud.png",
+            "name": "Cloud Services",
+            "description": "Applications & Tools"
+          },
+          {
+            "image": "/languages/features/micro.png",
+            "name": "Microservices",
+            "description": "Docker Containers"
+          },
+          {
+            "image": "/languages/features/iot.png",
+            "name": "Internet of Things",
+            "description": "Apps and Raspberry Pi"
+          }
+        ]
+      },
+      {
+        "image": "/languages/csharp.png",
+        "name": "C#",
+        "description": "C# is a high-level, object-oriented, functional programming language. It is used to develop cross-platform applications, since it is fully integrated into the .Net Core and .Net Framework.",
+        "buttonURL": "",
+        "buttonText": ".Net Core",
+        "features": [
+          {
+            "image": "/languages/features/web.png",
+            "name": "Web Applications",
+            "description": "ASP.Net Core & Blazor"
+          },
+          {
+            "image": "/languages/features/desktop.png",
+            "name": "Desktop Applications",
+            "description": "Xamarin & WPF Apps"
+          },
+          {
+            "image": "/languages/features/mobile.png",
+            "name": "Mobile Applications",
+            "description": "Xamarin Cross & Native"
+          },
+          {
+            "image": "/languages/features/games.png",
+            "name": "Game Development",
+            "description": "Engines & Frameworks"
+          },
+          {
+            "image": "/languages/features/machine.png",
+            "name": "Machine Learning",
+            "description": "AI Tools & Integrations"
+          },
+          {
+            "image": "/languages/features/cloud.png",
+            "name": "Cloud Services",
+            "description": "Applications & Tools"
+          },
+          {
+            "image": "/languages/features/micro.png",
+            "name": "Microservices",
+            "description": "Docker Containers"
+          },
+          {
+            "image": "/languages/features/iot.png",
+            "name": "Internet of Things",
+            "description": "Apps and Raspberry Pi"
+          }
+        ]
+      },
+      {
+        "image": "/languages/java.png",
+        "name": "Java",
+        "description": "Java is an high-level, object-oriented programming language. It has a modern architecture and is mainly used to develop Android Applications, Web Applications and other GUI Apps.",
+        "buttonURL": "",
+        "buttonText": "Oracle",
+        "features": [
+          {
+            "image": "/languages/features/web.png",
+            "name": "Web Applications",
+            "description": "ASP.Net Core & Blazor"
+          },
+          {
+            "image": "/languages/features/desktop.png",
+            "name": "Desktop Applications",
+            "description": "Xamarin & WPF Apps"
+          },
+          {
+            "image": "/languages/features/mobile.png",
+            "name": "Mobile Applications",
+            "description": "Xamarin Cross & Native"
+          },
+          {
+            "image": "/languages/features/games.png",
+            "name": "Game Development",
+            "description": "Engines & Frameworks"
+          },
+          {
+            "image": "/languages/features/machine.png",
+            "name": "Machine Learning",
+            "description": "AI Tools & Integrations"
+          },
+          {
+            "image": "/languages/features/cloud.png",
+            "name": "Cloud Services",
+            "description": "Applications & Tools"
+          },
+          {
+            "image": "/languages/features/micro.png",
+            "name": "Microservices",
+            "description": "Docker Containers"
+          },
+          {
+            "image": "/languages/features/iot.png",
+            "name": "Internet of Things",
+            "description": "Apps and Raspberry Pi"
+          }
+        ]
+      },
+      {
+        "image": "/languages/kotlin.png",
+        "name": "Kotlin",
+        "description": "Kotlin is a high-level, object-oriented, programming language. It is fully interoperable with Java and is used as an alternative. Used to develop Android and other high-level applications.",
+        "buttonURL": "",
+        "buttonText": "Frameworks",
+        "features": [
+          {
+            "image": "/languages/features/web.png",
+            "name": "Web Applications",
+            "description": "ASP.Net Core & Blazor"
+          },
+          {
+            "image": "/languages/features/desktop.png",
+            "name": "Desktop Applications",
+            "description": "Xamarin & WPF Apps"
+          },
+          {
+            "image": "/languages/features/mobile.png",
+            "name": "Mobile Applications",
+            "description": "Xamarin Cross & Native"
+          },
+          {
+            "image": "/languages/features/games.png",
+            "name": "Game Development",
+            "description": "Engines & Frameworks"
+          },
+          {
+            "image": "/languages/features/machine.png",
+            "name": "Machine Learning",
+            "description": "AI Tools & Integrations"
+          },
+          {
+            "image": "/languages/features/cloud.png",
+            "name": "Cloud Services",
+            "description": "Applications & Tools"
+          },
+          {
+            "image": "/languages/features/micro.png",
+            "name": "Microservices",
+            "description": "Docker Containers"
+          },
+          {
+            "image": "/languages/features/iot.png",
+            "name": "Internet of Things",
+            "description": "Apps and Raspberry Pi"
+          }
+        ]
+      },
+      {
+        "image": "/languages/python.png",
+        "name": "Python",
+        "description": "Python is a high-level, interpreted programming language. It has a very easy syntax and has a rich collection of libraries and modules. Known for Machine Learning and Data Science.",
+        "buttonURL": "",
+        "buttonText": "Frameworks",
+        "features": [
+          {
+            "image": "/languages/features/web.png",
+            "name": "Web Applications",
+            "description": "ASP.Net Core & Blazor"
+          },
+          {
+            "image": "/languages/features/desktop.png",
+            "name": "Desktop Applications",
+            "description": "Xamarin & WPF Apps"
+          },
+          {
+            "image": "/languages/features/mobile.png",
+            "name": "Mobile Applications",
+            "description": "Xamarin Cross & Native"
+          },
+          {
+            "image": "/languages/features/games.png",
+            "name": "Game Development",
+            "description": "Engines & Frameworks"
+          },
+          {
+            "image": "/languages/features/machine.png",
+            "name": "Machine Learning",
+            "description": "AI Tools & Integrations"
+          },
+          {
+            "image": "/languages/features/cloud.png",
+            "name": "Cloud Services",
+            "description": "Applications & Tools"
+          },
+          {
+            "image": "/languages/features/micro.png",
+            "name": "Microservices",
+            "description": "Docker Containers"
+          },
+          {
+            "image": "/languages/features/iot.png",
+            "name": "Internet of Things",
+            "description": "Apps and Raspberry Pi"
+          }
+        ]
+      },
+      {
+        "image": "/languages/dart.png",
+        "name": "Dart",
+        "description": "Dart is a high-level, object-oriented, compiled, programming language. It used as the core language of the Flutter framework, used to develop cross-platform Mobile Applications.",
+        "buttonURL": "",
+        "buttonText": "Flutter",
+        "features": [
+          {
+            "image": "/languages/features/web.png",
+            "name": "Web Applications",
+            "description": "ASP.Net Core & Blazor"
+          },
+          {
+            "image": "/languages/features/desktop.png",
+            "name": "Desktop Applications",
+            "description": "Xamarin & WPF Apps"
+          },
+          {
+            "image": "/languages/features/mobile.png",
+            "name": "Mobile Applications",
+            "description": "Xamarin Cross & Native"
+          },
+          {
+            "image": "/languages/features/games.png",
+            "name": "Game Development",
+            "description": "Engines & Frameworks"
+          },
+          {
+            "image": "/languages/features/machine.png",
+            "name": "Machine Learning",
+            "description": "AI Tools & Integrations"
+          },
+          {
+            "image": "/languages/features/cloud.png",
+            "name": "Cloud Services",
+            "description": "Applications & Tools"
+          },
+          {
+            "image": "/languages/features/micro.png",
+            "name": "Microservices",
+            "description": "Docker Containers"
+          },
+          {
+            "image": "/languages/features/iot.png",
+            "name": "Internet of Things",
+            "description": "Apps and Raspberry Pi"
+          }
+        ]
+      }
+    ]
+  }
+}

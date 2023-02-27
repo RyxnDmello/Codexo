@@ -23,9 +23,18 @@
     <header id="header"><%- include("./partials/common/navbar.ejs") %></header>
 
     <main>
+      <section id="introduction-section">
+        <img class="intro-image" src="<%= image %>" />
+
+        <div class="intro-text-container">
+          <h1 class="intro-title"><%= title %></h1>
+          <p class="intro-description"><%= description %></p>
+        </div>
+      </section>
+
       <section id="languages-section">
-        <% languages.forEach((language) => { %> <%-
-        include("./partials/language.ejs", { image: language.image, name:
+        <% collection.forEach((language) => { %> <%-
+        include("./partials/coding/language.ejs", { image: language.image, name:
         language.name, description: language.description, buttonURL:
         language.buttonURL, buttonText: language.buttonText, features:
         language.features, }) %> <% }) %>
