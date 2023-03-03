@@ -1,0 +1,38 @@
+/*------------------------------------------------------------------*/
+/*----------------------- NAVBAR MENU STYLES -----------------------*/
+/*------------------------------------------------------------------*/
+
+.nav-menu {
+  grid-template-columns: repeat(4, auto);
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: lightblue;
+  justify-content: left;
+  box-shadow: 0 0 10px;
+  align-items: center;
+  border-radius: 5px;
+  position: absolute;
+  gap: 1rem 2rem;
+  display: grid;
+  padding: 2rem;
+  right: 4rem;
+  top: 10rem;
+}
+
+.nav-menu-link {
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
+.nav-menu-link-image {
+  width: 50px;
+}
+
+.nav-menu-link-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #000;
+}
