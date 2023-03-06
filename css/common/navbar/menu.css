@@ -3,16 +3,16 @@
 /*------------------------------------------------------------------*/
 
 .nav-menu {
-  grid-template-columns: repeat(4, auto);
+  background: linear-gradient(45deg, #000000, #040033, #000000);
+  grid-template-columns: repeat(2, auto);
   border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
-  background-color: lightblue;
-  justify-content: left;
+  justify-content: center;
   box-shadow: 0 0 10px;
   align-items: center;
   border-radius: 5px;
   position: absolute;
-  gap: 1rem 2rem;
+  gap: 1rem 2.5rem;
   display: grid;
   padding: 2rem;
   right: 4rem;
@@ -21,9 +21,13 @@
 
 .nav-menu-link {
   grid-template-columns: repeat(2, auto);
-  justify-content: center;
+  border: 2px solid rgb(169, 0, 56);
+  padding: 0.5rem 2rem;
+  justify-content: left;
   align-items: center;
+  border-radius: 40px;
   display: grid;
+  gap: 0.5rem;
 }
 
 .nav-menu-link-image {
@@ -34,5 +38,5 @@
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 2rem;
-  color: #000;
+  color: #fff;
 }

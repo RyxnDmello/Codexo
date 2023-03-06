@@ -16,43 +16,10 @@
 </nav>
 
 <div class="nav-menu">
-  <a class="nav-menu-link" href="">
-    <img src="/languages/c.png" class="nav-menu-link-image" />
-    <h1 class="nav-menu-link-text">C</h1>
+  <% collection.forEach((link) => { %>
+  <a class="nav-menu-link" href="#<%= link.name %>">
+    <img src="<%= link.image %>" class="nav-menu-link-image" />
+    <h1 class="nav-menu-link-text"><%= link.name %></h1>
   </a>
-
-  <a class="nav-menu-link" href="">
-    <img src="/languages/c.png" class="nav-menu-link-image" />
-    <h1 class="nav-menu-link-text">C</h1>
-  </a>
-
-  <a class="nav-menu-link" href="">
-    <img src="/languages/c.png" class="nav-menu-link-image" />
-    <h1 class="nav-menu-link-text">C</h1>
-  </a>
-
-  <a class="nav-menu-link" href="">
-    <img src="/languages/c.png" class="nav-menu-link-image" />
-    <h1 class="nav-menu-link-text">C</h1>
-  </a>
-  
-  <a class="nav-menu-link" href="">
-    <img src="/languages/c.png" class="nav-menu-link-image" />
-    <h1 class="nav-menu-link-text">C</h1>
-  </a>
-
-  <a class="nav-menu-link" href="">
-    <img src="/languages/c.png" class="nav-menu-link-image" />
-    <h1 class="nav-menu-link-text">C</h1>
-  </a>
-
-  <a class="nav-menu-link" href="">
-    <img src="/languages/c.png" class="nav-menu-link-image" />
-    <h1 class="nav-menu-link-text">C</h1>
-  </a>
-
-  <a class="nav-menu-link" href="">
-    <img src="/languages/c.png" class="nav-menu-link-image" />
-    <h1 class="nav-menu-link-text">C</h1>
-  </a>
+  <% }) %>
 </div>
