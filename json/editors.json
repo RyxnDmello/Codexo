@@ -1,11 +1,57 @@
 {
   "heavy": {
-    "type": "Heavy",
-    "title": "WHAT IS AN IDE?",
-    "image": "/editors/intro/heavy.png",
-    "description": "Integrated Development Environment is a professional platform for developers to write code. An IDE is made up of multiple state of the art components which are fully integrated in the software. These components help the developer to write code efficiently, provide deep performance analysis, help in debugging your code to find errors and solutions, and do much more.",
-    "collectionTitle": "ENTERPRISE LEVEL EDITORS",
-    "featuresTitle": "WHAT MAKES AN IDE SPECIAL?",
+    "navbar": {
+      "navbarLinks": [
+        {
+          "URL": "",
+          "text": "MENU"
+        },
+        {
+          "URL": "/learn/editors/light",
+          "text": "LIGHT"
+        }
+      ],
+      "menuLinks": [
+        {
+          "name": "Visual Studio",
+          "image": "/editors/heavy/visual.png"
+        },
+        {
+          "name": "Apple XCode",
+          "image": "/editors/heavy/xcode.png"
+        },
+        {
+          "name": "JetBrains",
+          "image": "/editors/heavy/jetbrains.png"
+        },
+        {
+          "name": "Android Studio",
+          "image": "/editors/heavy/android.png"
+        },
+        {
+          "name": "Eclipse",
+          "image": "/editors/heavy/eclipse.png"
+        },
+        {
+          "name": "Zend Studio",
+          "image": "/editors/heavy/zend.png"
+        },
+        {
+          "name": "Apache NetBeans",
+          "image": "/editors/heavy/netbeans.png"
+        }
+      ]
+    },
+    "introduction": {
+      "type": "Heavy",
+      "title": "WHAT IS AN IDE?",
+      "image": "/editors/intro/heavy.png",
+      "description": "Integrated Development Environment is a professional platform for developers to write code. An IDE is made up of multiple state of the art components which are fully integrated in the software. These components help the developer to write code efficiently, provide deep performance analysis, help in debugging your code to find errors and solutions, and do much more.",
+      "collectionTitle": "ENTERPRISE LEVEL EDITORS",
+      "primaryURL": "",
+      "secondaryURL": "",
+      "featuresTitle": "WHAT MAKES AN IDE SPECIAL?"
+    },
     "collection": [
       {
         "name": "Visual Studio",
@@ -64,35 +110,117 @@
         "secondaryLinkText": "Languages"
       }
     ],
-    "featuresRows": [
-      {
-        "containers": [
-          {
-            "image": "/editors/features/project.png",
-            "title": "PROJECT MANAGEMENT",
-            "description": ""
-          },
-          {
-            "image": "/editors/features/project.png",
-            "title": "PROJECT MANAGEMENT",
-            "description": ""
-          },
-          {
-            "image": "/editors/features/project.png",
-            "title": "PROJECT MANAGEMENT",
-            "description": ""
-          }
-        ]
-      }
+    "features": [
+      [
+        {
+          "image": "/editors/features/project.png",
+          "title": "PROJECT MANAGEMENT",
+          "description": ""
+        },
+        {
+          "image": "/editors/features/project.png",
+          "title": "PROJECT MANAGEMENT",
+          "description": ""
+        },
+        {
+          "image": "/editors/features/project.png",
+          "title": "PROJECT MANAGEMENT",
+          "description": ""
+        }
+      ],
+      [
+        {
+          "image": "/editors/features/project.png",
+          "title": "PROJECT MANAGEMENT",
+          "description": ""
+        },
+        {
+          "image": "/editors/features/project.png",
+          "title": "PROJECT MANAGEMENT",
+          "description": ""
+        },
+        {
+          "image": "/editors/features/project.png",
+          "title": "PROJECT MANAGEMENT",
+          "description": ""
+        }
+      ],
+      [
+        {
+          "image": "/editors/features/project.png",
+          "title": "PROJECT MANAGEMENT",
+          "description": ""
+        },
+        {
+          "image": "/editors/features/project.png",
+          "title": "PROJECT MANAGEMENT",
+          "description": ""
+        },
+        {
+          "image": "/editors/features/project.png",
+          "title": "PROJECT MANAGEMENT",
+          "description": ""
+        }
+      ]
     ]
   },
   "light": {
-    "type": "Light",
-    "title": "LIGHT & EFFICIENT",
-    "image": "/editors/intro/heavy.png",
-    "description": "A light-weight code editor is an open source platform for developers to write, debug and run code easily. They are faster, more efficient and highly optimized as compared to a professional IDE. These editors are based on the loading and unloading of tools called plugins or extensions. They are equipped with fully customizable code analyzers, intellisense, debuggers and much more.",
-    "collectionTitle": "FAST, EFFICIENT & POWERFUL",
-    "featuresTitle": "WHAT MAKES AN IDE SPECIAL?",
+    "navbar": {
+      "navbarLinks": [
+        {
+          "URL": "",
+          "text": "MENU"
+        },
+        {
+          "URL": "/learn/editors/heavy",
+          "text": "HEAVY"
+        }
+      ],
+      "menuLinks": [
+        {
+          "name": "Visual Studio Code",
+          "image": "/editors/light/vscode.png"
+        },
+        {
+          "name": "Atom Electron",
+          "image": "/editors/light/atom.png"
+        },
+        {
+          "name": "Brackets",
+          "image": "/editors/light/brackets.png"
+        },
+        {
+          "name": "Sublime Text",
+          "image": "/editors/light/sublime.png"
+        },
+        {
+          "name": "Notepad++",
+          "image": "/editors/light/notepad.png"
+        },
+        {
+          "name": "Vim",
+          "image": "/editors/light/vim.png"
+        },
+        {
+          "name": "GNU Emacs",
+          "image": "/editors/light/gnu.png"
+        },
+        {
+          "name": "TextMate",
+          "image": "/editors/light/text.png"
+        }
+      ]
+    },
+    "introduction": {
+      "type": "Light",
+      "title": "LIGHT & EFFICIENT",
+      "image": "/editors/intro/heavy.png",
+      "description": "A light-weight code editor is an open source platform for developers to write, debug and run code easily. They are faster, more efficient and highly optimized as compared to a professional IDE. These editors are based on the loading and unloading of tools called plugins or extensions. They are equipped with fully customizable code analyzers, intellisense, debuggers and much more.",
+      "collectionTitle": "FAST, EFFICIENT & POWERFUL",
+      "primaryURL": "",
+      "secondaryURL": "",
+      "featuresTitle": "WHAT MAKES AN IDE SPECIAL?"
+    },
     "collection": [
       {
         "name": "Visual Studio Code",
@@ -159,26 +287,58 @@
         "secondaryLinkText": "Languages"
       }
     ],
-    "featuresRows": [
-      {
-        "containers": [
-          {
-            "image": "/editors/features/project.png",
-            "title": "PROJECT MANAGEMENT",
-            "description": ""
-          },
-          {
-            "image": "/editors/features/project.png",
-            "title": "PROJECT MANAGEMENT",
-            "description": ""
-          },
-          {
-            "image": "/editors/features/project.png",
-            "title": "PROJECT MANAGEMENT",
-            "description": ""
-          }
-        ]
-      }
+    "features": [
+      [
+        {
+          "image": "/editors/features/project.png",
+          "title": "PROJECT MANAGEMENT",
+          "description": ""
+        },
+        {
+          "image": "/editors/features/project.png",
+          "title": "PROJECT MANAGEMENT",
+          "description": ""
+        },
+        {
+          "image": "/editors/features/project.png",
+          "title": "PROJECT MANAGEMENT",
+          "description": ""
+        }
+      ],
+      [
+        {
+          "image": "/editors/features/project.png",
+          "title": "PROJECT MANAGEMENT",
+          "description": ""
+        },
+        {
+          "image": "/editors/features/project.png",
+          "title": "PROJECT MANAGEMENT",
+          "description": ""
+        },
+        {
+          "image": "/editors/features/project.png",
+          "title": "PROJECT MANAGEMENT",
+          "description": ""
+        }
+      ],
+      [
+        {
+          "image": "/editors/features/project.png",
+          "title": "PROJECT MANAGEMENT",
+          "description": ""
+        },
+        {
+          "image": "/editors/features/project.png",
+          "title": "PROJECT MANAGEMENT",
+          "description": ""
+        },
+        {
+          "image": "/editors/features/project.png",
+          "title": "PROJECT MANAGEMENT",
+          "description": ""
+        }
+      ]
     ]
   }
 }

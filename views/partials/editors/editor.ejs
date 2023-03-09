@@ -1,22 +1,23 @@
-<article id="visual-studio" class="editor-container">
+<% collection.forEach((editor) => { %>
+<article id="<%= editor.name %>" class="editor-container">
   <div class="editor-information">
     <div class="editor-logo-container">
-      <img class="editor-image" src="<%= image -%>" />
+      <img class="editor-image" src="<%= editor.image %>" />
 
-      <h1 class="editor-name"><%= name %></h1>
+      <h1 class="editor-name"><%= editor.name %></h1>
     </div>
 
     <div class="editor-text-container">
-      <h1 class="editor-description"><%= description %></h1>
+      <h1 class="editor-description"><%= editor.description %></h1>
 
       <div class="editor-links-container">
-        <a class="editor-link" href="<%= primaryLink %>">
+        <a class="editor-link" href="<%= editor.primaryLink %>">
           <h1 class="editor-link-text">Download</h1>
           <img class="editor-link-image" src="/editors/buttons/download.png" />
         </a>
 
-        <a class="editor-link" href="<% secondaryLink %>">
-          <h1 class="editor-link-text"><%= secondaryLinkText %></h1>
+        <a class="editor-link" href="<%= editor.secondaryLink %>">
+          <h1 class="editor-link-text"><%= editor.secondaryLinkText %></h1>
           <img
             class="editor-link-image"
             src="/editors/buttons/long-arrow.png"
@@ -26,3 +27,4 @@
     </div>
   </div>
 </article>
+<% }) %>

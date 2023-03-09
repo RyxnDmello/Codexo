@@ -21,13 +21,12 @@
 
   <body>
     <header id="header">
-      <%- include("./partials/common/navbar.ejs", { collection: collection }) %>
+      <%- include("./partials/common/navbar.ejs", { navbar: navbar }) %>
     </header>
 
     <main>
       <section id="introduction-section">
-        <%- include("./partials/coding/introduction.ejs", { image: image, title:
-        title, description: description, }) %>
+        <%- include("./partials/coding/introduction.ejs", { introduction: introduction }) %>
       </section>
 
       <section id="languages-section">

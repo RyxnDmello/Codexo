@@ -24,34 +24,25 @@ app.get("/", (req, res) => {});
 app.get("/learn/editors/:type", (req, res) => {
   if (req.params.type === "heavy") {
     res.render("editors", {
-      type: editors.heavy.type,
-      title: editors.heavy.title,
-      image: editors.heavy.image,
-      description: editors.heavy.description,
-      collectionTitle: editors.heavy.collectionTitle,
+      navbar: editors.heavy.navbar,
+      introduction: editors.heavy.introduction,
+      features: editors.heavy.features,
       collection: editors.heavy.collection,
-      featuresTitle: editors.heavy.featuresTitle,
-      featuresRows: editors.heavy.featuresRows,
     });
   } else if (req.params.type === "light") {
     res.render("editors", {
-      type: editors.light.type,
-      title: editors.light.title,
-      image: editors.light.image,
-      description: editors.light.description,
-      collectionTitle: editors.light.collectionTitle,
+      navbar: editors.light.navbar,
+      introduction: editors.light.introduction,
+      features: editors.light.features,
       collection: editors.light.collection,
-      featuresTitle: editors.light.featuresTitle,
-      featuresRows: editors.light.featuresRows,
     });
   }
 });
 
-app.get("/learn/coding/languages", (req, res) => {
+app.get("/learn/coding/:type", (req, res) => {
   res.render("languages", {
-    image: coding.languages.image,
-    title: coding.languages.title,
-    description: coding.languages.description,
+    navbar: coding.languages.navbar,
+    introduction: coding.languages.introduction,
     collection: coding.languages.collection,
   });
 });

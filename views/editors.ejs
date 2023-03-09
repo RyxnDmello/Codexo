@@ -16,32 +16,35 @@
     />
     <!-- #endregion -->
     <link rel="stylesheet" href="/editors.css" />
-    <title>Codexo | <%= type %></title>
+    <title>Codexo | <%= introduction.type %></title>
   </head>
 
   <body>
-    <header id="header"><%- include("./partials/common/navbar.ejs") %></header>
+    <header id="header">
+      <%- include("./partials/common/navbar.ejs", { navbar: navbar }) %>
+    </header>
 
     <main>
       <section id="introduction-section">
-        <%- include("./partials/editors/introduction.ejs", { image: image,
-        title: title, description: description }) %>
+        <%- include("./partials/editors/introduction.ejs", { introduction:
+        introduction }) %>
       </section>
 
       <section id="editors-section">
-        <h1 class="editors-section-title"><%= collectionTitle %></h1>
+        <h1 class="editors-section-title">
+          <%= introduction.collectionTitle %>
+        </h1>
 
-        <% collection.forEach((editor) => { %> <%-
-        include("./partials/editors/editor", {name: editor.name, description:
-        editor.description, image: editor.image, primaryLink:
-        editor.primaryLink, secondaryLink: editor.secondaryLink,
-        secondaryLinkText: editor.secondaryLinkText}) %> <% }) %>
+        <%- include("./partials/editors/editor.ejs", { collection: collection })
+        %>
       </section>
 
       <section id="features-section">
-        <h1 class="editors-features-main-title"><%= featuresTitle %></h1>
+        <h1 class="editors-features-main-title">
+          <%= introduction.featuresTitle %>
+        </h1>
 
-        <%- include("./partials/editors/features.ejs", { rows: featuresRows })
+        <%- include("./partials/editors/features.ejs", { features: features })
         %>
       </section>
     </main>

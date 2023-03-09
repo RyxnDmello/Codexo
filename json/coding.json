@@ -1,8 +1,52 @@
 {
   "languages": {
-    "image": "/languages/languages.png",
-    "title": "CODING LANGUAGE",
-    "description": "Coding languages, also known as programming languages, are a set of rules, symbols, and syntax used to create instructions for computers to execute. These instructions, called code, are written in a particular programming language and are used to develop software applications, websites, games, and more.",
+    "navbar": {
+      "navbarLinks": [
+        {
+          "URL": "",
+          "text": ""
+        },
+        {
+          "URL": "",
+          "text": ""
+        }
+      ],
+      "menuLinks": [
+        {
+          "name": "C",
+          "image": "/languages/c.png"
+        },
+        {
+          "name": "C++",
+          "image": "/languages/cpp.png"
+        },
+        {
+          "name": "C#",
+          "image": "/languages/csharp.png"
+        },
+        {
+          "name": "Java",
+          "image": "/languages/java.png"
+        },
+        {
+          "name": "Kotlin",
+          "image": "/languages/kotlin.png"
+        },
+        {
+          "name": "Python",
+          "image": "/languages/python.png"
+        },
+        {
+          "name": "Dart",
+          "image": "/languages/dart.png"
+        }
+      ]
+    },
+    "introduction": {
+      "image": "/languages/languages.png",
+      "title": "CODING LANGUAGE",
+      "description": "Coding languages, also known as programming languages, are a set of rules, symbols, and syntax used to create instructions for computers to execute. These instructions, called code, are written in a particular programming language and are used to develop software applications, websites, games, and more."
+    },
     "collection": [
       {
         "image": "/languages/c.png",

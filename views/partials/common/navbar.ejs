@@ -2,8 +2,9 @@
   <h1 class="nav-title">CODEXO</h1>
 
   <div class="nav-links-container">
-    <a class="nav-link" href="./menu.ejs">OTHERS</a>
-    <a class="nav-link" href="#features-section">FEATURES</a>
+    <% navbar.navbarLinks.forEach((link) => { %>
+    <a class="nav-link" href="<%= link.URL %>"><%= link.text %></a>
+    <% }) %>
 
     <div class="nav-menu-button">
       <h1 class="nav-menu-button-text">EXPLORE</h1>
@@ -16,7 +17,7 @@
 </nav>
 
 <div class="nav-menu">
-  <% collection.forEach((link) => { %>
+  <% navbar.menuLinks.forEach((link) => { %>
   <a class="nav-menu-link" href="#<%= link.name %>">
     <img src="<%= link.image %>" class="nav-menu-link-image" />
     <h1 class="nav-menu-link-text"><%= link.name %></h1>

@@ -4,30 +4,23 @@
 />
 
 <div class="editors-features-carousel">
-  <% for(let i = 0; i < rows.length; i++) { %>
+  <% features.forEach((row) => { %>
   <div class="editors-features-container-row">
-    <% for(let j = 0; j < rows[i].containers.length; j++) { %>
+    <% row.forEach((container) => { %>
     <div class="editors-features-container">
-      <img
-        class="editors-features-image"
-        src="<%= rows[i].containers[j].image %>"
-      />
+      <img class="editors-features-image" src="container.image" />
 
       <hr class="editors-features-container-divider" />
 
       <div class="editors-features-text-container">
-        <h1 class="editors-features-title">
-          <%= rows[i].containers[j].title %>
-        </h1>
+        <h1 class="editors-features-title"><%= container.title %></h1>
 
-        <h1 class="editors-features-text">
-          <%= rows[i].containers[j].description %>
-        </h1>
+        <h1 class="editors-features-text"><%= container.description %></h1>
       </div>
     </div>
-    <% } %>
+    <% }) %>
   </div>
-  <% } %>
+  <% }) %>
 </div>
 
 <img
@@ -36,10 +29,10 @@
 />
 
 <div class="editors-carousel-indicator">
-  <% for(let i = 0; i < rows.length; i++) { %>
+  <% features.forEach((row) => { %>
   <img
     class="editors-carousel-indicator-image"
     src="/editors/carousel/carousel-point.png"
   />
-  <% } %>
+  <% }) %>
 </div>
