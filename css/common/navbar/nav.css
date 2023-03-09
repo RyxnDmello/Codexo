@@ -32,7 +32,7 @@ nav {
 /*-------------------------------------------*/
 
 .nav-links-container {
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(4, auto);
   justify-content: center;
   align-items: center;
   display: grid;

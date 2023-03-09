@@ -1,0 +1,24 @@
+<% types.forEach((type) => { %>
+<div class="type-container">
+  <div class="type-information-container">
+    <div class="type-text-container">
+      <h1 class="type-title"><%= type.title %></h1>
+      <h1 class="type-description on-hover-visible"><%= type.description %></h1>
+    </div>
+
+    <div class="type-links-container on-hover-visible">
+      <a class="type-link" href="<%= type.primaryURL %>">
+        <h1 class="type-link-text"><%= type.primaryText %></h1>
+        <img class="type-link-image" src="/menu/right.png" />
+      </a>
+
+      <a class="type-link" href="<%= type.secondaryURL %>">
+        <h1 class="type-link-text"><%= type.secondaryText %></h1>
+        <img class="type-link-image" src="/menu/right.png" />
+      </a>
+    </div>
+  </div>
+
+  <img class="type-background" src="<%= type.image %>" />
+</div>
+<% }) %>

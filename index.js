@@ -5,6 +5,7 @@ const bodyParser = require("body-parser");
 
 const editors = require("./json/editors.json");
 const coding = require("./json/coding.json");
+const menu = require("./json/menu.json");
 
 const app = express();
 
@@ -19,7 +20,9 @@ app.set("view engine", "ejs");
 
 const PORT = 1000;
 
-app.get("/", (req, res) => {});
+app.get("/learn/menu", (req, res) => {
+  res.render("menu", { types: menu.types });
+});
 
 app.get("/learn/editors/:type", (req, res) => {
   if (req.params.type === "heavy") {

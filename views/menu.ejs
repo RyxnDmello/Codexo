@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- #region Google Fonts Server -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- #endregion -->
+    <!-- #region Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- #endregion -->
+    <link rel="stylesheet" href="/menu.css" />
+    <title>Codexo | Menu</title>
+  </head>
+
+  <body>
+    <header id="header">
+      <nav>
+        <h1 class="nav-title">CODEXO</h1>
+
+        <a class="nav-home-link" href="/">
+          <img class="nav-home-link-image" src="/menu/home.png" />
+          <h1 class="nav-home-link-text">HOME</h1>
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="types-section">
+        <h1 class="types-section-title">EXPLORE AND BE INSPIRED</h1>
+
+        <%- include("./partials/menu/type.ejs", { types: types }) %>
+      </section>
+    </main>
+  </body>
+</html>

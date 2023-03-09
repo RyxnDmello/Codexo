@@ -9,6 +9,10 @@
         {
           "URL": "/learn/editors/light",
           "text": "LIGHT"
+        },
+        {
+          "URL": "#features-section",
+          "text": "FEATURES"
         }
       ],
       "menuLinks": [
@@ -174,6 +178,10 @@
         {
           "URL": "/learn/editors/heavy",
           "text": "HEAVY"
+        },
+        {
+          "URL": "#features-section",
+          "text": "FEATURES"
         }
       ],
       "menuLinks": [
