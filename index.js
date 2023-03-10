@@ -20,7 +20,11 @@ app.set("view engine", "ejs");
 
 const PORT = 1000;
 
-app.get("/learn/menu", (req, res) => {
+app.get("/", (req, res) => {
+  res.render("home");
+});
+
+app.get("/menu", (req, res) => {
   res.render("menu", { types: menu.types });
 });
 

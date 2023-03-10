@@ -26,15 +26,13 @@
 
     <main>
       <section id="introduction-section">
-        <%- include("./partials/coding/introduction.ejs", { introduction: introduction }) %>
+        <%- include("./partials/coding/introduction.ejs", { introduction:
+        introduction }) %>
       </section>
 
       <section id="languages-section">
-        <% collection.forEach((language) => { %> <%-
-        include("./partials/coding/language.ejs", { image: language.image, name:
-        language.name, description: language.description, buttonURL:
-        language.buttonURL, buttonText: language.buttonText, features:
-        language.features, }) %> <% }) %>
+        <%- include("./partials/coding/languages.ejs", { collection: collection
+        }) %>
       </section>
     </main>
 
