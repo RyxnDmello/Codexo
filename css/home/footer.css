@@ -28,12 +28,12 @@ footer {
 
 .footer-creator-name {
   font-family: "Moon Light", sans-serif;
+  margin: 5rem auto 0 auto;
   letter-spacing: 1.5px;
   width: fit-content;
+  padding: 1rem 0;
   font-size: 1rem;
   cursor: pointer;
-  padding: 1rem 0;
-  margin: 0 auto;
   color: #fff;
 }
 
@@ -108,9 +108,9 @@ footer {
 /*-----------------------------------------------*/
 
 .footer-links-container {
-  grid-template-columns: repeat(4, auto);
   justify-content: space-evenly;
   align-items: flex-start;
+  grid-auto-flow: column;
   padding: 2rem 0;
   display: grid;
 }

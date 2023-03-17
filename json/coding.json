@@ -3,12 +3,12 @@
     "navbar": {
       "navbarLinks": [
         {
-          "URL": "",
-          "text": ""
+          "URL": "/menu",
+          "text": "MENU"
         },
         {
-          "URL": "",
-          "text": ""
+          "URL": "/learn/coding/frameworks",
+          "text": "FRAMEWORKS"
         }
       ],
       "menuLinks": [

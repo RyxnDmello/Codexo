@@ -1,0 +1,34 @@
+<div class="comments-carousel">
+  <% comments.forEach((slide) => { %>
+  <div class="comments-slide">
+    <% slide.forEach((comment) => { %>
+    <div class="comments-container">
+      <div class="comments-profile-container">
+        <img src="<%= comment.image %>" />
+
+        <div class="profile-details">
+          <h1 class="profile-name"><%= comment.name %></h1>
+          <h1 class="profile-email"><%= comment.email %></h1>
+        </div>
+      </div>
+
+      <hr class="comments-divider" />
+
+      <div class="comments-info-container">
+        <h1 class="info-description"><%= comment.description %></h1>
+
+        <a class="info-button-work" href="<%= comment.companyURL %>">
+          <h1><%= comment.companyName %></h1>
+          <img src="<%= comment.companyLogo %>" />
+        </a>
+
+        <a class="info-button-mail" href="<%= comment.contactURL %>">
+          <h1>Contact Me</h1>
+          <img src="/home/comments/mail.png" />
+        </a>
+      </div>
+    </div>
+    <% }) %>
+  </div>
+  <% }) %>
+</div>

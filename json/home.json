@@ -1,0 +1,275 @@
+{
+  "features": [
+    {
+      "image": "/home/features/editor.png",
+      "title": "THE POWER OF IDEs",
+      "description": "Integrated Development Environment is a professional platform for developers to write code. An IDE is made up of multiple state of the art components which are fully integrated in the software. These components help the developer to write code efficiently, provide deep performance analysis, help in debugging your code to find errors and solutions, and do much more.",
+      "primaryURL": "/learn/editors/heavy",
+      "secondaryURL": "https://en.wikipedia.org/wiki/Integrated_development_environment"
+    },
+    {
+      "image": "/home/features/editor.png",
+      "title": "THE POWER OF IDEs",
+      "description": "Integrated Development Environment is a professional platform for developers to write code. An IDE is made up of multiple state of the art components which are fully integrated in the software. These components help the developer to write code efficiently, provide deep performance analysis, help in debugging your code to find errors and solutions, and do much more.",
+      "primaryURL": "/learn/coding/frameworks",
+      "secondaryURL": "https://en.wikipedia.org/wiki/Software_framework"
+    },
+    {
+      "image": "/home/features/editor.png",
+      "title": "THE POWER OF IDEs",
+      "description": "Integrated Development Environment is a professional platform for developers to write code. An IDE is made up of multiple state of the art components which are fully integrated in the software. These components help the developer to write code efficiently, provide deep performance analysis, help in debugging your code to find errors and solutions, and do much more.",
+      "primaryURL": "/learn/coding/languages",
+      "secondaryURL": "https://en.wikipedia.org/wiki/Programming_language"
+    }
+  ],
+  "comments": [
+    [
+      {
+        "name": "Austin Wade",
+        "email": "austinwade@gmail.com",
+        "image": "/home/comments/com-1.jpg",
+        "description": "I am a full-stack developer working in Microsoft. Over the last few years, I have used multiple IDE's and Codexo has been my biggest source of information from the beginning.",
+        "companyName": "Microsoft",
+        "companyLogo": "/home/comments/micro.png",
+        "companyURL": ""
+      },
+      {
+        "name": "Michael Olav",
+        "email": "michaelolav@gmail.com",
+        "image": "/home/comments/com-2.jpg",
+        "description": "I am a full-stack developer working in Microsoft. Over the last few years, I have used multiple IDE's and Codexo has been my biggest source of information from the beginning.",
+        "companyName": "Microsoft",
+        "companyLogo": "/home/comments/micro.png",
+        "companyURL": ""
+      }
+    ],
+    [
+      {
+        "name": "Kathy James",
+        "email": "kathyjames@gmail.com",
+        "image": "/home/comments/com-3.jpg",
+        "description": "I am a full-stack developer working in Microsoft. Over the last few years, I have used multiple IDE's and Codexo has been my biggest source of information from the beginning.",
+        "companyName": "Microsoft",
+        "companyLogo": "/home/comments/micro.png",
+        "companyURL": ""
+      },
+      {
+        "name": "Luis Gomez",
+        "email": "luisgomez@gmail.com",
+        "image": "/home/comments/com-4.jpg",
+        "description": "I am a full-stack developer working in Microsoft. Over the last few years, I have used multiple IDE's and Codexo has been my biggest source of information from the beginning.",
+        "companyName": "Microsoft",
+        "companyLogo": "/home/comments/micro.png",
+        "companyURL": ""
+      }
+    ],
+    [
+      {
+        "name": "Jason Hymen",
+        "email": "jasonhymen@gmail.com",
+        "image": "/home/comments/com-3.jpg",
+        "description": "I am a full-stack developer working in Microsoft. Over the last few years, I have used multiple IDE's and Codexo has been my biggest source of information from the beginning.",
+        "companyName": "Microsoft",
+        "companyLogo": "/home/comments/micro.png",
+        "companyURL": ""
+      },
+      {
+        "name": "Victor Chavez",
+        "email": "victorchavez@gmail.com",
+        "image": "/home/comments/com-4.jpg",
+        "description": "I am a full-stack developer working in Microsoft. Over the last few years, I have used multiple IDE's and Codexo has been my biggest source of information from the beginning.",
+        "companyName": "Microsoft",
+        "companyLogo": "/home/comments/micro.png",
+        "companyURL": ""
+      }
+    ]
+  ],
+  "brands": [
+    {
+      "URL": "",
+      "name": "Google"
+    },
+    {
+      "URL": "",
+      "name": "Microsoft"
+    },
+    {
+      "URL": "",
+      "name": "Apple"
+    },
+    {
+      "URL": "",
+      "name": "Oracle"
+    },
+    {
+      "URL": "",
+      "name": "Amazon"
+    },
+    {
+      "URL": "",
+      "name": "Sony"
+    },
+    {
+      "URL": "",
+      "name": "Netflix"
+    },
+    {
+      "URL": "",
+      "name": "Unity"
+    },
+    {
+      "URL": "",
+      "name": "Godot"
+    },
+    {
+      "URL": "",
+      "name": "CryEngine"
+    },
+    {
+      "URL": "",
+      "name": "WordPress"
+    },
+    {
+      "URL": "",
+      "name": "Trello"
+    },
+    {
+      "URL": "",
+      "name": "UnrealEngine"
+    },
+    {
+      "URL": "",
+      "name": "IBM"
+    },
+    {
+      "URL": "",
+      "name": "Verzeo"
+    },
+    {
+      "URL": "",
+      "name": "IGN"
+    },
+    {
+      "URL": "",
+      "name": "Wix"
+    },
+    {
+      "URL": "",
+      "name": "Ubisoft"
+    }
+  ],
+  "footer": [
+    {
+      "title": "Platforms",
+      "links": [
+        {
+          "URL": "https://dotnet.microsoft.com/en-us/",
+          "name": "Microsoft"
+        },
+        {
+          "URL": "https://developers.google.com/",
+          "name": "Google"
+        },
+        {
+          "URL": "https://developer.apple.com/",
+          "name": "Apple"
+        },
+        {
+          "URL": "https://developer.android.com/",
+          "name": "Android"
+        },
+        {
+          "URL": "https://developer.apple.com/swift/",
+          "name": "iOS"
+        }
+      ]
+    },
+    {
+      "title": "Editors",
+      "links": [
+        {
+          "URL": "https://visualstudio.microsoft.com/",
+          "name": "Visual Studio"
+        },
+        {
+          "URL": "https://developer.apple.com/xcode/",
+          "name": "Apple XCode"
+        },
+        {
+          "URL": "https://developer.android.com/studio",
+          "name": "Android Studio"
+        },
+        {
+          "URL": "https://www.jetbrains.com/",
+          "name": "JetBrains"
+        },
+        {
+          "URL": "https://www.eclipse.org/",
+          "name": "Oracle Eclipse"
+        },
+        {
+          "URL": "https://netbeans.apache.org/",
+          "name": "Apache Netbeans"
+        }
+      ]
+    },
+    {
+      "title": "Frameworks",
+      "links": [
+        {
+          "URL": "https://dotnet.microsoft.com/en-us/",
+          "name": "Dotnet"
+        },
+        {
+          "URL": "https://flutter.dev/",
+          "name": "Flutter"
+        },
+        {
+          "URL": "https://react.dev/",
+          "name": "React Js"
+        },
+        {
+          "URL": "https://angular.io/",
+          "name": "Angular Js"
+        },
+        {
+          "URL": "https://vuejs.org/",
+          "name": "Vue Js"
+        },
+        {
+          "URL": "https://dotnet.microsoft.com/en-us/apps/xamarin",
+          "name": "Xamarin"
+        },
+        {
+          "URL": "https://spring.io/",
+          "name": "JSpring"
+        }
+      ]
+    },
+    {
+      "title": "Languages",
+      "links": [
+        {
+          "URL": "",
+          "name": "C"
+        },
+        {
+          "URL": "",
+          "name": "C++"
+        },
+        {
+          "URL": "",
+          "name": "C#"
+        },
+        {
+          "URL": "",
+          "name": "Java"
+        },
+        {
+          "URL": "",
+          "name": "JavaScript"
+        }
+      ]
+    }
+  ]
+}

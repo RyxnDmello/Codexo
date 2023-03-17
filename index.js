@@ -5,6 +5,7 @@ const bodyParser = require("body-parser");
 
 const editors = require("./json/editors.json");
 const coding = require("./json/coding.json");
+const home = require("./json/home.json");
 const menu = require("./json/menu.json");
 
 const app = express();
@@ -21,7 +22,12 @@ app.set("view engine", "ejs");
 const PORT = 1000;
 
 app.get("/", (req, res) => {
-  res.render("home");
+  res.render("home", {
+    features: home.features,
+    comments: home.comments,
+    brands: home.brands,
+    footer: home.footer,
+  });
 });
 
 app.get("/menu", (req, res) => {
@@ -29,19 +35,23 @@ app.get("/menu", (req, res) => {
 });
 
 app.get("/learn/editors/:type", (req, res) => {
-  if (req.params.type === "heavy") {
+  const type = req.params.type;
+
+  if (type === "heavy") {
     res.render("editors", {
       navbar: editors.heavy.navbar,
       introduction: editors.heavy.introduction,
-      features: editors.heavy.features,
       collection: editors.heavy.collection,
+      features: editors.heavy.features,
+      others: editors.heavy.others,
     });
-  } else if (req.params.type === "light") {
+  } else if (type === "light") {
     res.render("editors", {
       navbar: editors.light.navbar,
       introduction: editors.light.introduction,
-      features: editors.light.features,
       collection: editors.light.collection,
+      features: editors.light.features,
+      others: editors.light.others,
     });
   }
 });

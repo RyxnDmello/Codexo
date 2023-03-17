@@ -3,7 +3,7 @@
     "navbar": {
       "navbarLinks": [
         {
-          "URL": "",
+          "URL": "/menu",
           "text": "MENU"
         },
         {
@@ -47,13 +47,14 @@
       ]
     },
     "introduction": {
-      "type": "Heavy",
       "title": "WHAT IS AN IDE?",
       "image": "/editors/intro/heavy.png",
       "description": "Integrated Development Environment is a professional platform for developers to write code. An IDE is made up of multiple state of the art components which are fully integrated in the software. These components help the developer to write code efficiently, provide deep performance analysis, help in debugging your code to find errors and solutions, and do much more.",
+      "URL": "https://en.wikipedia.org/wiki/Integrated_development_environment"
+    },
+    "others": {
+      "editorsTitle": "Heavy",
       "collectionTitle": "ENTERPRISE LEVEL EDITORS",
-      "primaryURL": "",
-      "secondaryURL": "",
       "featuresTitle": "WHAT MAKES AN IDE SPECIAL?"
     },
     "collection": [
@@ -61,57 +62,57 @@
         "name": "Visual Studio",
         "image": "/editors/heavy/visual.png",
         "description": "Visual Studio is an IDE created by Microsoft. It is fully integrated with the .Net Core and is used to build various cross-platform applications. It has exclusive support for .Net languages like C#, F#, Q#, R, TypeScript and Visual Basic. The .Net Framework and .Net Core are two frameworks created by Microsoft to build various native and cross-platform applications. Visual Studio integrates these standard languages as well as all libraries related to the .Net Ecosystem.",
-        "primaryLink": "",
-        "secondaryLink": "",
-        "secondaryLinkText": ".Net Core"
+        "primaryURL": "",
+        "secondaryURL": "",
+        "secondaryURLText": ".Net Core"
       },
       {
         "name": "Apple XCode",
         "image": "/editors/heavy/xcode.png",
         "description": "Visual Studio is an IDE created by Microsoft. It is fully integrated with the .Net Core and is used to build various cross-platform applications. It has exclusive support for .Net languages like C#, F#, Q#, R, TypeScript and Visual Basic. The .Net Framework and .Net Core are two frameworks created by Microsoft to build various native and cross-platform applications. Visual Studio integrates these standard languages as well as all libraries related to the .Net Ecosystem.",
-        "primaryLink": "",
-        "secondaryLink": "",
-        "secondaryLinkText": "Languages"
+        "primaryURL": "",
+        "secondaryURL": "",
+        "secondaryURLText": "Languages"
       },
       {
         "name": "JetBrains",
         "image": "/editors/heavy/jetbrains.png",
         "description": "JetBrains is a software company that provides tools and editors for software developers. The company is best known for its IDEs such as IntelliJ IDEA, Rider, PhpStorm, PyCharm, RubyMine, WebStorm, AppCode, DataSpell and many more. Each IDE is designed for the development of a specific application. Enriched with JetBrains' exclusive features and standard components, these IDEs provide an alternate path to create some of the best products in the industry.",
-        "primaryLink": "",
-        "secondaryLink": "",
-        "secondaryLinkText": "Languages"
+        "primaryURL": "",
+        "secondaryURL": "",
+        "secondaryURLText": "Languages"
       },
       {
         "name": "Android Studio",
         "image": "/editors/heavy/android.png",
         "description": "Android Studio is the official IDE for Android App Development, developed by Google. It provides a comprehensive set of tools for building, testing, and debugging Android applications. It includes emulators, drag and drop components, debugging engine, code analyzer and support for various programming languages, including Java and Kotlin. It is also used for other frameworks and libraries, like Flutter for Android and iOS development.",
-        "primaryLink": "",
-        "secondaryLink": "",
-        "secondaryLinkText": "Languages"
+        "primaryURL": "",
+        "secondaryURL": "",
+        "secondaryURLText": "Languages"
       },
       {
         "name": "Eclipse",
         "image": "/editors/heavy/eclipse.png",
         "description": "Android Studio is the official IDE for Android App Development, developed by Google. It provides a comprehensive set of tools for building, testing, and debugging Android applications. It includes emulators, drag and drop components, debugging engine, code analyzer and support for various programming languages, including Java and Kotlin. It is also used for other frameworks and libraries, like Flutter for Android and iOS development.",
-        "primaryLink": "",
-        "secondaryLink": "",
-        "secondaryLinkText": "Languages"
+        "primaryURL": "",
+        "secondaryURL": "",
+        "secondaryURLText": "Languages"
       },
       {
         "name": "Zend Studio",
         "image": "/editors/heavy/zend.png",
         "description": "Android Studio is the official IDE for Android App Development, developed by Google. It provides a comprehensive set of tools for building, testing, and debugging Android applications. It includes emulators, drag and drop components, debugging engine, code analyzer and support for various programming languages, including Java and Kotlin. It is also used for other frameworks and libraries, like Flutter for Android and iOS development.",
-        "primaryLink": "",
-        "secondaryLink": "",
-        "secondaryLinkText": "Languages"
+        "primaryURL": "",
+        "secondaryURL": "",
+        "secondaryURLText": "Languages"
       },
       {
         "name": "Apache NetBeans",
         "image": "/editors/heavy/netbeans.png",
         "description": "Android Studio is the official IDE for Android App Development, developed by Google. It provides a comprehensive set of tools for building, testing, and debugging Android applications. It includes emulators, drag and drop components, debugging engine, code analyzer and support for various programming languages, including Java and Kotlin. It is also used for other frameworks and libraries, like Flutter for Android and iOS development.",
-        "primaryLink": "",
-        "secondaryLink": "",
-        "secondaryLinkText": "Languages"
+        "primaryURL": "",
+        "secondaryURL": "",
+        "secondaryURLText": "Languages"
       }
     ],
     "features": [
@@ -172,7 +173,7 @@
     "navbar": {
       "navbarLinks": [
         {
-          "URL": "",
+          "URL": "/menu",
           "text": "MENU"
         },
         {
@@ -220,13 +221,16 @@
       ]
     },
     "introduction": {
-      "type": "Light",
       "title": "LIGHT & EFFICIENT",
       "image": "/editors/intro/heavy.png",
       "description": "A light-weight code editor is an open source platform for developers to write, debug and run code easily. They are faster, more efficient and highly optimized as compared to a professional IDE. These editors are based on the loading and unloading of tools called plugins or extensions. They are equipped with fully customizable code analyzers, intellisense, debuggers and much more.",
+      "URL": "https://en.wikipedia.org/wiki/Integrated_development_environment",
       "collectionTitle": "FAST, EFFICIENT & POWERFUL",
-      "primaryURL": "",
-      "secondaryURL": "",
+      "featuresTitle": "WHAT MAKES AN IDE SPECIAL?"
+    },
+    "others": {
+      "editorsTitle": "Light",
+      "collectionTitle": "FAST, EFFICIENT & POWERFUL",
       "featuresTitle": "WHAT MAKES AN IDE SPECIAL?"
     },
     "collection": [
@@ -234,65 +238,65 @@
         "name": "Visual Studio Code",
         "image": "/editors/light/vscode.png",
         "description": "Visual Studio Code is a light-weight code editor developed by Microsoft. It is fast, efficient and highly optimized. It is equipped with a code analyzer, intellisense, debugger and a tester, but all of these can be customized to fit the working of any framework, library or language. It does not provide native support for any major framework but can be used to develop all kinds of professional applications. Plugins, best called extensions, provide the major functionality of the overall code editor.",
-        "primaryLink": "",
-        "secondaryLink": "",
-        "secondaryLinkText": "Languages"
+        "primaryURL": "",
+        "secondaryURL": "",
+        "secondaryURLText": "Languages"
       },
       {
         "name": "Atom Electron",
         "image": "/editors/light/atom.png",
         "description": "Brackets is an open source code editor developed with JavaScript. It is a famous light-weight platform dedicated for front-end technologies like HTML, CSS, JavaScript and TypeScript. It has many plugins like Git, Emmet, Beautify and much more, to provide a great coding experience. It also provides support for popular back-end technologies like Node Js. It is fast, efficient and enriched with many open-source plugins. A great option for professional web development projects.",
-        "primaryLink": "",
-        "secondaryLink": "",
-        "secondaryLinkText": "Languages"
+        "primaryURL": "",
+        "secondaryURL": "",
+        "secondaryURLText": "Languages"
       },
       {
         "name": "Brackets",
         "image": "/editors/light/brackets.png",
         "description": "Brackets is an open source code editor developed with JavaScript. It is a famous light-weight platform dedicated for front-end technologies like HTML, CSS, JavaScript and TypeScript. It has many plugins like Git, Emmet, Beautify and much more, to provide a great coding experience. It also provides support for popular back-end technologies like Node Js. It is fast, efficient and enriched with many open-source plugins. A great option for professional web development projects.",
-        "primaryLink": "",
-        "secondaryLink": "",
-        "secondaryLinkText": "Languages"
+        "primaryURL": "",
+        "secondaryURL": "",
+        "secondaryURLText": "Languages"
       },
       {
         "name": "Sublime Text",
         "image": "/editors/light/sublime.png",
         "description": "Notepad++ is a free and open source code editor, that supports several languages. It operates in the MS Windows Environment, and GNU, General Public License, controls how to utilize it. Notepad++ is a sophisticated editing programme that is based on Scintilla. It is designed in C++ and leverages pure Win32 API and STL to guarantee faster programme execution and a reduced programme size. It is used for C/C++ and Assembly code. It is very famous for its great performance.",
-        "primaryLink": "",
-        "secondaryLink": "",
-        "secondaryLinkText": "Languages"
+        "primaryURL": "",
+        "secondaryURL": "",
+        "secondaryURLText": "Languages"
       },
       {
         "name": "Notepad++",
         "image": "/editors/light/notepad.png",
         "description": "Notepad++ is a free and open source code editor, that supports several languages. It operates in the MS Windows Environment, and GNU, General Public License, controls how to utilize it. Notepad++ is a sophisticated editing programme that is based on Scintilla. It is designed in C++ and leverages pure Win32 API and STL to guarantee faster programme execution and a reduced programme size. It is used for C/C++ and Assembly code. It is very famous for its great performance.",
-        "primaryLink": "",
-        "secondaryLink": "",
-        "secondaryLinkText": "Languages"
+        "primaryURL": "",
+        "secondaryURL": "",
+        "secondaryURLText": "Languages"
       },
       {
         "name": "Vim",
         "image": "/editors/light/vim.png",
         "description": "Android Studio is the official IDE for Android App Development, developed by Google. It provides a comprehensive set of tools for building, testing, and debugging Android applications. It includes emulators, drag and drop components, debugging engine, code analyzer and support for various programming languages, including Java and Kotlin. It is also used for other frameworks and libraries, like Flutter for Android and iOS development.",
-        "primaryLink": "",
-        "secondaryLink": "",
-        "secondaryLinkText": "Languages"
+        "primaryURL": "",
+        "secondaryURL": "",
+        "secondaryURLText": "Languages"
       },
       {
         "name": "GNU Emacs",
         "image": "/editors/light/gnu.png",
         "description": "Android Studio is the official IDE for Android App Development, developed by Google. It provides a comprehensive set of tools for building, testing, and debugging Android applications. It includes emulators, drag and drop components, debugging engine, code analyzer and support for various programming languages, including Java and Kotlin. It is also used for other frameworks and libraries, like Flutter for Android and iOS development.",
-        "primaryLink": "",
-        "secondaryLink": "",
-        "secondaryLinkText": "Languages"
+        "primaryURL": "",
+        "secondaryURL": "",
+        "secondaryURLText": "Languages"
       },
       {
         "name": "TextMate",
         "image": "/editors/light/text.png",
         "description": "Android Studio is the official IDE for Android App Development, developed by Google. It provides a comprehensive set of tools for building, testing, and debugging Android applications. It includes emulators, drag and drop components, debugging engine, code analyzer and support for various programming languages, including Java and Kotlin. It is also used for other frameworks and libraries, like Flutter for Android and iOS development.",
-        "primaryLink": "",
-        "secondaryLink": "",
-        "secondaryLinkText": "Languages"
+        "primaryURL": "",
+        "secondaryURL": "",
+        "secondaryURLText": "Languages"
       }
     ],
     "features": [

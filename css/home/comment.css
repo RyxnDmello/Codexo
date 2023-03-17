@@ -42,8 +42,8 @@
 }
 
 .comments-slide {
-  grid-template-columns: repeat(2, auto);
   transition: transform 500ms ease-in-out;
+  grid-template-columns: repeat(2, auto);
   justify-content: center;
   align-items: center;
   width: 1200px;

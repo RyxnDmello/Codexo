@@ -16,7 +16,7 @@
     />
     <!-- #endregion -->
     <link rel="stylesheet" href="/editors.css" />
-    <title>Codexo | <%= introduction.type %></title>
+    <title>Codexo | <%= others.editorsTitle %></title>
   </head>
 
   <body>
@@ -31,18 +31,14 @@
       </section>
 
       <section id="editors-section">
-        <h1 class="editors-section-title">
-          <%= introduction.collectionTitle %>
-        </h1>
+        <h1 class="editors-section-title"><%= others.collectionTitle %></h1>
 
         <%- include("./partials/editors/editors.ejs", { collection: collection
         }) %>
       </section>
 
       <section id="features-section">
-        <h1 class="editors-features-main-title">
-          <%= introduction.featuresTitle %>
-        </h1>
+        <h1 class="editors-features-main-title"><%= others.featuresTitle %></h1>
 
         <%- include("./partials/editors/features.ejs", { features: features })
         %>

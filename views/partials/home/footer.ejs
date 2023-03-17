@@ -1,0 +1,12 @@
+<% footer.forEach((container) => { %>
+<div class="footer-container">
+  <h1 class="footer-title"><%= container.title %></h1>
+
+  <% container.links.forEach((link) => { %>
+  <a class="footer-link" target="_blank" href="<%= link.URL %>">
+    <h1><%= link.name %></h1>
+    <img class="no-reveal" src="/home/footer/link.png" />
+  </a>
+  <% }) %>
+</div>
+<% }) %>

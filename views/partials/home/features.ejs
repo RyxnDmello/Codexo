@@ -1,0 +1,30 @@
+<div class="features-carousel">
+  <% features.forEach((feature) => { %>
+  <div class="features-container">
+    <img class="features-image" src="<%= feature.image %>" />
+
+    <div class="features-info-container">
+      <div class="features-text-container">
+        <h1 class="features-title"><%= feature.title %></h1>
+        <h1 class="features-description"><%= feature.description %></h1>
+      </div>
+
+      <div class="features-links-container">
+        <a class="features-link" href="<%= feature.primaryURL %>">
+          <h1>Explore</h1>
+          <img src="/home/features/arrow.png" />
+        </a>
+
+        <a
+          class="features-link"
+          target="_blank"
+          href="<%= feature.secondaryURL %>"
+        >
+          <h1>Source</h1>
+          <img src="/home/features/arrow.png" />
+        </a>
+      </div>
+    </div>
+  </div>
+  <% }) %>
+</div>
