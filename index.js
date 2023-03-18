@@ -1,7 +1,7 @@
-const database = require(__dirname + "/database/ProfileManager.js");
-
 const express = require("express");
 const bodyParser = require("body-parser");
+
+const database = require(__dirname + "/database/ProfileManager.js");
 
 const editors = require("./json/editors.json");
 const coding = require("./json/coding.json");
@@ -37,6 +37,11 @@ app.get("/menu", (req, res) => {
 app.get("/learn/editors/:type", (req, res) => {
   const type = req.params.type;
 
+  if (type !== "heavy" && type !== "light") {
+    res.render("/menu");
+    return;
+  }
+
   if (type === "heavy") {
     res.render("editors", {
       navbar: editors.heavy.navbar,
@@ -45,7 +50,11 @@ app.get("/learn/editors/:type", (req, res) => {
       features: editors.heavy.features,
       others: editors.heavy.others,
     });
-  } else if (type === "light") {
+
+    return;
+  }
+
+  if (type === "light") {
     res.render("editors", {
       navbar: editors.light.navbar,
       introduction: editors.light.introduction,
@@ -53,15 +62,37 @@ app.get("/learn/editors/:type", (req, res) => {
       features: editors.light.features,
       others: editors.light.others,
     });
+
+    return;
   }
 });
 
 app.get("/learn/coding/:type", (req, res) => {
-  res.render("languages", {
-    navbar: coding.languages.navbar,
-    introduction: coding.languages.introduction,
-    collection: coding.languages.collection,
-  });
+  const type = req.params.type;
+
+  if (type !== "languages" && type !== "frameworks") {
+    res.render("/menu");
+    return;
+  }
+
+  if (type === "languages") {
+    res.render(type, {
+      navbar: coding.languages.navbar,
+      introduction: coding.languages.introduction,
+      collection: coding.languages.collection,
+    });
+
+    return;
+  }
+
+  if (type === "frameworks") {
+    res.render(type, {
+      navbar: coding.languages.navbar,
+      introduction: coding.languages.introduction,
+    });
+
+    return;
+  }
 });
 
 app.get("/account/profile/:type", (req, res) => {

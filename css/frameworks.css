@@ -2,8 +2,7 @@
 @import url("./common/fonts.css");
 
 @import url("./coding/introduction.css");
-@import url("./coding/languages/information.css");
-@import url("./coding/languages/features.css");
+@import url("./coding/frameworks/information.css");
 
 * {
   scroll-behavior: smooth;

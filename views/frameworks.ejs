@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- #region Google Fonts Server -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- #endregion -->
+    <!-- #region Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- #endregion -->
+    <link rel="stylesheet" href="/frameworks.css" />
+    <title>Codexo | Frameworks</title>
+  </head>
+
+  <body>
+    <header id="header">
+      <%- include("./partials/common/navbar.ejs", { navbar: navbar }) %>
+    </header>
+
+    <main>
+      <section id="introduction-section">
+        <%- include("./partials/coding/introduction.ejs", { introduction:
+        introduction }) %>
+      </section>
+
+      <section id="frameworks-section">
+        <article class="frame-type-container">
+          <h1 class="frame-type-container-title">GAME DEVELOPMENT</h1>
+
+          <div class="frame-container">
+            <img class="frame-image" src="/frameworks/games/unity.png" />
+
+            <div class="frame-info-block">
+              <h1 class="frame-name">Unity</h1>
+
+              <p class="frame-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus, minus nam. Incidunt voluptatem temporibus quaerat.
+              </p>
+            </div>
+
+            <div class="frame-links-block">
+              <a class="frame-link primary" href="">
+                <h3 class="frame-link-text">Download</h3>
+                <img class="frame-link-image" src="/frameworks/download.png" />
+              </a>
+
+              <a class="frame-link secondary" href="">
+                <h3 class="frame-link-text">Languages</h3>
+                <img class="frame-link-image" src="/frameworks/arrow.png" />
+              </a>
+            </div>
+          </div>
+
+          <div class="frame-container">
+            <img class="frame-image" src="/frameworks/games/unity.png" />
+
+            <div class="frame-info-block">
+              <h1 class="frame-name">Unity</h1>
+
+              <p class="frame-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus, minus nam. Incidunt voluptatem temporibus quaerat.
+              </p>
+            </div>
+
+            <div class="frame-links-block">
+              <a class="frame-link primary" href="">
+                <h3 class="frame-link-text">Download</h3>
+                <img class="frame-link-image" src="/frameworks/download.png" />
+              </a>
+
+              <a class="frame-link secondary" href="">
+                <h3 class="frame-link-text">Languages</h3>
+                <img class="frame-link-image" src="/frameworks/arrow.png" />
+              </a>
+            </div>
+          </div>
+
+          <div class="frame-container">
+            <img class="frame-image" src="/frameworks/games/unity.png" />
+
+            <div class="frame-info-block">
+              <h1 class="frame-name">Unity</h1>
+
+              <p class="frame-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus, minus nam. Incidunt voluptatem temporibus quaerat.
+              </p>
+            </div>
+
+            <div class="frame-links-block">
+              <a class="frame-link primary" href="">
+                <h3 class="frame-link-text">Download</h3>
+                <img class="frame-link-image" src="/frameworks/download.png" />
+              </a>
+
+              <a class="frame-link secondary" href="">
+                <h3 class="frame-link-text">Languages</h3>
+                <img class="frame-link-image" src="/frameworks/arrow.png" />
+              </a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

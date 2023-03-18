@@ -32,8 +32,8 @@ nav {
 /*-------------------------------------------*/
 
 .nav-links-container {
-  grid-template-columns: repeat(4, auto);
   justify-content: center;
+  grid-auto-flow: column;
   align-items: center;
   display: grid;
   gap: 2.5rem;
