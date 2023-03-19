@@ -87,8 +87,9 @@ app.get("/learn/coding/:type", (req, res) => {
 
   if (type === "frameworks") {
     res.render(type, {
-      navbar: coding.languages.navbar,
-      introduction: coding.languages.introduction,
+      navbar: coding.frameworks.navbar,
+      introduction: coding.frameworks.introduction,
+      types: coding.frameworks.types,
     });
 
     return;

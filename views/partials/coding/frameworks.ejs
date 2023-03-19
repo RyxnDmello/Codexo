@@ -1,0 +1,29 @@
+<% types.forEach((type) => { %>
+<article class="frame-type-container">
+  <h1 class="frame-type-container-title"><%= type.title %></h1>
+
+  <% type.collection.forEach((container) => { %>
+  <div class="frame-container">
+    <img class="frame-image" src="<%= container.image %>" />
+
+    <div class="frame-info-block">
+      <h1 class="frame-name"><%= container.name %></h1>
+      <hr class="frame-info-divider" />
+      <p class="frame-description"><%= container.description %></p>
+    </div>
+
+    <div class="frame-links-block">
+      <a class="frame-link primary" href="<%= container.downloadURL %>">
+        <h3 class="frame-link-text">Download</h3>
+        <img class="frame-link-image" src="/frameworks/download.png" />
+      </a>
+
+      <a class="frame-link secondary" href="<%= container.languageURL %>">
+        <h3 class="frame-link-text">Languages</h3>
+        <img class="frame-link-image" src="/frameworks/arrow.png" />
+      </a>
+    </div>
+  </div>
+  <% }) %>
+</article>
+<% }) %>
