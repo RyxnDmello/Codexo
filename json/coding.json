@@ -490,27 +490,48 @@
         ]
       },
       {
-        "title": "GAME DEVELOPMENT",
+        "title": "BACK-END WEB DEVELOPMENT",
         "collection": [
           {
-            "image": "/frameworks/games/unity.png",
-            "name": "Unity",
-            "description": "Unity is a cross-platform game engine developed by Unity Technologies. The engine  supports a variety of desktop, mobile, console and virtual reality platforms.",
-            "downloadURL": "https://unity.com/",
+            "image": "/frameworks/web/node.png",
+            "name": "Node Js",
+            "description": "Node Js is a runtime environment that provides various back-end services, like Express Js, a popular server-side library. Node Js has a rich collection of web services provided by the Node Package Manager (NPM).",
+            "downloadURL": "https://nodejs.org/en",
+            "languageURL": "/learn/coding/languages#JavaScript"
+          },
+          {
+            "image": "/frameworks/web/django.png",
+            "name": "Django",
+            "description": "Django is a server-side framework developed in Python. You can easily set up and manage every aspect of your server with Python and a collection of modules.",
+            "downloadURL": "https://www.djangoproject.com/",
+            "languageURL": "/learn/coding/languages#Python"
+          },
+          {
+            "image": "/frameworks/web/spring.png",
+            "name": "Spring Boot",
+            "description": "Java Spring Framework (Spring Framework) is a popular, open source, enterprise-level framework for creating standalone, production-grade web application and microservices with Spring Framework faster and easier",
+            "downloadURL": "https://spring.io/",
+            "languageURL": "/learn/coding/languages#Java"
+          },
+          {
+            "image": "/frameworks/web/dotnet-core.png",
+            "name": "Dotnet Core",
+            "description": ".Net Core is a server-side framework, made by Microsoft, for building cross-platform, multi page web applications. Using the C# programming language and features provided by Razor, one can make enterprise=level web application and APIs",
+            "downloadURL": "https://dotnet.microsoft.com/en-us/apps/aspnet",
             "languageURL": "/learn/coding/languages#C#"
           },
           {
-            "image": "/frameworks/games/unity.png",
-            "name": "Unreal Engine",
-            "description": "Unity is a cross-platform game engine developed by Unity Technologies. The engine  supports a variety of desktop, mobile, console and virtual reality platforms.",
-            "downloadURL": "https://unity.com/",
+            "image": "/frameworks/web/dotnet-blazor.png",
+            "name": "Dotnet Blazor",
+            "description": ".Net Core Blazor & Blazor Web Assembly are two frameworks provided under the .Net Core. With these frameworks, you can cross-platform, single-page web applications and manage them directly via Microsoft Servers.",
+            "downloadURL": "https://dotnet.microsoft.com/en-us/apps/aspnet",
             "languageURL": "/learn/coding/languages#C#"
           },
           {
-            "image": "/frameworks/games/unity.png",
-            "name": "Godot",
-            "description": "Unity is a cross-platform game engine developed by Unity Technologies. The engine  supports a variety of desktop, mobile, console and virtual reality platforms.",
-            "downloadURL": "https://unity.com/",
+            "image": "/frameworks/web/lavarel.png",
+            "name": "Lavarel",
+            "description": "Laravel is an open-source PHP framework that follows a model-view-controller design pattern and reuses existing components of different frameworks. The web application thus designed is more structured and pragmatic.",
+            "downloadURL": "https://dotnet.microsoft.com/en-us/apps/aspnet",
             "languageURL": "/learn/coding/languages#C#"
           }
         ]
@@ -559,6 +580,53 @@
             "description": "Pygame is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with the Python programming language.",
             "downloadURL": "https://gamemaker.io/en",
             "languageURL": "/learn/coding/languages#python"
+          }
+        ]
+      },
+      {
+        "title": "MOBILE APP DEVELOPMENT",
+        "collection": [
+          {
+            "image": "/frameworks/mobile/android.png",
+            "name": "Android Studio",
+            "description": "Android Studio is an IDE and an android graphics rendering engine, developed by Google. Using Java or Kotlin, and a rich collection of packages, one can make android applications with ease.",
+            "downloadURL": "https://developer.android.com/studio",
+            "languageURL": "/learn/coding/languages#C#"
+          },
+          {
+            "image": "/frameworks/mobile/xcode.png",
+            "name": "Apple XCode",
+            "description": "The Apple XCode is an IDE and apple graphics rendering engine, developed by Apple. With a rich set of tools and packages, one can make iOS applications with Swift.",
+            "downloadURL": "https://developer.apple.com/xcode/",
+            "languageURL": "/learn/coding/languages#swift"
+          },
+          {
+            "image": "/frameworks/mobile/flutter.png",
+            "name": "Flutter",
+            "description": "Flutter is a cross-platform mobile app development framework, developed by Google. It has rich libraries dealing with UI, visual effects, animations, sound effects, and more, all written in Google's Dart. ",
+            "downloadURL": "https://flutter.dev/",
+            "languageURL": "/learn/coding/languages#dart"
+          },
+          {
+            "image": "/frameworks/web/react.png",
+            "name": "React Native",
+            "description": "React Native is a cross-platform mobile app development framework, developed by Meta. Built with the React framework and JavaScript, it uses similar libraries, packages and architecture to build mobile apps.",
+            "downloadURL": "https://reactnative.dev/",
+            "languageURL": "/learn/coding/languages#JavaScript"
+          },
+          {
+            "image": "/frameworks/mobile/xamarin.png",
+            "name": "Xamarin Forms",
+            "description": "Xamarin Forms is a cross-platform mobile app development framework, developed by Xamarin & Microsoft. One can build mobile apps using C# and a vast collection of libraries, all integrated into Visual Studio.",
+            "downloadURL": "https://dotnet.microsoft.com/en-us/apps/xamarin",
+            "languageURL": "/learn/coding/languages#C#"
+          },
+          {
+            "image": "/frameworks/mobile/native.png",
+            "name": "NativeScript",
+            "description": "NativeScript is the open-source framework for building native Android and iOS applications with web technologies. This means we can develop native mobile applications with JavaScript, TypeScript, and/or Angular.",
+            "downloadURL": "https://nativescript.org/",
+            "languageURL": "/learn/coding/languages#JavaScript"
           }
         ]
       }
