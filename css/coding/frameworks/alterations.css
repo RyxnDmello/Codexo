@@ -2,54 +2,35 @@
 /*----------------- ALTERATIONS -----------------*/
 /*-----------------------------------------------*/
 
-.frame-type-container:nth-of-type(2)
-  .frame-container:nth-of-type(2)
-  .frame-image {
+#back-end .frame-container:nth-of-type(2) .frame-image {
   width: 160px;
 }
 
-.frame-type-container:nth-of-type(2)
-  .frame-container:nth-of-type(3)
-  .frame-image {
+#back-end .frame-container:nth-of-type(3) .frame-image {
   filter: drop-shadow(0 0 1.25px);
   width: 180px;
 }
 
-.frame-type-container:nth-of-type(2)
-  .frame-container:nth-of-type(5)
-  .frame-image {
+#back-end .frame-container:nth-of-type(5) .frame-image {
   width: 100px;
 }
 
-.frame-type-container:nth-of-type(3)
-  .frame-container:nth-of-type(5)
-  .frame-image,
-.frame-type-container:nth-of-type(1)
-  .frame-container:nth-of-type(6)
-  .frame-image {
-  width: 120px;
-}
-
-.frame-type-container:nth-of-type(3)
-  .frame-container:nth-of-type(2)
-  .frame-image {
+#game .frame-container:nth-of-type(2) .frame-image {
   filter: invert(1);
   width: 100px;
 }
 
-.frame-type-container:nth-of-type(3)
-  .frame-container:nth-of-type(4)
-  .frame-image,
-.frame-type-container:nth-of-type(3)
-  .frame-container:nth-of-type(5)
-  .frame-image {
+#game .frame-type-container:nth-of-type(1) .frame-image,
+#game .frame-container:nth-of-type(n + 3) .frame-image {
   width: 120px;
 }
 
-.frame-type-container:nth-of-type(3)
-  .frame-container:nth-of-type(6)
-  .frame-image {
-  width: 150px;
+#game .frame-container:nth-of-type(6) .frame-image {
+  width: 160px;
+}
+
+#mobile .frame-container:nth-of-type(n + 3) .frame-image {
+  filter: drop-shadow(0 0 1.25px);
 }
 
 /*----------------------------------------------*/

@@ -11,6 +11,15 @@
   gap: 3rem;
 }
 
+.frameworks-section-title {
+  font-family: "Aquatico", sans-serif;
+  margin: 3rem 0 2rem 2rem;
+  letter-spacing: 2.5px;
+  font-size: 3.5rem;
+  cursor: default;
+  color: #000;
+}
+
 .frame-type-container {
   grid-template-columns: repeat(3, auto);
   justify-content: baseline;
@@ -27,13 +36,12 @@
 
 .frame-type-container-title {
   font-family: "Aquatico", sans-serif;
-  margin-bottom: 1.5rem;
   letter-spacing: 2.5px;
   grid-column: span 3;
   position: relative;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   text-align: left;
-  font-weight: 400;
+  font-weight: 500;
   cursor: default;
   color: #fff;
 }

@@ -1,5 +1,5 @@
 <% types.forEach((type) => { %>
-<article class="frame-type-container">
+<article id="<%= type.ID %>" class="frame-type-container">
   <h1 class="frame-type-container-title"><%= type.title %></h1>
 
   <% type.collection.forEach((container) => { %>

@@ -407,32 +407,20 @@
       ],
       "menuLinks": [
         {
-          "name": "C",
+          "name": "FRONT-END",
           "image": "/languages/c.png"
         },
         {
-          "name": "C++",
+          "name": "BACK-END",
           "image": "/languages/cpp.png"
         },
         {
-          "name": "C#",
+          "name": "GAME-DEV",
           "image": "/languages/csharp.png"
         },
         {
-          "name": "Java",
+          "name": "MOBILE-DEV",
           "image": "/languages/java.png"
-        },
-        {
-          "name": "Kotlin",
-          "image": "/languages/kotlin.png"
-        },
-        {
-          "name": "Python",
-          "image": "/languages/python.png"
-        },
-        {
-          "name": "Dart",
-          "image": "/languages/dart.png"
         }
       ]
     },
@@ -443,6 +431,7 @@
     },
     "types": [
       {
+        "ID": "FRONT-END",
         "title": "FRONT-END WEB DEVELOPMENT",
         "collection": [
           {
@@ -490,6 +479,7 @@
         ]
       },
       {
+        "ID": "BACK-END",
         "title": "BACK-END WEB DEVELOPMENT",
         "collection": [
           {
@@ -537,6 +527,7 @@
         ]
       },
       {
+        "ID": "GAME-DEV",
         "title": "GAME DEVELOPMENT",
         "collection": [
           {
@@ -556,7 +547,7 @@
           {
             "image": "/frameworks/games/godot.png",
             "name": "Godot",
-            "description": "Godot Engine is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface. It provides a comprehensive set of common tools, so that users can focus on making games without having to reinvent the wheel.",
+            "description": "Godot Engine is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface. Using re-usable set of tools.",
             "downloadURL": "https://godotengine.org/",
             "languageURL": "/learn/coding/languages/"
           },
@@ -584,6 +575,7 @@
         ]
       },
       {
+        "ID": "MOBILE-DEV",
         "title": "MOBILE APP DEVELOPMENT",
         "collection": [
           {
