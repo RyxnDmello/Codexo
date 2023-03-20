@@ -3,6 +3,7 @@
 
 @import url("./coding/introduction.css");
 @import url("./coding/frameworks/information.css");
+@import url("./coding/frameworks/alterations.css");
 
 * {
   scroll-behavior: smooth;

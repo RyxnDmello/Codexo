@@ -13,12 +13,12 @@
 
 .frame-type-container {
   grid-template-columns: repeat(3, auto);
-  justify-content: center;
+  justify-content: baseline;
+  align-items: stretch;
   box-shadow: 0 0 20px;
-  align-items: center;
   padding: 4rem 3rem;
+  gap: 2rem 1rem;
   display: grid;
-  gap: 1rem;
 }
 
 .frame-type-container:nth-of-type(odd) {
@@ -30,8 +30,10 @@
   margin-bottom: 1.5rem;
   letter-spacing: 2.5px;
   grid-column: span 3;
+  position: relative;
+  font-size: 4.5rem;
+  text-align: left;
   font-weight: 400;
-  font-size: 4rem;
   cursor: default;
   color: #fff;
 }
@@ -55,7 +57,7 @@
 
 .frame-image {
   filter: drop-shadow(0 0 2px);
-  width: 60px;
+  width: 80px;
 }
 
 /*-----------------------------------------*/

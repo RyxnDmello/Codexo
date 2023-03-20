@@ -443,6 +443,53 @@
     },
     "types": [
       {
+        "title": "FRONT-END WEB DEVELOPMENT",
+        "collection": [
+          {
+            "image": "/frameworks/web/html.png",
+            "name": "HTML",
+            "description": "HTML or Hyper-Text Markup Language is used to define the content and structure of the website. One of the oldest and most popular front-end languages. Popularly used alongside CSS & JavaScript.",
+            "downloadURL": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+            "languageURL": "/learn/coding/languages#html"
+          },
+          {
+            "image": "/frameworks/web/css.png",
+            "name": "CSS",
+            "description": "CSS or Cascading Stylesheets is used to define the properties of the html elements, and design the overall website. Used to develop beautiful websites with animations and effects. Used alongside HTML & JavaScript.",
+            "downloadURL": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+            "languageURL": "/learn/coding/languages#css"
+          },
+          {
+            "image": "/frameworks/web/js.png",
+            "name": "JavaScript",
+            "description": "CSS or Cascading Stylesheets is used to define the properties of the html elements, and design the overall website. Used to develop beautiful websites with animations and effects. Used alongside HTML & CSS.",
+            "downloadURL": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+            "languageURL": "/learn/coding/languages#JavaScript"
+          },
+          {
+            "image": "/frameworks/web/react.png",
+            "name": "React Js",
+            "description": "React Js is a JavaScript framework developed by Meta, used to build the front-end websites much faster, more efficiently, and more optimized then the native standard languages like HTML, CSS & JavaScript.",
+            "downloadURL": "https://react.dev/",
+            "languageURL": "/learn/coding/languages#JavaScript"
+          },
+          {
+            "image": "/frameworks/web/angular.png",
+            "name": "Angular Js",
+            "description": "Angular Js is a JavaScript framework, used to build the front-end websites much faster, more efficiently, and more optimized then the native standard languages like HTML, CSS & JavaScript.",
+            "downloadURL": "https://angular.io/",
+            "languageURL": "/learn/coding/languages#JavaScript"
+          },
+          {
+            "image": "/frameworks/web/vue.png",
+            "name": "Vue Js",
+            "description": "Vue Js is a JavaScript framework, used to build the front-end websites much faster, more efficiently, and more optimized then the native standard languages like HTML, CSS & JavaScript.",
+            "downloadURL": "https://vuejs.org/",
+            "languageURL": "/learn/coding/languages#JavaScript"
+          }
+        ]
+      },
+      {
         "title": "GAME DEVELOPMENT",
         "collection": [
           {
@@ -474,23 +521,44 @@
           {
             "image": "/frameworks/games/unity.png",
             "name": "Unity",
-            "description": "Unity is a cross-platform game engine developed by Unity Technologies. The engine  supports a variety of desktop, mobile, console and virtual reality platforms.",
+            "description": "Unity is a cross-platform game engine developed by Unity Technologies. The engine supports a variety of desktop, mobile, console and virtual reality platforms.",
             "downloadURL": "https://unity.com/",
             "languageURL": "/learn/coding/languages#C#"
           },
           {
-            "image": "/frameworks/games/unity.png",
+            "image": "/frameworks/games/unreal.png",
             "name": "Unreal Engine",
-            "description": "Unity is a cross-platform game engine developed by Unity Technologies. The engine  supports a variety of desktop, mobile, console and virtual reality platforms.",
-            "downloadURL": "https://unity.com/",
-            "languageURL": "/learn/coding/languages#C#"
+            "description": "Unreal Engine is a cross-platform game engine and video rendering software. The engine uses C/C++ to develop 3D games and render high-quality animations.",
+            "downloadURL": "https://www.unrealengine.com/en-US",
+            "languageURL": "/learn/coding/languages#C"
           },
           {
-            "image": "/frameworks/games/unity.png",
+            "image": "/frameworks/games/godot.png",
             "name": "Godot",
-            "description": "Unity is a cross-platform game engine developed by Unity Technologies. The engine  supports a variety of desktop, mobile, console and virtual reality platforms.",
-            "downloadURL": "https://unity.com/",
-            "languageURL": "/learn/coding/languages#C#"
+            "description": "Godot Engine is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface. It provides a comprehensive set of common tools, so that users can focus on making games without having to reinvent the wheel.",
+            "downloadURL": "https://godotengine.org/",
+            "languageURL": "/learn/coding/languages/"
+          },
+          {
+            "image": "/frameworks/games/gamemaker.png",
+            "name": "GameMaker Studio",
+            "description": "GameMaker is a collection of cross-platform game engines used to develop 2D and 3D games. It uses the GameMaker Language",
+            "downloadURL": "https://gamemaker.io/en",
+            "languageURL": "/learn/coding/languages/"
+          },
+          {
+            "image": "/frameworks/games/amazon.png",
+            "name": "Amazon Lumberyard",
+            "description": "Lumberyard is a cross-platform, open-source game engine made by Amazon. It is fully integrated with Amazon Web Services to develop games on a unified code base and architecture.",
+            "downloadURL": "https://aws.amazon.com/lumberyard/",
+            "languageURL": "/learn/coding/languages/"
+          },
+          {
+            "image": "/frameworks/games/pygame.png",
+            "name": "Pygames",
+            "description": "Pygame is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with the Python programming language.",
+            "downloadURL": "https://gamemaker.io/en",
+            "languageURL": "/learn/coding/languages#python"
           }
         ]
       }

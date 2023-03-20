@@ -1,0 +1,22 @@
+/*-----------------------------------------------*/
+/*----------------- ALTERATIONS -----------------*/
+/*-----------------------------------------------*/
+
+.frame-type-container:nth-of-type(1)
+  .frame-container:nth-of-type(2)
+  .frame-image {
+  filter: invert(1);
+}
+
+.frame-type-container:nth-of-type(1)
+  .frame-container:nth-of-type(5)
+  .frame-image,
+.frame-type-container:nth-of-type(1)
+  .frame-container:nth-of-type(6)
+  .frame-image {
+  width: 120px;
+}
+
+/*----------------------------------------------*/
+/*----------------- END OF CSS -----------------*/
+/*----------------------------------------------*/
