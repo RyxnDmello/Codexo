@@ -8,13 +8,12 @@
   <div class="editors-features-container-row">
     <% row.forEach((container) => { %>
     <div class="editors-features-container">
-      <img class="editors-features-image" src="container.image" />
+      <img class="editors-features-image" src="<%= container.image %>" />
 
       <hr class="editors-features-container-divider" />
 
       <div class="editors-features-text-container">
         <h1 class="editors-features-title"><%= container.title %></h1>
-
         <h1 class="editors-features-text"><%= container.description %></h1>
       </div>
     </div>

@@ -416,19 +416,19 @@
       "menuLinks": [
         {
           "name": "FRONT-END",
-          "image": "/languages/c.png"
+          "image": "/frameworks/front-end.png"
         },
         {
           "name": "BACK-END",
-          "image": "/languages/cpp.png"
+          "image": "/frameworks/back-end.png"
         },
         {
           "name": "GAME-DEV",
-          "image": "/languages/csharp.png"
+          "image": "/frameworks/game-dev.png"
         },
         {
           "name": "MOBILE-DEV",
-          "image": "/languages/java.png"
+          "image": "/frameworks/mobile-dev.png"
         }
       ]
     },

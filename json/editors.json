@@ -124,51 +124,51 @@
         {
           "image": "/editors/features/project.png",
           "title": "PROJECT MANAGEMENT",
-          "description": ""
+          "description": "An IDE is integrated with tools that help developers manage their codebase and dependencies. The IDE can rebuild the solution and resolve any issues."
         },
         {
-          "image": "/editors/features/project.png",
-          "title": "PROJECT MANAGEMENT",
-          "description": ""
+          "image": "/editors/features/frame.png",
+          "title": "FRAMEWORKS & LIBRARIES",
+          "description": "An IDE can integrate cross-platform or native frameworks and libraries that help developers build modern, professional and enterprise-level applications."
         },
         {
-          "image": "/editors/features/project.png",
-          "title": "PROJECT MANAGEMENT",
-          "description": ""
+          "image": "/editors/features/speed.png",
+          "title": "EFFICIENT & OPTIMIZED",
+          "description": "An IDE can load libraries, packages and other dependencies with great ease and efficiency. The memory and storage details can be monitored at every frame."
         }
       ],
       [
         {
-          "image": "/editors/features/project.png",
-          "title": "PROJECT MANAGEMENT",
-          "description": ""
+          "image": "/editors/features/deploy.png",
+          "title": "DEPLOYMENT TOOLS",
+          "description": "An IDE makes deployment to various platforms, quick and easy. With the deployment tools, you can easily create the required executable for that platform."
         },
         {
-          "image": "/editors/features/project.png",
-          "title": "PROJECT MANAGEMENT",
-          "description": ""
+          "image": "/editors/features/error.png",
+          "title": "DEBUGGING ENGINE",
+          "description": "Every IDE is known for its robust debugging engine. With the debugger, you can find all the errors in your code and track every frame using the breakpoint system."
         },
         {
-          "image": "/editors/features/project.png",
-          "title": "PROJECT MANAGEMENT",
-          "description": ""
+          "image": "/editors/features/intel.png",
+          "title": "CODE INTELLISENSE",
+          "description": "Code intellisense helps developers write code much faster and efficiently. One can analyze the performance issues and get suggestions for better code."
         }
       ],
       [
         {
-          "image": "/editors/features/project.png",
-          "title": "PROJECT MANAGEMENT",
-          "description": ""
+          "image": "/editors/features/version.png",
+          "title": "VERSION CONTROL",
+          "description": "Popular version control systems like GitHub are fully integrated into famous IDEs like Visual Studio. Creating and managing versions is made easier with an IDE."
         },
         {
-          "image": "/editors/features/project.png",
-          "title": "PROJECT MANAGEMENT",
-          "description": ""
+          "image": "/editors/features/data.png",
+          "title": "SERVERS & DATA",
+          "description": "An IDE can also be used to quickly deploy web servers and cloud containers like Docker. Managing code and data on the server is also made easy by the IDE."
         },
         {
-          "image": "/editors/features/project.png",
-          "title": "PROJECT MANAGEMENT",
-          "description": ""
+          "image": "/editors/features/graph.png",
+          "title": "GRAPH VISUALIZATION",
+          "description": "Some IDEs are integrated with a graph visualizer, thus making it easier to analyze and edit graphs. Some also have a GUI editing interface for low-code developers."
         }
       ]
     ]
@@ -312,51 +312,51 @@
         {
           "image": "/editors/features/project.png",
           "title": "PROJECT MANAGEMENT",
-          "description": ""
+          "description": "An IDE is integrated with tools that help developers manage their codebase and dependencies. The IDE can rebuild the solution and resolve any issues."
         },
         {
-          "image": "/editors/features/project.png",
-          "title": "PROJECT MANAGEMENT",
-          "description": ""
+          "image": "/editors/features/frame.png",
+          "title": "FRAMEWORKS & LIBRARIES",
+          "description": "An IDE can integrate cross-platform or native frameworks and libraries that help developers build modern, professional and enterprise-level applications."
         },
         {
-          "image": "/editors/features/project.png",
-          "title": "PROJECT MANAGEMENT",
-          "description": ""
+          "image": "/editors/features/speed.png",
+          "title": "EFFICIENT & OPTIMIZED",
+          "description": "An IDE can load libraries, packages and other dependencies with great ease and efficiency. The memory and storage details can be monitored at every frame."
         }
       ],
       [
         {
-          "image": "/editors/features/project.png",
-          "title": "PROJECT MANAGEMENT",
-          "description": ""
+          "image": "/editors/features/deploy.png",
+          "title": "DEPLOYMENT TOOLS",
+          "description": "An IDE makes deployment to various platforms, quick and easy. With the deployment tools, you can easily create the required executable for that platform."
         },
         {
-          "image": "/editors/features/project.png",
-          "title": "PROJECT MANAGEMENT",
-          "description": ""
+          "image": "/editors/features/error.png",
+          "title": "DEBUGGING ENGINE",
+          "description": "Every IDE is known for its robust debugging engine. With the debugger, you can find all the errors in your code and track every frame using the breakpoint system."
         },
         {
-          "image": "/editors/features/project.png",
-          "title": "PROJECT MANAGEMENT",
-          "description": ""
+          "image": "/editors/features/intel.png",
+          "title": "CODE INTELLISENSE",
+          "description": "Code intellisense helps developers write code much faster and efficiently. One can analyze the performance issues and get suggestions for better code."
         }
       ],
       [
         {
-          "image": "/editors/features/project.png",
-          "title": "PROJECT MANAGEMENT",
-          "description": ""
+          "image": "/editors/features/version.png",
+          "title": "VERSION CONTROL",
+          "description": "Popular version control systems like GitHub are fully integrated into famous IDEs like Visual Studio. Creating and managing versions is made easier with an IDE."
         },
         {
-          "image": "/editors/features/project.png",
-          "title": "PROJECT MANAGEMENT",
-          "description": ""
+          "image": "/editors/features/data.png",
+          "title": "SERVERS & DATA",
+          "description": "An IDE can also be used to quickly deploy web servers and cloud containers like Docker. Managing code and data on the server is also made easy by the IDE."
         },
         {
-          "image": "/editors/features/project.png",
-          "title": "PROJECT MANAGEMENT",
-          "description": ""
+          "image": "/editors/features/graph.png",
+          "title": "GRAPH VISUALIZATION",
+          "description": "Some IDEs are integrated with a graph visualizer, thus making it easier to analyze and edit graphs. Some also have a GUI editing interface for low-code developers."
         }
       ]
     ]
