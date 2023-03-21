@@ -31,16 +31,16 @@
         "description": "I am a full-stack developer working in Microsoft. Over the last few years, I have used multiple IDE's and Codexo has been my biggest source of information from the beginning.",
         "companyName": "Microsoft",
         "companyLogo": "/home/comments/micro.png",
-        "companyURL": ""
+        "companyURL": "https://www.microsoft.com/en-in"
       },
       {
         "name": "Michael Olav",
         "email": "michaelolav@gmail.com",
         "image": "/home/comments/com-2.jpg",
-        "description": "I am a full-stack developer working in Microsoft. Over the last few years, I have used multiple IDE's and Codexo has been my biggest source of information from the beginning.",
+        "description": "I am a game developer working in Unity. Codexo provided me with all the necessary information to start my game development journey. Now, I have successfully learnt C# and Unity.",
         "companyName": "Microsoft",
         "companyLogo": "/home/comments/micro.png",
-        "companyURL": ""
+        "companyURL": "https://www.microsoft.com/en-in"
       }
     ],
     [
@@ -48,19 +48,19 @@
         "name": "Kathy James",
         "email": "kathyjames@gmail.com",
         "image": "/home/comments/com-3.jpg",
-        "description": "I am a full-stack developer working in Microsoft. Over the last few years, I have used multiple IDE's and Codexo has been my biggest source of information from the beginning.",
+        "description": "I am a mobile app developer at Google. I use Flutter and Dart to develop cross-platform mobile apps. Codexo is widely used by junior developers.",
         "companyName": "Microsoft",
         "companyLogo": "/home/comments/micro.png",
-        "companyURL": ""
+        "companyURL": "https://www.microsoft.com/en-in"
       },
       {
         "name": "Luis Gomez",
         "email": "luisgomez@gmail.com",
         "image": "/home/comments/com-4.jpg",
-        "description": "I am a full-stack developer working in Microsoft. Over the last few years, I have used multiple IDE's and Codexo has been my biggest source of information from the beginning.",
+        "description": "Before getting into Oracle, I learnt about Java and JSpring through Codexo. This website has helped me a lot in understanding what I need to learn.",
         "companyName": "Microsoft",
         "companyLogo": "/home/comments/micro.png",
-        "companyURL": ""
+        "companyURL": "https://www.microsoft.com/en-in"
       }
     ],
     [
@@ -68,7 +68,7 @@
         "name": "Jason Borne",
         "email": "jasonborne@gmail.com",
         "image": "/home/comments/com-5.jpg",
-        "description": "I am a full-stack developer working in Microsoft. Over the last few years, I have used multiple IDE's and Codexo has been my biggest source of information from the beginning.",
+        "description": "Being a Data Scientist at IBM, I need to use new languages to integrate our projects into multiple platforms. Codexo has helped me a lot in understanding new languages and tools.",
         "companyName": "Microsoft",
         "companyLogo": "/home/comments/micro.png",
         "companyURL": ""
@@ -77,7 +77,7 @@
         "name": "Victor Chavez",
         "email": "victorchavez@gmail.com",
         "image": "/home/comments/com-4.jpg",
-        "description": "I am a full-stack developer working in Microsoft. Over the last few years, I have used multiple IDE's and Codexo has been my biggest source of information from the beginning.",
+        "description": "Being new in the industry, I wanted to learn new technologies and languages. Codexo provided me with all the knowledge I needed to learn these new frameworks, libraries, packages, and more.",
         "companyName": "Microsoft",
         "companyLogo": "/home/comments/micro.png",
         "companyURL": ""
@@ -250,23 +250,23 @@
       "title": "Languages",
       "links": [
         {
-          "URL": "",
+          "URL": "/learn/coding/languages#C",
           "name": "C"
         },
         {
-          "URL": "",
+          "URL": "/learn/coding/languages#C++",
           "name": "C++"
         },
         {
-          "URL": "",
+          "URL": "/learn/coding/languages#C#",
           "name": "C#"
         },
         {
-          "URL": "",
+          "URL": "/learn/coding/languages#Java",
           "name": "Java"
         },
         {
-          "URL": "",
+          "URL": "/learn/coding/languages#JavaScript",
           "name": "JavaScript"
         }
       ]
