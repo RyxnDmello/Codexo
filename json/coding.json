@@ -3,6 +3,10 @@
     "navbar": {
       "navbarLinks": [
         {
+          "URL": "/",
+          "text": "HOME"
+        },
+        {
           "URL": "/menu",
           "text": "MENU"
         },
@@ -397,6 +401,10 @@
     "navbar": {
       "navbarLinks": [
         {
+          "URL": "/",
+          "text": "HOME"
+        },
+        {
           "URL": "/menu",
           "text": "MENU"
         },
@@ -426,8 +434,8 @@
     },
     "introduction": {
       "image": "/languages/languages.png",
-      "title": "CODING LANGUAGE",
-      "description": "Coding languages, also known as programming languages, are a set of rules, symbols, and syntax used to create instructions for computers to execute. These instructions, called code, are written in a particular programming language and are used to develop software applications, websites, games, and more."
+      "title": "FRAMEWORKS & TOOLS",
+      "description": "Frameworks are a collection of enterprise-grade libraries and packages. We can develop native and cross-platform"
     },
     "types": [
       {

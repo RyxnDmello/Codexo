@@ -1,25 +1,25 @@
 {
   "features": [
     {
-      "image": "/home/features/editor.png",
+      "image": "/home/features/ide.png",
       "title": "THE POWER OF IDEs",
       "description": "Integrated Development Environment is a professional platform for developers to write code. An IDE is made up of multiple state of the art components which are fully integrated in the software. These components help the developer to write code efficiently, provide deep performance analysis, help in debugging your code to find errors and solutions, and do much more.",
       "primaryURL": "/learn/editors/heavy",
-      "secondaryURL": "https://en.wikipedia.org/wiki/Integrated_development_environment"
+      "secondaryURL": "https://www.codecademy.com/article/what-is-an-ide"
     },
     {
-      "image": "/home/features/editor.png",
-      "title": "THE POWER OF IDEs",
-      "description": "Integrated Development Environment is a professional platform for developers to write code. An IDE is made up of multiple state of the art components which are fully integrated in the software. These components help the developer to write code efficiently, provide deep performance analysis, help in debugging your code to find errors and solutions, and do much more.",
+      "image": "/home/features/frame.png",
+      "title": "BUILDING BLOCKS",
+      "description": "Frameworks are a collection of libraries and packages that are used to develop native or cross-platform applications of various kinds. With frameworks, you can make video games, web, mobile, and desktop applications, microservices, ethical hacking and much more. They are the foundation on which developers can build professional and enterprise-level applications.",
       "primaryURL": "/learn/coding/frameworks",
-      "secondaryURL": "https://en.wikipedia.org/wiki/Software_framework"
+      "secondaryURL": "https://www.codecademy.com/resources/blog/what-is-a-framework/"
     },
     {
-      "image": "/home/features/editor.png",
-      "title": "THE POWER OF IDEs",
-      "description": "Integrated Development Environment is a professional platform for developers to write code. An IDE is made up of multiple state of the art components which are fully integrated in the software. These components help the developer to write code efficiently, provide deep performance analysis, help in debugging your code to find errors and solutions, and do much more.",
+      "image": "/home/features/lang.png",
+      "title": "CODING LANGUAGES",
+      "description": "A coding language is an artificial language that can be used to control the behavior of a machine, particularly a computer. Coding languages are defined through the use of syntactic and semantic rules, to determine structure and meaning respectively. Using popular frameworks and libraries, that use the language, one can develop various applications and tools.",
       "primaryURL": "/learn/coding/languages",
-      "secondaryURL": "https://en.wikipedia.org/wiki/Programming_language"
+      "secondaryURL": "https://www.codecademy.com/resources/blog/programming-languages/"
     }
   ],
   "comments": [
@@ -65,9 +65,9 @@
     ],
     [
       {
-        "name": "Jason Hymen",
-        "email": "jasonhymen@gmail.com",
-        "image": "/home/comments/com-3.jpg",
+        "name": "Jason Borne",
+        "email": "jasonborne@gmail.com",
+        "image": "/home/comments/com-5.jpg",
         "description": "I am a full-stack developer working in Microsoft. Over the last few years, I have used multiple IDE's and Codexo has been my biggest source of information from the beginning.",
         "companyName": "Microsoft",
         "companyLogo": "/home/comments/micro.png",

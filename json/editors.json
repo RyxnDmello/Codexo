@@ -3,6 +3,10 @@
     "navbar": {
       "navbarLinks": [
         {
+          "URL": "/",
+          "text": "HOME"
+        },
+        {
           "URL": "/menu",
           "text": "MENU"
         },
@@ -172,6 +176,10 @@
   "light": {
     "navbar": {
       "navbarLinks": [
+        {
+          "URL": "/",
+          "text": "HOME"
+        },
         {
           "URL": "/menu",
           "text": "MENU"

@@ -6,7 +6,7 @@
       "image": "/menu/heavy.jpg",
       "primaryURL": "/learn/editors/heavy",
       "primaryText": "Explore IDEs",
-      "secondaryURL": "",
+      "secondaryURL": "https://www.codecademy.com/article/what-is-an-ide",
       "secondaryText": "Source"
     },
     {
@@ -15,7 +15,7 @@
       "image": "/menu/light.jpg",
       "primaryURL": "/learn/editors/light",
       "primaryText": "Explore Editors",
-      "secondaryURL": "",
+      "secondaryURL": "https://www.codecademy.com/article/what-is-an-ide",
       "secondaryText": "Source"
     },
     {
@@ -24,7 +24,7 @@
       "image": "/menu/frame.jpg",
       "primaryURL": "/learn/coding/frameworks",
       "primaryText": "Frameworks",
-      "secondaryURL": "",
+      "secondaryURL": "https://www.codecademy.com/resources/blog/what-is-a-framework/",
       "secondaryText": "Source"
     },
     {
@@ -33,7 +33,7 @@
       "image": "/menu/code.jpg",
       "primaryURL": "/learn/coding/languages",
       "primaryText": "Languages",
-      "secondaryURL": "",
+      "secondaryURL": "https://www.codecademy.com/resources/blog/programming-languages/",
       "secondaryText": "Source"
     }
   ]

@@ -37,16 +37,16 @@ nav {
 /*-------------------------------------------*/
 
 .nav-right-container {
-  grid-template-columns: repeat(2, auto);
   justify-content: center;
+  grid-auto-flow: column;
   align-items: center;
   display: grid;
   gap: 6rem;
 }
 
 .nav-social-container {
-  grid-template-columns: repeat(3, auto);
   justify-content: center;
+  grid-auto-flow: column;
   align-items: center;
   cursor: default;
   display: grid;
@@ -62,8 +62,8 @@ nav {
 }
 
 .nav-links-container {
-  grid-template-columns: repeat(3, auto);
   justify-content: center;
+  grid-auto-flow: column;
   align-items: center;
   display: grid;
   gap: 3rem;
