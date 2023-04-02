@@ -19,7 +19,7 @@ app.use(express.static("./css"));
 
 app.set("view engine", "ejs");
 
-const PORT = 1000;
+require("dotenv").config();
 
 app.get("/", (req, res) => {
   res.render("home", {
@@ -119,6 +119,6 @@ app.post("/account/profile/:type", (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`ACTIVE | PORT: ${PORT}`);
+app.listen(process.env.PROD_PORT, () => {
+  console.log(`ACTIVE | PORT: ${process.env.PROD_PORT}`);
 });

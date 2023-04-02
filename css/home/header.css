@@ -64,8 +64,8 @@ header {
   justify-content: center;
   text-decoration: none;
   margin: 0.5rem 0 0 0;
+  border-radius: 2.5px;
   align-items: center;
-  border-radius: 5px;
   width: fit-content;
   display: grid;
 }

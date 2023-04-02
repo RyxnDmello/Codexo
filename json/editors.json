@@ -95,9 +95,9 @@
         "secondaryURLText": "Frameworks"
       },
       {
-        "name": "Oracle Eclipse",
+        "name": "Eclipse",
         "image": "/editors/heavy/eclipse.png",
-        "description": "Android Studio is the official IDE for Android App Development, developed by Google. It provides a comprehensive set of tools for building, testing, and debugging Android applications. It includes emulators, drag and drop components, debugging engine, code analyzer and support for various programming languages, including Java and Kotlin. It is also used for other frameworks and libraries, like Flutter for Android and iOS development.",
+        "description": "Eclipse is a free and open-source integrated development environment (IDE) that is widely used by developers around the world. Eclipse provides a rich set of features and tools for developing applications in various programming languages, including Java, C++, Python, and more. Eclipse also provides a powerful editor with syntax highlighting, code completion, and debugging capabilities, as well as advanced tools for profiling, testing, and version control.",
         "primaryURL": "https://www.eclipse.org/",
         "secondaryURL": "/learn/coding/languages#Java",
         "secondaryURLText": "Languages"
@@ -105,7 +105,7 @@
       {
         "name": "Zend Studio",
         "image": "/editors/heavy/zend.png",
-        "description": "Android Studio is the official IDE for Android App Development, developed by Google. It provides a comprehensive set of tools for building, testing, and debugging Android applications. It includes emulators, drag and drop components, debugging engine, code analyzer and support for various programming languages, including Java and Kotlin. It is also used for other frameworks and libraries, like Flutter for Android and iOS development.",
+        "description": "Zend Studio has built-in support for PHP and popular PHP frameworks such as Laravel, Symphony, and Zend Framework, making it easy for developers to create applications using these frameworks. It also provides support for cloud-based development and deployment, with built-in support for cloud platforms such as Amazon Web Services, Microsoft Azure, and Google Cloud Platform.",
         "primaryURL": "https://www.zend.com/downloads/zend-studio",
         "secondaryURL": "/learn/coding/frameworks",
         "secondaryURLText": "Frameworks"
@@ -113,7 +113,7 @@
       {
         "name": "Apache NetBeans",
         "image": "/editors/heavy/netbeans.png",
-        "description": "Android Studio is the official IDE for Android App Development, developed by Google. It provides a comprehensive set of tools for building, testing, and debugging Android applications. It includes emulators, drag and drop components, debugging engine, code analyzer and support for various programming languages, including Java and Kotlin. It is also used for other frameworks and libraries, like Flutter for Android and iOS development.",
+        "description": "NetBeans is a free and open-source IDE that provides a wide range of tools and features for building, testing, and deploying desktop, web, and mobile applications using various programming languages such as Java, PHP, JavaScript, HTML5, and C++. It also provides a powerful editor with syntax highlighting, code completion, and debugging capabilities, as well as advanced tools for profiling, testing, and version control.",
         "primaryURL": "https://netbeans.apache.org/",
         "secondaryURL": "/learn/coding/languages#Java",
         "secondaryURLText": "Languages"
@@ -253,7 +253,7 @@
       {
         "name": "Atom Electron",
         "image": "/editors/light/atom.png",
-        "description": "Brackets is an open source code editor developed with JavaScript. It is a famous light-weight platform dedicated for front-end technologies like HTML, CSS, JavaScript and TypeScript. It has many plugins like Git, Emmet, Beautify and much more, to provide a great coding experience. It also provides support for popular back-end technologies like Node Js. It is fast, efficient and enriched with many open-source plugins. A great option for professional web development projects.",
+        "description": "Atom Electron, commonly referred to as Electron, is a free and open-source editor used to build desktop applications using web technologies such as HTML, CSS, and JavaScript. It was developed and is maintained by GitHub, and is used by various popular applications such as Microsoft Visual Studio Code, Slack, and Discord. Electron provides developers with a platform to create cross-platform desktop applications. It is highly customizable, and provides a range of built-in features, such as automatic updates and crash reporting.",
         "primaryURL": "https://www.electronjs.org/",
         "secondaryURL": "/learn/coding/frameworks#FRONT-END",
         "secondaryURLText": "Frameworks"
@@ -269,7 +269,7 @@
       {
         "name": "Sublime Text",
         "image": "/editors/light/sublime.png",
-        "description": "Notepad++ is a free and open source code editor, that supports several languages. It operates in the MS Windows Environment, and GNU, General Public License, controls how to utilize it. Notepad++ is a sophisticated editing programme that is based on Scintilla. It is designed in C++ and leverages pure Win32 API and STL to guarantee faster programme execution and a reduced programme size. It is used for C/C++ and Assembly code. It is very famous for its great performance.",
+        "description": "Sublime Text is a popular text editor designed for programmers and developers. It provides a range of advanced features and tools for working with text and code, including syntax highlighting, code folding, and auto-completion. Sublime Text is known for its speed and efficiency, as well as its ability to handle large files and projects with ease. It provides a powerful search and replace feature that enables developers to perform complex text operations quickly and easily.",
         "primaryURL": "https://www.sublimetext.com/",
         "secondaryURL": "/learn/coding/frameworks",
         "secondaryURLText": "Frameworks"
@@ -285,7 +285,7 @@
       {
         "name": "Vim",
         "image": "/editors/light/vim.png",
-        "description": "Android Studio is the official IDE for Android App Development, developed by Google. It provides a comprehensive set of tools for building, testing, and debugging Android applications. It includes emulators, drag and drop components, debugging engine, code analyzer and support for various programming languages, including Java and Kotlin. It is also used for other frameworks and libraries, like Flutter for Android and iOS development.",
+        "description": "Vim provides a range of advanced features and tools for working with text and code, including syntax highlighting, code folding, and auto-completion. It also includes powerful editing capabilities, such as multi-level undo/redo, macros, and support for regular expressions. It highly customizable and provides a range of plugins and extensions that enable developers to extend its functionality and add new features. It also supports various programming languages, including C++, Python, Ruby, and more. It is available for various operating systems, including Linux, macOS, and Windows.",
         "primaryURL": "https://www.vim.org/download.php",
         "secondaryURL": "/learn/coding/frameworks",
         "secondaryURLText": "Frameworks"
@@ -293,7 +293,7 @@
       {
         "name": "GNU Emacs",
         "image": "/editors/light/gnu.png",
-        "description": "Android Studio is the official IDE for Android App Development, developed by Google. It provides a comprehensive set of tools for building, testing, and debugging Android applications. It includes emulators, drag and drop components, debugging engine, code analyzer and support for various programming languages, including Java and Kotlin. It is also used for other frameworks and libraries, like Flutter for Android and iOS development.",
+        "description": "GNU Emacs is a free and open-source text editor that is designed for programmers and developers. It is maintained by the GNU Project and provides a wide range of features and tools for working with text and code. Emacs supports a wide range of programming languages and provides features such as syntax highlighting, code folding, and auto-completion. It also includes built-in support for version control systems such as Git and Subversion. Emacs also provides a powerful macro system that enables developers to automate repetitive tasks and workflows.",
         "primaryURL": "https://www.gnu.org/software/emacs/",
         "secondaryURL": "/learn/coding/frameworks",
         "secondaryURLText": "Frameworks"
@@ -301,7 +301,7 @@
       {
         "name": "TextMate",
         "image": "/editors/light/text.png",
-        "description": "Android Studio is the official IDE for Android App Development, developed by Google. It provides a comprehensive set of tools for building, testing, and debugging Android applications. It includes emulators, drag and drop components, debugging engine, code analyzer and support for various programming languages, including Java and Kotlin. It is also used for other frameworks and libraries, like Flutter for Android and iOS development.",
+        "description": "TextMate is a text editor for macOS that is designed for programmers and developers. It provides a wide range of features and tools for working with code and text, including syntax highlighting, code folding, code snippets, and more. One of the key features of TextMate is its ability to support a wide range of programming languages, including Objective-C, Python, Ruby, and HTML. It also provides built-in support for popular web development frameworks such as Ruby on Rails and Django.",
         "primaryURL": "https://macromates.com/",
         "secondaryURL": "/learn/coding/frameworks",
         "secondaryURLText": "Frameworks"

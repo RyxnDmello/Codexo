@@ -48,6 +48,7 @@
 
 .languages-explore-link,
 .languages-editors-link {
+  box-shadow: 2.5px 2.5px 5px #00000050;
   grid-template-columns: repeat(2, auto);
   transition: background-color 450ms;
   justify-content: center;

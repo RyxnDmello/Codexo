@@ -459,7 +459,7 @@
           {
             "image": "/frameworks/web/js.png",
             "name": "JavaScript",
-            "description": "CSS or Cascading Stylesheets is used to define the properties of the html elements, and design the overall website. Used to develop beautiful websites with animations and effects. Used alongside HTML & CSS.",
+            "description": "JavaScript is a high-level scripting programming language used to build dynamic web applications. It is the most used language for the web, and many popular front-end and back-end tools are built from JavaScript.",
             "downloadURL": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
             "languageURL": "/learn/coding/languages#JavaScript"
           },
