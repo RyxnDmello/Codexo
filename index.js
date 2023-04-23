@@ -109,13 +109,13 @@ app.post("/account/profile/:type", (req, res) => {
     const password = req.body.password;
     const retypePassword = req.body.retypePassword;
 
-    database.CreateProfile(username, email, password, retypePassword);
+    database.CreateProfile(username, email, password, retypePassword, res);
   } else if (submitType === "login") {
     const email = req.body.email;
     const password = req.body.password;
     const retypePassword = req.body.retypePassword;
 
-    database.LoginProfile(email, password, retypePassword);
+    database.LoginProfile(email, password, retypePassword, res);
   }
 });
 
