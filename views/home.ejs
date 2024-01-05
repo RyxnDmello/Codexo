@@ -57,9 +57,10 @@
             <a class="nav-right-link" href="/menu">MENU</a>
             <a class="nav-right-link" href="#features-section">FEATURES</a>
             <a class="nav-right-link" href="#editors-section">EDITORS</a>
-            <a class="nav-right-link register" href="/account/profile/signup"
-              >REGISTER</a
-            >
+
+            <% if(!authenticated) { %>
+            <a class="nav-right-link register" href="/register">REGISTER</a>
+            <% } %>
           </div>
         </div>
       </nav>
@@ -76,7 +77,7 @@
           </h1>
 
           <div class="header-buttons-container">
-            <a class="header-register-link" href="/account/profile/signup">
+            <a class="header-register-link" href="/register">
               <img src="/home/header/user.png" />
               <h1>Register Profile</h1>
             </a>
@@ -198,8 +199,9 @@
       <div class="footer-info-container">
         <h1 class="footer-logo">CODEXO</h1>
 
+        <% if(!authenticated) { %>
         <div class="footer-register-container">
-          <a class="footer-register-link" href="/account/profile/signup">
+          <a class="footer-register-link" href="/register">
             <img src="/home/footer/profile-new.png" />
             <h1>Sign Up</h1>
           </a>
@@ -209,6 +211,7 @@
             <h1>Log In</h1>
           </a>
         </div>
+        <% } %>
       </div>
 
       <hr class="footer-divider" />

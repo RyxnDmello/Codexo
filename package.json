@@ -1,9 +1,10 @@
 {
-  "name": "webapp-personal-02",
+  "name": "codexo",
   "version": "1.0.0",
   "description": "Informative Web Application",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "run": "cls & nodemon app.js",
     "test": "cls & npm --version & npm list"
   },
   "repository": {
@@ -23,11 +24,12 @@
   },
   "homepage": "https://github.com/RyxnDmello/WebApp-Personal-02#readme",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "body-parser": "^1.20.1",
     "dotenv": "^16.0.3",
     "ejs": "^3.1.8",
     "express": "^4.18.2",
     "mongoose": "^6.9.1",
-    "nodemon": "^2.0.21"
+    "nodemon": "^3.0.2"
   }
 }
