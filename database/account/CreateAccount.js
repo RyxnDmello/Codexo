@@ -1,7 +1,7 @@
 const accountModel = require("../models/AccountModel.js");
 const bcrypt = require("bcrypt");
 
-module.exports.DatabaseCreateAccount = async (credentials) => {
+module.exports.DatabaseCreateAccount = async (credentials, request) => {
   const databaseAccount = await accountModel.findOne({
     email: credentials.email,
   });
@@ -19,5 +19,6 @@ module.exports.DatabaseCreateAccount = async (credentials) => {
   const createdAccount = await account.save();
 
   if (createdAccount === null) return false;
+  request.session.username = createdAccount.username;
   return true;
 };

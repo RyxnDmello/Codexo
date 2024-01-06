@@ -2,11 +2,9 @@ const AccountManager = require("../database/AccountManager.js");
 const homeData = require("../json/home.json");
 const menuData = require("../json/menu.json");
 
-var authenticated = false;
-
 const home = (req, res) => {
   res.render("home", {
-    authenticated: authenticated,
+    username: req.session.username,
     features: homeData.features,
     comments: homeData.comments,
     brands: homeData.brands,
@@ -26,14 +24,12 @@ const authenticate = async (req, res) => {
   const credentials = req.body;
 
   if (req.params.type === "signup") {
-    const isCreated = await AccountManager.CreateAccount(credentials);
-    authenticated = isCreated;
+    const isCreated = await AccountManager.CreateAccount(credentials, req);
     res.redirect(isCreated ? "/" : "/register");
     return;
   }
 
-  const isLogin = await AccountManager.LoginAccount(credentials);
-  authenticated = isLogin;
+  const isLogin = await AccountManager.LoginAccount(credentials, req);
   res.redirect(isLogin ? "/" : "/register");
 };
 

@@ -2,6 +2,7 @@ require("dotenv").config();
 
 const express = require("express");
 const bodyParser = require("body-parser");
+const session = require("express-session");
 
 const app = express();
 
@@ -10,11 +11,22 @@ const ConnectDatabase = require("./database/DatabaseManager.js");
 const homeRouter = require("./routes/Home.js");
 const LearnRouter = require("./routes/Learn.js");
 
-app.use(bodyParser.urlencoded({ extended: "true" }));
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+
 app.use(express.static("./JavaScript"));
 app.use(express.static("./images"));
 app.use(express.static("./fonts"));
 app.use(express.static("./css"));
+
+app.use(
+  session({
+    secret: "Codexo",
+    cookie: { secure: false },
+    saveUninitialized: false,
+    resave: false,
+  })
+);
 
 app.set("view engine", "ejs");
 

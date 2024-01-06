@@ -1,7 +1,7 @@
 const accountModel = require("../models/AccountModel.js");
 const bcrypt = require("bcrypt");
 
-module.exports.DatabaseLoginAccount = async (credentials) => {
+module.exports.DatabaseLoginAccount = async (credentials, request) => {
   if (credentials.password !== credentials.retypePassword) return false;
 
   const databaseAccount = await accountModel.findOne({
@@ -14,6 +14,8 @@ module.exports.DatabaseLoginAccount = async (credentials) => {
     credentials.password,
     databaseAccount.password
   );
+
+  if (isPasswordValid) request.session.username = databaseAccount.username;
 
   return isPasswordValid;
 };
