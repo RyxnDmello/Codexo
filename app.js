@@ -30,7 +30,7 @@ app.use(
 
 app.set("view engine", "ejs");
 
-await ConnectDatabase();
+ConnectDatabase();
 
 app.use("/", homeRouter);
 app.use("/learn", LearnRouter);

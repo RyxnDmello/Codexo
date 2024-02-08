@@ -4,8 +4,8 @@
   "description": "Informative Web Application",
   "main": "app.js",
   "scripts": {
-    "run": "cls & nodemon app.js",
-    "test": "cls & npm --version & npm list"
+    "start": "cls && nodemon app.js",
+    "test": "cls && node --version && npm --version && npm list"
   },
   "repository": {
     "type": "git",

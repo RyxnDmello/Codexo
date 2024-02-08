@@ -16,6 +16,5 @@ module.exports.DatabaseLoginAccount = async (credentials, request) => {
   );
 
   if (isPasswordValid) request.session.username = databaseAccount.username;
-
   return isPasswordValid;
 };
