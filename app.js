@@ -3,6 +3,7 @@ require("dotenv").config();
 const express = require("express");
 const bodyParser = require("body-parser");
 const session = require("express-session");
+const memoryStore = require("memorystore")(session);
 
 const app = express();
 
@@ -22,7 +23,13 @@ app.use(express.static("./css"));
 app.use(
   session({
     secret: "Codexo",
-    cookie: { secure: false },
+    cookie: {
+      secure: false,
+      maxAge: 86400000,
+    },
+    store: new memoryStore({
+      checkPeriod: 86400000,
+    }),
     saveUninitialized: false,
     resave: false,
   })

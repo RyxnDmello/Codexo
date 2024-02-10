@@ -102,10 +102,10 @@ npm install nodemon -g
   - Or, We can use _**nodemon**_ for development.
   - Finally, enter the URL in the address bar.
 ```
-node index.js
+node app.js
 ```
 ```
-nodemon index.js
+nodemon app.js
 ```
 ```
 localhost:1000/
